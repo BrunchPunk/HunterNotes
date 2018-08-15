@@ -15,6 +15,13 @@ namespace HunterNotes
         public Form1()
         {
             InitializeComponent();
+
+            HNDatabase.init();
+        }
+
+        private void Form1_FormClosing(Object sender, FormClosingEventArgs e)
+        {
+            HNDatabase.close();
         }
     }
 }
