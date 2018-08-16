@@ -15,13 +15,19 @@ namespace HunterNotes
         public Form1()
         {
             InitializeComponent();
-
-            HNDatabase.init();
+            try
+            {
+                HNDatabase.Init();
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message + "\nApplication will close", "Fatal Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void Form1_FormClosing(Object sender, FormClosingEventArgs e)
         {
-            HNDatabase.close();
+            HNDatabase.Close();
         }
     }
 }
