@@ -22,12 +22,18 @@ namespace HunterNotes
             catch(Exception e)
             {
                 MessageBox.Show(e.Message + "\nApplication will close", "Fatal Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
             }
         }
 
         private void Form1_FormClosing(Object sender, FormClosingEventArgs e)
         {
             HNDatabase.Close();
+        }
+
+        private void quitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

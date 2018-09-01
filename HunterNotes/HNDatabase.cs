@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.IO;
+using Microsoft.VisualBasic.FileIO;
 
 namespace HunterNotes
 {
@@ -15,6 +16,12 @@ namespace HunterNotes
         public static void Init()
         {
             Console.WriteLine("Initializing Database");
+
+            //TODO - THIS IS A HACK TO FORCE DB CREATION EVERY TIME DELETE THIS WHEN IT'S WORKING
+            if (File.Exists("HNDatabase.sqlite"))
+            {
+                File.Delete("HNDatabase.sqlite");
+            }
 
             if (!File.Exists("HNDatabase.sqlite"))
             {
@@ -31,15 +38,24 @@ namespace HunterNotes
                 CreateDecorationsTable();
 
                 //TODO Read static data into the database
-
+                try
+                {
+                    //LoadSkillsTable();
+                    LoadMaterialsTable();
+                    //LoadArmorTable();
+                    //LoadForgeTable();
+                    //LoadDecorationsTable();
+                }
+                catch(FileNotFoundException ex)
+                {
+                    Console.WriteLine("FileNotFoundException encountered while loading data: " + ex.Message);
+                }
             }
             else
             {
                 HNDatabaseConn = new SQLiteConnection("Data Source=HNDatabase.sqlite;version=3");
                 HNDatabaseConn.Open();
             }
-
-            
         }
 
         public static void Close()
@@ -156,35 +172,99 @@ namespace HunterNotes
         private static void LoadSkillsTable()
         {
             //TODO Load data from files into Skills table
-            if(File.Exists("skillsFileTBD.txt"))
+            if(File.Exists("data/formatted/skills.csv"))
             {
-
+                Console.WriteLine("Loading data into the Skills table");
             }
             else
             {
-                //TODO is this the best exception handling? 
-                throw new FileNotFoundException("The skillsFileTBD.txt file is missing.");
+                throw new FileNotFoundException("The skills.csv file is missing.");
             }
         }
 
         private static void LoadMaterialsTable()
         {
-            //TODO Load data from files into Materials table
+            if (File.Exists("data/formatted/materials.csv"))
+            {
+                Console.WriteLine("Loading data into the Materials table");
+
+                //String defining the insert SQL for the materials table
+                string insertMaterialsSQL = "INSERT INTO Materials VALUES ";
+
+                //Prepare the parser to parse the materials data file
+                TextFieldParser materialsParser = new TextFieldParser("data/formatted/materials.csv");
+                materialsParser.TextFieldType = FieldType.Delimited;
+                materialsParser.SetDelimiters(",");
+
+                //Read each line of the file and add it to insertMaterialsSQL as a value e.g. "(potion, heals or whatever), "
+                while (!materialsParser.EndOfData)
+                {
+                    //Begin a new value
+                    insertMaterialsSQL = insertMaterialsSQL + "(";
+
+                    //Add each field to the value
+                    string[] fields = materialsParser.ReadFields();
+                    foreach (string field in fields)
+                    {
+                        //Since both fields in Materials should be strings, wrap them in quotes for SQL
+                        insertMaterialsSQL = insertMaterialsSQL + "\"" + field + "\"" + ", ";
+                    }
+
+                    //Remove trailing ", " from last value field and close this value
+                    insertMaterialsSQL = insertMaterialsSQL.Substring(0, insertMaterialsSQL.Length - 2); 
+                    insertMaterialsSQL = insertMaterialsSQL + "), ";
+                }
+                //Remove trailing ", " from last value and add SQL terminating ";"
+                insertMaterialsSQL = insertMaterialsSQL.Substring(0, insertMaterialsSQL.Length - 2);
+                insertMaterialsSQL = insertMaterialsSQL + ";";
+
+                //Create the SQL command and execute it
+                SQLiteCommand insertMaterialsCommand = new SQLiteCommand(insertMaterialsSQL, HNDatabase.HNDatabaseConn);
+                insertMaterialsCommand.ExecuteNonQuery();
+            }
+            else
+            {
+                throw new FileNotFoundException("The materials.csv file is missing.");
+            }
         }
 
-        private static void LoadSArmorTable()
+        private static void LoadArmorTable()
         {
             //TODO Load data from files into Armor table
+            if (File.Exists("data/formatted/armor.csv"))
+            {
+                Console.WriteLine("Loading data into the Armor table");
+            }
+            else
+            {
+                throw new FileNotFoundException("The armor.csv file is missing.");
+            }
         }
 
         private static void LoadForgeTable()
         {
             //TODO Load data from files into Forge table
+            if (File.Exists("data/formatted/forge.csv"))
+            {
+                Console.WriteLine("Loading data into the Forge table");
+            }
+            else
+            {
+                throw new FileNotFoundException("The forge.csv file is missing.");
+            }
         }
 
         private static void LoadDecorationsTable()
         {
             //TODO Load data from files into Decorations table
+            if (File.Exists("data/formatted/decorations.csv"))
+            {
+                Console.WriteLine("Loading data into the Decorations table");
+            }
+            else
+            {
+                throw new FileNotFoundException("The decorations.csv file is missing.");
+            }
         }
 
         #endregion
