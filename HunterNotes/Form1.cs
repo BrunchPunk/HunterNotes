@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace HunterNotes
 {
@@ -18,6 +19,15 @@ namespace HunterNotes
             try
             {
                 HNDatabase.Init();
+
+                SQLiteDataReader materialsReader = HNDatabase.getAllMaterials();
+                List<string> materialsList = new List<string>();
+                while(materialsReader.Read())
+                {
+                    listBox1.Items.Add((string) materialsReader[0]);
+                }
+                listBox1.Refresh();
+
             }
             catch(Exception e)
             {

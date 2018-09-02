@@ -268,5 +268,22 @@ namespace HunterNotes
         }
 
         #endregion
+
+        #region Database Accessors
+        public static SQLiteDataReader getAllMaterials()
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+
+            selectQuery = "SELECT * FROM Materials;";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            return selectResults;
+
+        }
+
+        #endregion
     }
 }
