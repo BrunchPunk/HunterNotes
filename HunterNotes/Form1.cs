@@ -20,13 +20,8 @@ namespace HunterNotes
             {
                 HNDatabase.Init();
 
-                SQLiteDataReader materialsReader = HNDatabase.getAllMaterials();
-                List<string> materialsList = new List<string>();
-                while(materialsReader.Read())
-                {
-                    listBox1.Items.Add((string) materialsReader[0]);
-                }
-                listBox1.Refresh();
+                InitializeMaterialsTab();
+                
 
             }
             catch(Exception e)
@@ -36,6 +31,27 @@ namespace HunterNotes
             }
         }
 
+        #region Tab Initializers
+        private void InitializeMaterialsTab()
+        {
+            AutoCompleteStringCollection materialsAutoCompleteList = new AutoCompleteStringCollection();
+            List<Material> materialsList = HNDatabase.GetAllMaterials();
+
+            foreach(Material mat in materialsList)
+            {
+                materialsAutoCompleteList.Add(mat.Name);
+                listBox1.Items.Add(mat.Name);
+            }
+
+            textBox1.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            textBox1.AutoCompleteCustomSource = materialsAutoCompleteList;
+
+            textBox1.Refresh();
+            listBox1.Refresh();
+        }
+
+        #endregion
+
         private void Form1_FormClosing(Object sender, FormClosingEventArgs e)
         {
             HNDatabase.Close();
@@ -44,6 +60,33 @@ namespace HunterNotes
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void listBox1_DoubleClick(object sender, EventArgs e)
+        {
+            string selectedMaterial = (string) listBox1.SelectedItem;
+
+            string materialDescription = HNDatabase.GetMaterialDescription(selectedMaterial);
+
+            label1.Text = materialDescription;
+        }
+
+        // Handle the Enter Key Press in the Materials TextBox
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                string enteredMaterial = (string)textBox1.Text;
+                string materialDescription = HNDatabase.GetMaterialDescription(enteredMaterial);
+                label1.Text = materialDescription;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string enteredMaterial = (string)textBox1.Text;
+            string materialDescription = HNDatabase.GetMaterialDescription(enteredMaterial);
+            label1.Text = materialDescription;
         }
     }
 }

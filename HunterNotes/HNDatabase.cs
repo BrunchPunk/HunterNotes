@@ -270,18 +270,44 @@ namespace HunterNotes
         #endregion
 
         #region Database Accessors
-        public static SQLiteDataReader getAllMaterials()
+        public static List<Material> GetAllMaterials()
         {
             string selectQuery;
             SQLiteCommand selectCommand;
             SQLiteDataReader selectResults;
+            List<Material> results = new List<Material>();
 
             selectQuery = "SELECT * FROM Materials;";
             selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
             selectResults = selectCommand.ExecuteReader();
 
-            return selectResults;
+            while (selectResults.Read())
+            {
+                results.Add(new Material((string) selectResults[0], (string) selectResults[1]));
+            }
 
+            return results;
+
+        }
+
+        public static string GetMaterialDescription(string materialName)
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+            string result = "";
+
+            selectQuery = "SELECT description FROM Materials WHERE name=\"" + materialName + "\" LIMIT 1;";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            while(selectResults.Read())
+            {
+                result = (string) selectResults[0];
+                break;
+            }
+
+            return result;
         }
 
         #endregion
