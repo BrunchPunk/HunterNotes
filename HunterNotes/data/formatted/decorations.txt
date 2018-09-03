@@ -1,0 +1,290 @@
+Antidote Jewel 1
+Poison Resistance
+
+Geology Jewel 1
+Geologist
+
+Heavy Artillery Jewel 1
+Heavy Artillery
+
+Hungerless Jewel 1
+Hunger Resistance
+
+Satiated Jewel 1
+Free Meal
+
+Protection Jewel 1
+Divine Blessing
+
+Meowster Jewel 1
+Palico Rally
+
+Botany Jewel 1
+Botanist
+
+Tip Toe Jewel 1
+Stealth
+
+Flight Jewel 2
+Airborne
+
+Smoke Jewel 1
+Sporepuff Expert
+
+Mirewalker Jewel 1
+Aquatic Expert
+
+Specimen Jewel 1
+Entomologist
+
+Miasma Jewel 1
+Effluvia Resistance
+
+Scent Jewel 1
+Scenthound
+
+Intimidator Jewel 1
+Intimidator
+
+Crisis Jewel 1
+Resuscitate
+
+Antipara Jewel 1
+Paralysis Resistance
+
+Fortitude Jewel 1
+Fortify
+
+Water Res Jewel 1
+Water Resistance
+
+Suture Jewel 1
+Bleeding Resistance
+
+Dragon Res Jewel 1
+Dragon Resistance
+
+Fire Res Jewel 1
+Fire Resistance
+
+Ice Res Jewel 1
+Ice Resistance
+
+Def Lock Jewel 1
+Iron Skin
+
+Thunder Res Jewel 1
+Thunder Resistance
+
+Pep Jewel 1
+Sleep Resistance
+
+Antiblast Jewel 1
+Blast Resistance
+
+Gobbler Jewel 1
+Speed Eating
+
+Physique Jewel 2
+Constitution
+
+Blaze Jewel 1
+Fire Attack
+
+Evasion Jewel 2
+Evade Window
+
+Jumping Jewel 2
+Evade Extender
+
+Sheath Jewel 1
+Quick Sheath
+
+Friendship Jewel 1
+Wide-Range
+
+Enduring Jewel 1
+Item Prolonger
+
+Medicine Jewel 1
+Recovery Up
+
+Grinder Jewel 1
+Speed Sharpening
+
+Steadfast Jewel 1
+Stun Resistance
+
+Bomber Jewel 1
+Bombardier
+
+Recovery Jewel 1
+Recovery Speed
+
+Slider Jewel 2
+Affinity Sliding
+
+Defense Jewel 1
+Defense Boost
+
+Stonethrower Jewel 1
+Slinger Capacity
+
+Footing Jewel 2
+Tremor Resistance
+
+Brace Jewel 3
+Flinch Free
+
+Wind Resist Jewel 2
+Windproof
+
+Earplug Jewel 3
+Earplugs
+
+Vitality Jewel 1
+Health Boost
+
+Resistor Jewel 1
+Blight Resistance
+
+Sonorous Jewel 1
+Horn Maestro
+
+KO Jewel 2
+Slugger
+
+Stream Jewel 1
+Water Attack
+
+Frost Jewel 1
+Ice Attack
+
+Bolt Jewel 1
+Thunder Attack
+
+Dragon Jewel 1
+Dragon Attack
+
+Venom Jewel 1
+Poison Attack
+
+Poisoncoat Jewel 3
+Poison Functionality
+
+Expert Jewel 1
+Critical Eye
+
+Tenderizer Jewel 2
+Weakness Exploit
+
+Destroyer Jewel 2
+Partbreaker
+
+Elementless Jewel 2
+Non-elemental Boost
+
+Drain Jewel 1
+Stamina Thief
+
+Paracoat Jewel 3
+Para Functionality
+
+Sharp Jewel 2
+Protective Polish
+
+Shield Jewel 2
+Guard Up
+
+Dragonseal Jewel 3
+Elderseal Boost
+
+Trueshot Jewel 1
+Special Ammo Boost
+
+Enhancer Jewel 2
+Power Prolonger
+
+Forceshot Jewel 3
+Normal Shots
+
+Furor Jewel 2
+Resentment
+
+Potential Jewel 2
+Heroics
+
+Paralyzer Jewel 1
+Paralysis Attack
+
+Sleep Jewel 1
+Sleep Attack
+
+Ironwall Jewel 1
+Guard
+
+Refresh Jewel 2
+Stamina Surge
+
+Blast Jewel 1
+Blast Attack
+
+Sleepcoat Jewel 3
+Sleep Functionality
+
+Blastcoat Jewel 3
+Blast Functionality
+
+Throttle Jewel 2
+Latent Power
+
+Challenger Jewel 2
+Agitator
+
+Attack Jewel 1
+Attack Boost
+
+Flawless Jewel 2
+Peak Performance
+
+Magazine Jewel 2
+Capacity Boost
+
+Mighty Jewel 2
+Maximum Might
+
+Sprinter Jewel 2
+Marathon Runner
+
+Critical Jewel 2
+Critical Boost
+
+Artillery Jewel 1
+Artillery
+
+Fungiform Jewel 1
+Mushroomancer
+
+Release Jewel 3
+Free Elem/Ammo Up
+
+Spread Jewel 3
+Spread/Power Shots
+
+Charger Jewel 2
+Focus
+
+Handicraft Jewel 3
+Handicraft
+
+Mighty Bow Jewel 2
+Bow Charge Plus
+
+Mind's Eye Jewel 2
+Mind's Eye/Ballistics
+
+Draw Jewel 2
+Critical Draw
+
+Pierce Jewel 3
+Piercing Shots

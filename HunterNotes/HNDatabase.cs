@@ -42,9 +42,9 @@ namespace HunterNotes
                 {
                     LoadSkillsTable();
                     LoadMaterialsTable();
+                    LoadDecorationsTable();
                     //LoadArmorTable();
                     //LoadForgeTable();
-                    //LoadDecorationsTable();
                 }
                 catch(FileNotFoundException ex)
                 {
@@ -160,7 +160,6 @@ namespace HunterNotes
                 "name VARCHAR(50), " +
                 "skill VARCHAR(50), " +
                 "size INT, " +
-                "points INT, " +
                 "owned INT, " +
                 "PRIMARY KEY (name), " +
                 "FOREIGN KEY (skill) REFERENCES Skills (name) )";
@@ -288,10 +287,42 @@ namespace HunterNotes
 
         private static void LoadDecorationsTable()
         {
-            //TODO Load data from files into Decorations table
             if (File.Exists("data/formatted/decorations.csv"))
             {
                 Console.WriteLine("Loading data into the Decorations table");
+
+                //String defining the insert SQL for the Decorations table
+                string insertDecorationsSQL = "INSERT INTO Decorations VALUES ";
+
+                //Prepare the parser to parse the Decorations data file
+                TextFieldParser decorationsParser = new TextFieldParser("data/formatted/decorations.csv");
+                decorationsParser.TextFieldType = FieldType.Delimited;
+                decorationsParser.SetDelimiters(",");
+
+                //Read each line of the file and add it to insertDecorationsSQL as a value e.g. "("Antidote Jewel","Poison Resistance",1,0), "
+                while (!decorationsParser.EndOfData)
+                {
+                    //Begin a new value
+                    insertDecorationsSQL = insertDecorationsSQL + "(";
+
+                    //Add each of the 4 fields to the value (Since first and second fields in decorations should be strings, wrap them in quotes for SQL)
+                    string[] fields = decorationsParser.ReadFields();
+                    insertDecorationsSQL = insertDecorationsSQL + "\"" + fields[0] + "\"" + ", ";
+                    insertDecorationsSQL = insertDecorationsSQL + "\"" + fields[1] + "\"" + ", ";
+                    insertDecorationsSQL = insertDecorationsSQL + fields[2] + ", ";
+                    insertDecorationsSQL = insertDecorationsSQL + fields[3];
+
+                    //End the new value
+                    insertDecorationsSQL = insertDecorationsSQL + "), ";
+
+                }
+                //Remove trailing ", " from last value and add SQL terminating ";"
+                insertDecorationsSQL = insertDecorationsSQL.Substring(0, insertDecorationsSQL.Length - 2);
+                insertDecorationsSQL = insertDecorationsSQL + ";";
+
+                //Create the SQL command and execute it
+                SQLiteCommand insertDecorationsCommand = new SQLiteCommand(insertDecorationsSQL, HNDatabase.HNDatabaseConn);
+                insertDecorationsCommand.ExecuteNonQuery();
             }
             else
             {

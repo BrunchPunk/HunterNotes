@@ -1,4 +1,4 @@
-skillsFile = open('skills.html', 'r')
+skillsFile = open('skills.txt', 'r')
 resultsFile = open('skills.csv', 'w')
 
 maxHolder = 1
