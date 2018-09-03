@@ -67,6 +67,8 @@ namespace HunterNotes
             textBoxSkills.AutoCompleteSource = AutoCompleteSource.CustomSource;
             textBoxSkills.AutoCompleteCustomSource = skillsAutoCompleteList;
 
+            labelSkills.Text = "";
+
             textBoxSkills.Refresh();
             listBoxSkills.Refresh();
         }
@@ -83,8 +85,7 @@ namespace HunterNotes
             {
                 tableLayoutPanelDecorations.RowStyles.Add(new RowStyle(SizeType.AutoSize));
                 tableLayoutPanelDecorations.Controls.Add(new Label() { Text = allDecorations[row].Name }, 0, row);
-                tableLayoutPanelDecorations.Controls.Add(new Label() { Text = allDecorations[row].Skill }, 1, row);
-
+                tableLayoutPanelDecorations.Controls.Add(new Label() { Text = allDecorations[row].Skill, AutoSize = true }, 1, row);
             }
 
             tableLayoutPanelDecorations.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;

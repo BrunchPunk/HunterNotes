@@ -337,11 +337,10 @@
             // 
             // labelSkills
             // 
-            this.labelSkills.AutoSize = true;
             this.labelSkills.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelSkills.Location = new System.Drawing.Point(3, 16);
             this.labelSkills.Name = "labelSkills";
-            this.labelSkills.Size = new System.Drawing.Size(99, 13);
+            this.labelSkills.Size = new System.Drawing.Size(454, 369);
             this.labelSkills.TabIndex = 0;
             this.labelSkills.Text = "Place holder details";
             // 
@@ -526,7 +525,6 @@
             this.tableLayoutPanel4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
