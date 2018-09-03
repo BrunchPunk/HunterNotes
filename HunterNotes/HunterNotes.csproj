@@ -71,6 +71,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decoration.cs" />
     <Compile Include="Skill.cs" />
     <Compile Include="Material.cs" />
     <Compile Include="HNDatabase.cs" />

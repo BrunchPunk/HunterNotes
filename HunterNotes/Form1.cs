@@ -70,6 +70,16 @@ namespace HunterNotes
             listBoxSkills.Refresh();
         }
 
+        private void InitializeDecorationsTab()
+        {
+            //TODO - Populate the Decorations group table with all Deocrations Name/Skill (one row per) values from the DB
+
+            //TODO - Update the Owned amounts in the Database based on the MyDeco.txt file
+
+            //TODO - Populate the My Decorations group table with all Decorations Name/Owned (one per row) values from the DB
+
+        }
+
         #endregion
 
         #region Tab Handlers
@@ -104,7 +114,7 @@ namespace HunterNotes
 
         #endregion
 
-        #region Skills Tab Handler
+        #region Skills Tab Handlers
         private void listBoxSkills_DoubleClick(object sender, EventArgs e)
         {
             string selectedSkill = (string)listBoxSkills.SelectedItem;
@@ -135,6 +145,19 @@ namespace HunterNotes
 
         #endregion
 
+        #region Decorations Tab Handlers
+        private void revertButton_Click(object sender, EventArgs e)
+        {
+            //TODO - Update all owned amounts in the My Decorations group table based on the database values
+        }
+
+        private void commitButton_Click(object sender, EventArgs e)
+        {
+            //TODO - Update the database owned amounts with whatever is in teh My Decorations group table
+        }
+
+        #endregion
+
         #endregion
 
         private void Form1_FormClosing(Object sender, FormClosingEventArgs e)
@@ -146,5 +169,7 @@ namespace HunterNotes
         {
             Application.Exit();
         }
+
+
     }
 }

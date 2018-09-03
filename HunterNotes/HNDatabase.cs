@@ -419,6 +419,40 @@ namespace HunterNotes
 
         #endregion
 
+        #region Decorations Methods
+        public static List<Decoration> GetAllDecorations()
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+            List<Decoration> results = new List<Decoration>();
+
+            selectQuery = "SELECT * FROM Decorations;";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            while (selectResults.Read())
+            {
+                results.Add(new Decoration((string)selectResults[0], (string)selectResults[1], (int)selectResults[2], (int)selectResults[3]));
+            }
+
+            return results;
+        }
+        #endregion
+
+        #endregion
+
+        #region Database Mutators
+        #region Decorations Methods
+        public static void UpdateOwned(string decoName, int newOwned)
+        {
+            string updateQuery = "UPDATE Decorations SET  owned = " + newOwned + " WHERE name = \"" + decoName + "\";";
+            SQLiteCommand updateQueryCommand = new SQLiteCommand(updateQuery, HNDatabase.HNDatabaseConn);
+            updateQueryCommand.ExecuteNonQuery();
+        }
+
+        #endregion
+
         #endregion
     }
 }
