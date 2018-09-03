@@ -1,0 +1,102 @@
+# File for keeping track of your acquired decorations
+# Lines starting with a '#' are ignored
+# Decorations are specified one per line with the 
+# Decoration name followed by a tab then the number owned
+# e.g. 
+# Antidote Jewel	2
+Antidote Jewel	0
+Geology Jewel	0
+Heavy Artillery Jewel	0
+Hungerless Jewel	0
+Satiated Jewel	0
+Protection Jewel	0
+Meowster Jewel	0
+Botany Jewel	0
+Tip Toe Jewel	0
+Flight Jewel	0
+Smoke Jewel	0
+Mirewalker Jewel	0
+Specimen Jewel	0
+Miasma Jewel	0
+Scent Jewel	0
+Intimidator Jewel	0
+Crisis Jewel	0
+Antipara Jewel	0
+Fortitude Jewel	0
+Water Res Jewel	0
+Suture Jewel	0
+Dragon Res Jewel	0
+Fire Res Jewel	0
+Ice Res Jewel	0
+Def Lock Jewel	0
+Thunder Res Jewel	0
+Pep Jewel	0
+Antiblast Jewel	0
+Gobbler Jewel	0
+Physique Jewel	0
+Blaze Jewel	0
+Evasion Jewel	0
+Jumping Jewel	0
+Sheath Jewel	0
+Friendship Jewel	0
+Enduring Jewel	0
+Medicine Jewel	0
+Grinder Jewel	0
+Steadfast Jewel	0
+Bomber Jewel	0
+Recovery Jewel	0
+Slider Jewel	0
+Defense Jewel	0
+Stonethrower Jewel	0
+Footing Jewel	0
+Brace Jewel	0
+Wind Resist Jewel	0
+Earplug Jewel	0
+Vitality Jewel	0
+Resistor Jewel	0
+Sonorous Jewel	0
+KO Jewel	0
+Stream Jewel	0
+Frost Jewel	0
+Bolt Jewel	0
+Dragon Jewel	0
+Venom Jewel	0
+Poisoncoat Jewel	0
+Expert Jewel	0
+Tenderizer Jewel	0
+Destroyer Jewel	0
+Elementless Jewel	0
+Drain Jewel	0
+Paracoat Jewel	0
+Sharp Jewel	0
+Shield Jewel	0
+Dragonseal Jewel	0
+Trueshot Jewel	0
+Enhancer Jewel	0
+Forceshot Jewel	0
+Furor Jewel	0
+Potential Jewel	0
+Paralyzer Jewel	0
+Sleep Jewel	0
+Ironwall Jewel	0
+Refresh Jewel	0
+Blast Jewel	0
+Sleepcoat Jewel	0
+Blastcoat Jewel	0
+Throttle Jewel	0
+Challenger Jewel	0
+Attack Jewel	0
+Flawless Jewel	0
+Magazine Jewel	0
+Mighty Jewel	0
+Sprinter Jewel	0
+Critical Jewel	0
+Artillery Jewel	0
+Fungiform Jewel	0
+Release Jewel	0
+Spread Jewel	0
+Charger Jewel	0
+Handicraft Jewel	0
+Mighty Bow Jewel	0
+Mind's Eye Jewel	0
+Draw Jewel	0

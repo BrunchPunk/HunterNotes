@@ -1,0 +1,2342 @@
+Poison Charm I
+
+Poison Resistance 1
+
+Pukei-Pukei Sac x1
+Pukei-Pukei Tail x2
+Earth Crystal x4
+Aquacore Ore x1
+
+
+Poison Charm II
+
+Poison Resistance 2
+
+Pukei-Pukei Sac+ x2
+Pukei-Pukei Wing x2
+Dragonvein Crystal x3
+Spiritcore Ore x1
+
+
+Poison Charm III
+
+Poison Resistance 3
+
+Rathalos Ruby x1
+Rathalos Wing x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Attack Charm I
+
+Attack Boost 1
+
+Sturdy Bone x4
+Boulder Bone x4
+Lightcrystal x1
+Aquacore Ore x1
+
+
+Attack Charm II
+
+Attack Boost 2
+
+Quality Bone x3
+Dragonbone Relic x1
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Attack Charm III
+
+Attack Boost 3
+
+Elder Dragon Bone x2
+High Commendation x1
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Defense Charm I
+
+Defense Boost 1
+
+Dragonite Ore x4
+Machalite Ore x4
+Lightcrystal x1
+Aquacore Ore x1
+
+
+Defense Charm II
+
+Defense Boost 2
+
+Carbalite Ore x6
+Dragonite Ore x8
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Defense Charm III
+
+Defense Boost 3
+
+Fucium Ore x6
+Carbalite Ore x8
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Paralysis Charm I
+
+Paralysis Resistance 1
+
+Great Girros Hood x1
+Great Girros Fang x2
+Warped Bone x6
+Aquacore Ore x1
+
+
+Paralysis Charm II
+
+Paralysis Resistance 2
+
+Great Girros Hood+ x2
+Omniplegia Sac x4
+Dragonvein Crystal x3
+Spiritcore Ore x1
+
+
+Paralysis Charm III
+
+Paralysis Resistance 3
+
+Teostra Gem x1
+Teostra Horn+ x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Sleep Charm I
+
+Sleep Resistance 1
+
+Radobaan Marrow x1
+Radobaan Oilshell x2
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Sleep Charm II
+
+Sleep Resistance 2
+
+Radobaan Medulla x1
+Radobaan Oilshell x3
+Dragonvein Crystal x3
+Spiritcore Ore x1
+
+
+Sleep Charm III
+
+Sleep Resistance 3
+
+Uragaan Ruby x1
+Uragaan Jaw x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Stun Charm I
+
+Stun Resistance 1
+
+Tzitzi-Ya-Ku Photophore x1
+Tzitzi-Ya-Ku Claw x2
+Coral Crystal x4
+Aquacore Ore x1
+
+
+Stun Charm II
+
+Stun Resistance 2
+
+Tzitzi-Ya-Ku Photophore+ x2
+Tzitzi-Ya-Ku Claw+ x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Stun Charm III
+
+Stun Resistance 3
+
+Black Spiral Horn+ x3
+Black Diablos Ridge+ x2
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Windproof Charm I
+
+Windproof 1
+
+Paolumu Webbing x3
+Paolumu Shell x5
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Windproof Charm II
+
+Windproof 2
+
+Paolumu Wing x3
+Wyvern Gem x2
+Dragonvein Crystal x1
+Spiritcore Ore x1
+
+
+Windproof Charm III
+
+Windproof 3
+
+Azure Rathalos Wing x3
+Rathalos Ruby x1
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Health Charm I
+
+Health Boost 1
+
+Rathian Plate x1
+Rathian Webbing x3
+Earth Crystal x3
+Aquacore Ore x1
+
+
+Health Charm II
+
+Health Boost 2
+
+Rathian Ruby x1
+Rathian Spike x2
+Dragonvein Crystal x3
+Spiritcore Ore x1
+
+
+Health Charm III
+
+Health Boost 3
+
+Nergigante Gem x1
+Nergigante Talon x2
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Recovery Charm I
+
+Recovery Up 1
+
+Rathian Plate x1
+Rathian Spike x2
+Earth Crystal x3
+Aquacore Ore x1
+
+
+Recovery Charm II
+
+Recovery Up 2
+
+Pink Rathian Carapace x2
+Rathian Spike+ x1
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Recovery Charm III
+
+Recovery Up 3
+
+Nergigante Gem x1
+Nergigante Talon x2
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Fire Charm I
+
+Fire Resistance 1
+
+Anjanath Plate x1
+Anjanath Fang x2
+Warped Bone x3
+Aquacore Ore x1
+
+
+Fire Charm II
+
+Fire Resistance 2
+
+Anjanath Gem x1
+Anjanath Fang+ x2
+Earth Crystal x4
+Spiritcore Ore x1
+
+
+Fire Charm III
+
+Fire Resistance 3
+
+High Commendation x1
+Rathalos Ruby x1
+Inferno Sac x3
+Dreamcore Ore x1
+
+
+Water Charm I
+
+Water Resistance 1
+
+Jyuratodus Fin x3
+Jyuratodus Fang x3
+Earth Crystal x6
+Aquacore Ore x1
+
+
+Water Charm II
+
+Water Resistance 2
+
+Jyuratodus Fin+ x3
+Jyuratodus Fang+ x2
+Coral Crystal x4
+Spiritcore Ore x1
+
+
+Water Charm III
+
+Water Resistance 3
+
+High Commendation x1
+Wyvern Gem x1
+Torrent Sac x3
+Dreamcore Ore x1
+
+
+Thunder Charm I
+
+Thunder Resistance 1
+
+Tobi-Kadachi Electrode x1
+Tobi-Kadachi Claw x2
+Ancient Bone x6
+Aquacore Ore x1
+
+
+Thunder Charm II
+
+Thunder Resistance 2
+
+Tobi-Kadachi Electrode+ x1
+Tobi-Kadachi Claw+ x2
+Earth Crystal x4
+Spiritcore Ore x1
+
+
+Thunder Charm III
+
+Thunder Resistance 3
+
+High Commendation x1
+Wyvern Gem x1
+Thunder Sac x3
+Dreamcore Ore x1
+
+
+Blaze Charm I
+
+Fire Attack 1
+
+Anjanath Plate x1
+Anjanath Fang x2
+Warped Bone x3
+Aquacore Ore x1
+
+
+Blaze Charm II
+
+Fire Attack 2
+
+Lavasioth Fin+ x3
+Lavasioth Fang+ x2
+Earth Crystal x6
+Spiritcore Ore x1
+
+
+Blaze Charm III
+
+Fire Attack 3
+
+Teostra Gem x1
+Teostra Horn+ x2
+Inferno Sac x3
+Dreamcore Ore x1
+
+
+Flood Charm I
+
+Water Attack 1
+
+Jyuratodus Fin x2
+Jyuratodus Fang x2
+Earth Crystal x3
+Aquacore Ore x1
+
+
+Flood Charm II
+
+Water Attack 2
+
+Jyuratodus Fin+ x3
+Jyuratodus Fang+ x2
+Coral Crystal x6
+Spiritcore Ore x1
+
+
+Flood Charm III
+
+Water Attack 3
+
+Vaal Hazak Gem x1
+Vaal Hazak Talon x2
+Torrent Sac x3
+Dreamcore Ore x1
+
+
+Shock Charm I
+
+Thunder Attack 1
+
+Tobi-Kadachi Electrode x2
+Tobi-Kadachi Claw x2
+Ancient Bone x4
+Aquacore Ore x1
+
+
+Shock Charm II
+
+Thunder Attack 2
+
+Tobi-Kadachi Electrode+ x2
+Tobi-Kadachi Claw+ x2
+Earth Crystal x6
+Spiritcore Ore x1
+
+
+Shock Charm III
+
+Thunder Attack 3
+
+Kirin Azure Horn x1
+Kirin Thundertail x2
+Thunder Sac x3
+Dreamcore Ore x1
+
+
+Venom Charm I
+
+Poison Attack 1
+
+Rathian Plate x1
+Rathian Spike x1
+Earth Crystal x3
+Aquacore Ore x1
+
+
+Venom Charm II
+
+Poison Attack 2
+
+Pink Rathian Carapace x2
+Rathian Spike+ x1
+Carbalite Ore x4
+Spiritcore Ore x1
+
+
+Venom Charm III
+
+Poison Attack 3
+
+High Commendation x1
+Rathian Ruby x1
+Toxin Sac x3
+Dreamcore Ore x1
+
+
+Immobilize Charm I
+
+Paralysis Attack 1
+
+Great Girros Hood x2
+Great Girros Fang x2
+Warped Bone x4
+Aquacore Ore x1
+
+
+Immobilize Charm II
+
+Paralysis Attack 2
+
+Great Girros Hood+ x1
+Great Girros Fang+ x2
+Carbalite Ore x4
+Spiritcore Ore x1
+
+
+Immobilize Charm III
+
+Paralysis Attack 3
+
+High Commendation x1
+Wyvern Gem x1
+Omniplegia Sac x3
+Dreamcore Ore x1
+
+
+Tranq Charm I
+
+Sleep Attack 1
+
+Radobaan Marrow x1
+Radobaan Oilshell x2
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Tranq Charm II
+
+Sleep Attack 2
+
+Radobaan Medulla x1
+Radobaan Oilshell x3
+Carbalite Ore x4
+Spiritcore Ore x1
+
+
+Tranq Charm III
+
+Sleep Attack 3
+
+High Commendation x1
+Vaal Hazak Gem x1
+Coma Sac x3
+Dreamcore Ore x1
+
+
+KO Charm I
+
+Slugger 1
+
+Radobaan Marrow x1
+Radobaan Oilshell x2
+Coral Crystal x3
+Aquacore Ore x1
+
+
+KO Charm II
+
+Slugger 2
+
+Radobaan Medulla x1
+Radobaan Oilshell x3
+Warped Bone x6
+Spiritcore Ore x1
+
+
+KO Charm III
+
+Slugger 3
+
+Teostra Gem x1
+Teostra Horn+ x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Enervate Charm I
+
+Stamina Thief 1
+
+Barroth Scalp x2
+Barroth Claw x2
+Earth Crystal x3
+Aquacore Ore x1
+
+
+Enervate Charm II
+
+Stamina Thief 2
+
+Barroth Scalp x3
+Barroth Claw+ x2
+Warped Bone x6
+Spiritcore Ore x1
+
+
+Enervate Charm III
+
+Stamina Thief 3
+
+Blos Medulla x1
+Diablos Fang x3
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Artillery Charm I
+
+Artillery 1
+
+Anjanath Plate x1
+Anjanath Fang x2
+Warped Bone x3
+Aquacore Ore x1
+
+
+Artillery Charm II
+
+Artillery 2
+
+Anjanath Gem x1
+Anjanath Fang+ x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Artillery Charm III
+
+Artillery 3
+
+Teostra Gem x1
+Teostra Horn+ x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Hungerless Charm I
+
+Hunger Resistance 1
+
+Girros Fang x2
+Girros Hide x4
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Hungerless Charm II
+
+Hunger Resistance 2
+
+Jagras Hide+ x6
+Jagras Scale+ x8
+Lightcrystal x1
+Spiritcore Ore x1
+
+
+Hungerless Charm III
+
+Hunger Resistance 3
+
+Wyvern Gem x1
+Fucium Ore x5
+Dragonbone Relic x1
+Dreamcore Ore x1
+
+
+Ironside Charm I
+
+Guard 1
+
+Radobaan Marrow x1
+Radobaan Oilshell x2
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Ironside Charm II
+
+Guard 2
+
+Radobaan Medulla x1
+Radobaan Oilshell x3
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Ironside Charm III
+
+Guard 3
+
+Vaal Hazak Gem x1
+Vaal Hazak Talon x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Friendship Charm I
+
+Wide-Range 1
+
+Tzitzi-Ya-Ku Photophore x2
+Tzitzi-Ya-Ku Claw x2
+Coral Crystal x4
+Aquacore Ore x1
+
+
+Friendship Charm II
+
+Wide-Range 2
+
+Tzitzi-Ya-Ku Photophore+ x1
+Tzitzi-Ya-Ku Claw+ x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Friendship Charm III
+
+Wide-Range 3
+
+Elder Dragon Blood x1
+High Commendation x1
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Extension Charm I
+
+Item Prolonger 1
+
+Kulu-Ya-Ku Beak x2
+Kulu-Ya-Ku Plume x2
+Ancient Bone x4
+Aquacore Ore x1
+
+
+Extension Charm II
+
+Item Prolonger 2
+
+Pink Rathian Carapace x2
+Rathian Spike+ x1
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Extension Charm III
+
+Item Prolonger 3
+
+High Commendation x1
+Daora Tail x1
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Glutton-s Charm I
+
+Speed Eating 1
+
+Great Jagras Mane x2
+Great Jagras Claw x2
+Ancient Bone x4
+Aquacore Ore x1
+
+
+Glutton-s Charm II
+
+Speed Eating 2
+
+Anjanath Gem x1
+Anjanath Fang+ x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Glutton-s Charm III
+
+Speed Eating 3
+
+Nergigante Gem x1
+Nergigante Talon x2
+Quality Bone x2
+Dreamcore Ore x1
+
+
+Blessing Charm I
+
+Divine Blessing 1
+
+Paolumu Webbing x2
+Paolumu Pelt x3
+Coral Bone x4
+Aquacore Ore x1
+
+
+Blessing Charm II
+
+Divine Blessing 2
+
+Paolumu Wing x2
+Paolumu Pelt+ x4
+Sturdy Bone x6
+Spiritcore Ore x1
+
+
+Blessing Charm III
+
+Divine Blessing 3
+
+High Commendation x1
+Dragonbone Relic x1
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Rally Charm I
+
+Palico Rally 1
+
+Tailraider Voucher x1
+Sinister Cloth x1
+Lightcrystal x1
+Aquacore Ore x1
+
+
+Rally Charm II
+
+Palico Rally 2
+
+Tailraider Voucher x2
+Lightcrystal x2
+Sturdy Bone x6
+Spiritcore Ore x1
+
+
+Rally Charm III
+
+Palico Rally 3
+
+Tailraider Voucher x3
+High Commendation x2
+Quality Bone x2
+Dreamcore Ore x1
+
+
+Botany Charm I
+
+Botanist 1
+
+Ancient Bone x3
+Boulder Bone x3
+Lightcrystal x1
+Aquacore Ore x1
+
+
+Botany Charm II
+
+Botanist 2
+
+Quality Bone x3
+Dragonbone Relic x1
+Earth Crystal x6
+Spiritcore Ore x1
+
+
+Botany Charm III
+
+Botanist 3
+
+High Commendation x1
+Novacrystal x1
+Quality Bone x2
+Dreamcore Ore x1
+
+
+Geology Charm I
+
+Geologist 1
+
+Dragonite Ore x4
+Machalite Ore x4
+Lightcrystal x1
+Aquacore Ore x1
+
+
+Geology Charm II
+
+Geologist 2
+
+Carbalite Ore x6
+Dragonite Ore x8
+Lightcrystal x2
+Spiritcore Ore x1
+
+
+Geology Charm III
+
+Geologist 3
+
+High Commendation x1
+Novacrystal x1
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Slinger Charm I
+
+Slinger Capacity 1
+
+Radobaan Marrow x1
+Radobaan Oilshell x2
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Slinger Charm II
+
+Slinger Capacity 2
+
+Radobaan Medulla x1
+Radobaan Oilshell x3
+Dragonbone Relic x1
+Spiritcore Ore x1
+
+
+Slinger Charm III
+
+Slinger Capacity 3
+
+High Commendation x1
+Bird Wyvern Gem x1
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Stealth Charm I
+
+Stealth 1
+
+Great Jagras Mane x2
+Great Jagras Claw x2
+Lightcrystal x1
+Aquacore Ore x1
+
+
+Stealth Charm II
+
+Stealth 2
+
+Lavasioth Fin+ x3
+Lavasioth Fang+ x2
+Dragonbone Relic x3
+Spiritcore Ore x1
+
+
+Stealth Charm III
+
+Stealth 3
+
+High Commendation x1
+Bird Wyvern Gem x1
+Quality Bone x2
+Dreamcore Ore x1
+
+
+Smoke Charm I
+
+Sporepuff Expert 1
+
+Pukei-Pukei Sac x2
+Pukei-Pukei Tail x2
+Earth Crystal x2
+Aquacore Ore x1
+
+
+Smoke Charm II
+
+Sporepuff Expert 2
+
+Wyvern Gem x1
+Commendation x5
+Earth Crystal x6
+Spiritcore Ore x1
+
+
+Smoke Charm III
+
+Sporepuff Expert 3
+
+High Commendation x1
+Bird Wyvern Gem x1
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Mirewalker Charm I
+
+Aquatic Expert 1
+
+Jyuratodus Fin x2
+Jyuratodus Fang x2
+Earth Crystal x4
+Aquacore Ore x1
+
+
+Mirewalker Charm II
+
+Aquatic Expert 2
+
+Jyuratodus Fin+ x3
+Jyuratodus Fang+ x2
+Coral Crystal x6
+Spiritcore Ore x1
+
+
+Mirewalker Charm III
+
+Aquatic Expert 3
+
+Wyvern Gem x1
+Commendation x5
+Coral Bone x6
+Dreamcore Ore x1
+
+
+Insect Charm I
+
+Entomologist 1
+
+Vespoid Wing x2
+Vespoid Shell x2
+Ancient Bone x4
+Aquacore Ore x1
+
+
+Insect Charm II
+
+Entomologist 2
+
+Vespoid Innerwing x4
+Vespoid Carapace x6
+Lightcrystal x2
+Spiritcore Ore x1
+
+
+Insect Charm III
+
+Entomologist 3
+
+Wyvern Gem x1
+Commendation x5
+Quality Bone x2
+Dreamcore Ore x1
+
+
+Intimidator Charm I
+
+Intimidator 1
+
+Great Girros Hood x2
+Great Girros Fang x2
+Warped Bone x4
+Aquacore Ore x1
+
+
+Intimidator Charm II
+
+Intimidator 2
+
+Great Jagras Mane x3
+Great Jagras Claw+ x2
+Boulder Bone x6
+Spiritcore Ore x1
+
+
+Intimidator Charm III
+
+Intimidator 3
+
+Rathalos Ruby x1
+Rathalos Wing x2
+Warped Bone x4
+Dreamcore Ore x1
+
+
+Heavy Artillery Charm I
+
+Heavy Artillery 1
+
+Dragonite Ore x4
+Tzitzi-Ya-Ku Claw x3
+Lightcrystal x1
+Aquacore Ore x1
+
+
+Heavy Artillery Charm II
+
+Heavy Artillery 2
+
+Zorah Magdaros Magma x3
+Zorah Magdaros Pleura x1
+Dragonvein Crystal x3
+Aquacore Ore x1
+
+
+Light Eater-s Charm
+
+Free Meal 1
+
+Hornetaur Head x4
+Hornetaur Wing x6
+Great Girros Fang x3
+Aquacore Ore x1
+
+
+Tracker Charm
+
+Scenthound 1
+
+Anjanath Nosebone x1
+Anjanath Pelt x5
+Barroth Scalp x2
+Aquacore Ore x1
+
+
+Fortification Charm
+
+Fortify 1
+
+Sinister Cloth x3
+Anjanath Fang x3
+Warped Bone x5
+Aquacore Ore x1
+
+
+Performer-s Charm
+
+Horn Maestro 1
+
+Great Girros Hood x3
+Pukei-Pukei Sac x5
+Sturdy Bone x5
+Aquacore Ore x1
+
+
+Capacity Charm
+
+Capacity Boost 1
+
+Dragonite Ore x8
+Rath Wingtalon x3
+Lightcrystal x2
+Aquacore Ore x1
+
+
+Bleed Charm I
+
+Bleeding Resistance 1
+
+Odogaron Plate x1
+Odogaron Fang x2
+Warped Bone x4
+Aquacore Ore x1
+
+
+Bleed Charm II
+
+Bleeding Resistance 2
+
+Odogaron Gem x1
+Odogaron Claw+ x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Bleed Charm III
+
+Bleeding Resistance 3
+
+Vaal Hazak Gem x1
+Vaal Hazak Talon x2
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Speed Heal Charm I
+
+Recovery Speed 1
+
+Commendation x1
+Sturdy Bone x3
+Lightcrystal x1
+Aquacore Ore x1
+
+
+Speed Heal Charm II
+
+Recovery Speed 2
+
+Lavasioth Fin+ x3
+Lavasioth Fang+ x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Speed Heal Charm III
+
+Recovery Speed 3
+
+Vaal Hazak Gem x1
+Vaal Hazak Wing x2
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Ice Charm I
+
+Ice Resistance 1
+
+Legiana Plate x1
+Legiana Claw x2
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Ice Charm II
+
+Ice Resistance 2
+
+Wyvern Gem x1
+Legiana Claw+ x2
+Coral Crystal x4
+Spiritcore Ore x1
+
+
+Ice Charm III
+
+Ice Resistance 3
+
+High Commendation x1
+Legiana Gem x1
+Freezer Sac x3
+Dreamcore Ore x1
+
+
+Blight Charm I
+
+Blight Resistance 1
+
+Kirin Thunderhorn x1
+Kirin Mane x2
+Coral Bone x3
+Aquacore Ore x1
+
+
+Blight Charm II
+
+Blight Resistance 2
+
+Kirin Azure Horn x1
+Kirin Thundertail x2
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Blight Charm III
+
+Blight Resistance 3
+
+Daora Gem x1
+Xeno-jiiva Tail x2
+Brutal Bone x2
+Dragoncore Ore x1
+
+
+Frost Charm I
+
+Ice Attack 1
+
+Legiana Plate x1
+Legiana Claw x2
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Frost Charm II
+
+Ice Attack 2
+
+Legiana Gem x1
+Legiana Claw+ x2
+Coral Crystal x6
+Spiritcore Ore x1
+
+
+Frost Charm III
+
+Ice Attack 3
+
+Daora Gem x1
+Daora Tail x1
+Freezer Sac x3
+Dreamcore Ore x1
+
+
+Master-s Charm I
+
+Critical Eye 1
+
+Odogaron Plate x1
+Odogaron Fang x2
+Warped Bone x3
+Aquacore Ore x1
+
+
+Master-s Charm II
+
+Critical Eye 2
+
+Odogaron Gem x1
+Odogaron Claw+ x2
+Quality Bone x3
+Spiritcore Ore x1
+
+
+Master-s Charm III
+
+Critical Eye 3
+
+Nergigante Gem x1
+Nergigante Talon x2
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Evasion Charm I
+
+Evade Window 1
+
+Legiana Tail Webbing x2
+Legiana Claw x2
+Coral Crystal x3
+Aquacore Ore x1
+
+
+Evasion Charm II
+
+Evade Window 2
+
+Legiana Gem x1
+Legiana Claw+ x2
+Fucium Ore x1
+Spiritcore Ore x1
+
+
+Evasion Charm III
+
+Evade Window 3
+
+Daora Gem x1
+Daora Tail x1
+Brutal Bone x2
+Dreamcore Ore x1
+
+
+Sheath Charm I
+
+Quick Sheath 1
+
+Diablos Marrow x1
+Diablos Fang x2
+Earth Crystal x3
+Aquacore Ore x1
+
+
+Sheath Charm II
+
+Quick Sheath 2
+
+Lavasioth Fin+ x1
+Lavasioth Fang+ x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Sheath Charm III
+
+Quick Sheath 3
+
+Bazelgeuse Gem x1
+Xeno-jiiva Horn x1
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Whetstone Charm I
+
+Speed Sharpening 1
+
+Odogaron Plate x1
+Odogaron Fang x2
+Warped Bone x3
+Aquacore Ore x1
+
+
+Whetstone Charm II
+
+Speed Sharpening 2
+
+Odogaron Gem x1
+Odogaron Claw+ x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Whetstone Charm III
+
+Speed Sharpening 3
+
+Nergigante Gem x1
+Nergigante Talon x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Blast Charm I
+
+Blast Resistance 1
+
+Dodogama Jaw x1
+Dodogama Talon x2
+Firecell Stone x1
+Spiritcore Ore x1
+
+
+Blast Charm II
+
+Blast Resistance 2
+
+Bazelgeuse Gem x1
+Bazelgeuse Talon x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Blast Charm III
+
+Blast Resistance 3
+
+Teostra Gem x1
+Teostra Horn+ x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Dragon Charm I
+
+Dragon Resistance 1
+
+Dragonbone Relic x1
+Quality Bone x3
+Dragonvein Crystal x3
+Spiritcore Ore x1
+
+
+Dragon Charm II
+
+Dragon Resistance 2
+
+Uragaan Ruby x1
+Uragaan Jaw x1
+Dragonvein Crystal x1
+Spiritcore Ore x1
+
+
+Dragon Charm III
+
+Dragon Resistance 3
+
+Elder Dragon Blood x1
+Vaal Hazak Gem x1
+Dragonbone Relic x3
+Dreamcore Ore x1
+
+
+Wyrmsbane Charm I
+
+Dragon Attack 1
+
+Dragonbone Relic x1
+Quality Bone x3
+Dragonvein Crystal x2
+Spiritcore Ore x1
+
+
+Wyrmsbane Charm II
+
+Dragon Attack 2
+
+Vaal Hazak Gem x1
+Vaal Hazak Talon x2
+Dragonvein Crystal x4
+Dreamcore Ore x1
+
+
+Wyrmsbane Charm III
+
+Dragon Attack 3
+
+Xeno-jiiva Gem x1
+Xeno-jiiva Claw x2
+Dragonbone Relic x3
+Dreamcore Ore x1
+
+
+Demolition Charm I
+
+Blast Attack 1
+
+Dodogama Jaw x2
+Dodogama Talon x2
+Firecell Stone x1
+Spiritcore Ore x1
+
+
+Demolition Charm II
+
+Blast Attack 2
+
+Bazelgeuse Gem x1
+Bazelgeuse Talon x2
+Carbalite Ore x4
+Dreamcore Ore x1
+
+
+Demolition Charm III
+
+Blast Attack 3
+
+Teostra Gem x1
+Xeno-jiiva Shell x3
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Draw Charm I
+
+Critical Draw 1
+
+Diablos Marrow x1
+Diablos Fang x3
+Earth Crystal x3
+Spiritcore Ore x1
+
+
+Draw Charm II
+
+Critical Draw 2
+
+Teostra Gem x1
+Teostra Horn+ x2
+Fucium Ore x1
+Dreamcore Ore x1
+
+
+Trickshot Charm I
+
+Special Ammo Boost 1
+
+Anjanath Plate x1
+Anjanath Fang x2
+Warped Bone x3
+Spiritcore Ore x1
+
+
+Trickshot Charm II
+
+Special Ammo Boost 2
+
+Bazelgeuse Gem x1
+Xeno-jiiva Wing x2
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Marathon Charm I
+
+Marathon Runner 1
+
+Barroth Scalp x2
+Barroth Claw+ x2
+Dragonvein Crystal x3
+Spiritcore Ore x1
+
+
+Marathon Charm II
+
+Marathon Runner 2
+
+Xeno-jiiva Gem x1
+Xeno-jiiva Veil x2
+Fucium Ore x1
+Dreamcore Ore x1
+
+
+Fitness Charm I
+
+Constitution 1
+
+Tobi-Kadachi Electrode+ x2
+Tobi-Kadachi Claw+ x2
+Dragonvein Crystal x3
+Spiritcore Ore x1
+
+
+Fitness Charm II
+
+Constitution 2
+
+Odogaron Gem x1
+Odogaron Claw+ x2
+Fucium Ore x1
+Dreamcore Ore x1
+
+
+Fitness Charm III
+
+Constitution 3
+
+Daora Gem x1
+Daora Claw+ x1
+Coral Crystal x3
+Dreamcore Ore x1
+
+
+Surge Charm I
+
+Stamina Surge 1
+
+Paolumu Wing x2
+Paolumu Pelt+ x3
+Dragonbone Relic x3
+Spiritcore Ore x1
+
+
+Surge Charm II
+
+Stamina Surge 2
+
+Nergigante Gem x1
+Nergigante Talon x2
+Fucium Ore x1
+Dreamcore Ore x1
+
+
+Leaping Charm I
+
+Evade Extender 1
+
+Tobi-Kadachi Electrode+ x2
+Tobi-Kadachi Claw+ x2
+Dragonvein Crystal x3
+Spiritcore Ore x1
+
+
+Leaping Charm II
+
+Evade Extender 2
+
+Daora Gem x1
+Daora Tail x1
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Bombardier Charm I
+
+Bombardier 1
+
+Dodogama Jaw x2
+Dodogama Talon x2
+Firecell Stone x1
+Spiritcore Ore x1
+
+
+Bombardier Charm II
+
+Bombardier 2
+
+Bazelgeuse Gem x1
+Bazelgeuse Talon x2
+Novacrystal x1
+Spiritcore Ore x1
+
+
+Bombardier Charm III
+
+Bombardier 3
+
+Teostra Gem x1
+Teostra Horn+ x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Mushroom Charm I
+
+Mushroomancer 1
+
+Commendation x1
+Mosswine Hide x5
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Mushroom Charm II
+
+Mushroomancer 2
+
+Research Commission Ticket x1
+High Commendation x1
+Novacrystal x1
+Dragoncore Ore x1
+
+
+Awakening Charm I
+
+Free Elem/Ammo Up 1
+
+Zorah Magdaros Gem x1
+Zorah Magdaros Magma x5
+Dragonvein Crystal x4
+Aquacore Ore x1
+
+
+Awakening Charm II
+
+Free Elem/Ammo Up 2
+
+Kirin Azure Horn x1
+Kirin Thundertail x1
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Handicraft Charm I
+
+Handicraft 1
+
+Zorah Magdaros Gem x1
+Zorah Magdaros Pleura x3
+Dragonvein Crystal x4
+Spiritcore Ore x1
+
+
+Handicraft Charm II
+
+Handicraft 2
+
+Daora Gem x1
+Daora Tail x1
+Wyvern Gem x1
+Dreamcore Ore x1
+
+
+Handicraft Charm III
+
+Handicraft 3
+
+Research Commission Ticket x1
+Xeno-jiiva Gem x1
+Xeno-jiiva Claw x2
+Dragoncore Ore x1
+
+
+Mud Puppy Charm
+
+Muck Resistance 1
+Leap of Faith 1
+
+Jyuratodus Fang+ x2
+Tobi-Kadachi Electrode+ x3
+Dragonvein Crystal x5
+Spiritcore Ore x2
+
+
+Trickshot Charm
+
+Dungmaster 1
+Blindsider 1
+
+Barroth Claw+ x2
+Tzitzi-Ya-Ku Photophore+ x3
+Lightcrystal x2
+Spiritcore Ore x2
+
+
+Hunter-s Life Charm
+
+BBQ Master 1
+Master Fisher 1
+
+High-quality Pelt x3
+Warm Pelt x5
+Piercing Claw x5
+Spiritcore Ore x1
+
+
+Procurer-s Charm
+
+Pro Transporter 1
+Honey Hunter 1
+
+Kestodon Carapace x5
+Kestodon Scalp x5
+Vespoid Carapace x5
+Spiritcore Ore x1
+
+
+Gatherer-s Charm
+
+Master Gatherer 1
+Carving Pro 1
+
+Mosswine Hide x5
+Jagras Scale+ x5
+Jagras Hide+ x5
+Spiritcore Ore x1
+
+
+Guard Charm I
+
+Iron Skin 1
+
+Barnos Talon x3
+Barnos Hide+ x3
+Brutal Bone x6
+Spiritcore Ore x1
+
+
+Guard Charm II
+
+Iron Skin 2
+
+Wyvern Gem x1
+Firecell Stone x1
+Dragonite Ore x6
+Spiritcore Ore x1
+
+
+Guard Charm III
+
+Iron Skin 3
+
+Elder Dragon Blood x1
+High Commendation x1
+Dragonvein Crystal x2
+Dreamcore Ore x1
+
+
+Earplugs Charm I
+
+Earplugs 1
+
+Blos Medulla x1
+Majestic Horn x2
+Firecell Stone x2
+Dreamcore Ore x1
+
+
+Earplugs Charm II
+
+Earplugs 2
+
+Bazelgeuse Gem x1
+Bazelgeuse Talon x2
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Earplugs Charm III
+
+Earplugs 3
+
+Teostra Gem x1
+Teostra Horn+ x2
+Wyvern Gem x1
+Dragoncore Ore x1
+
+
+Tremor Charm I
+
+Tremor Resistance 1
+
+Blos Medulla x1
+Diablos Ridge+ x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Tremor Charm II
+
+Tremor Resistance 2
+
+Vaal Hazak Gem x1
+Vaal Hazak Talon x2
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Exploiter Charm I
+
+Weakness Exploit 1
+
+Rathalos Plate x1
+Rathalos Medulla x1
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Exploiter Charm II
+
+Weakness Exploit 2
+
+Teostra Gem x1
+Teostra Horn+ x2
+Firecell Stone x1
+Dragoncore Ore x1
+
+
+Focus Charm I
+
+Focus 1
+
+Blos Medulla x1
+Diablos Ridge+ x2
+Firecell Stone x1
+Spiritcore Ore x1
+
+
+Focus Charm II
+
+Focus 2
+
+Vaal Hazak Gem x1
+Vaal Hazak Talon x2
+Fucium Ore x1
+Dreamcore Ore x1
+
+
+Breaker Charm I
+
+Partbreaker 1
+
+Uragaan Marrow x1
+Uragaan Jaw x2
+Firecell Stone x1
+Spiritcore Ore x1
+
+
+Breaker Charm II
+
+Partbreaker 2
+
+Teostra Gem x1
+Xeno-jiiva Soulscale x6
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Fury Charm I
+
+Resentment 1
+
+Black Spiral Horn+ x1
+Diablos Ridge+ x2
+Firecell Stone x1
+Spiritcore Ore x1
+
+
+Fury Charm II
+
+Resentment 2
+
+Nergigante Gem x1
+Xeno-jiiva Soulscale x6
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Grit Charm I
+
+Heroics 1
+
+Blos Medulla x1
+Diablos Ridge+ x2
+Firecell Stone x1
+Spiritcore Ore x1
+
+
+Grit Charm II
+
+Heroics 2
+
+Daora Gem x1
+Daora Tail x2
+Dragonvein Crystal x3
+Dreamcore Ore x1
+
+
+Maintenance Charm I
+
+Tool Specialist 1
+
+Pink Rathian Carapace x2
+Rathian Spike x2
+Brutal Bone x3
+Spiritcore Ore x1
+
+
+Maintenance Charm II
+
+Tool Specialist 2
+
+Teostra Gem x1
+Teostra Horn+ x2
+Quality Bone x2
+Dreamcore Ore x1
+
+
+Maintenance Charm III
+
+Tool Specialist 3
+
+Vaal Hazak Gem x1
+Xeno-jiiva Veil x2
+Dragonvein Crystal x2
+Dreamcore Ore x1
+
+
+Power Charm I
+
+Latent Power 1
+Latent Power 2
+
+Teostra Horn+ x3
+Teostra Mane x2
+Novacrystal x1
+Dreamcore Ore x1
+Teostra Gem x1
+Teostra Horn+ x2
+Firecell Stone x1
+Dragoncore Ore x1
+
+
+Challenger Charm I
+
+Agitator 1
+
+Nergigante Gem x1
+Nergigante Horn+ x2
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Challenger Charm II
+
+Agitator 2
+
+Nergigante Gem x1
+Nergigante Talon x2
+Fucium Ore x1
+Dragoncore Ore x1
+
+
+Unscathed Charm I
+
+Peak Performance 1
+
+Vaal Hazak Gem x1
+Vaal Hazak Fang+ x2
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Unscathed Charm II
+
+Peak Performance 2
+
+Vaal Hazak Gem x1
+Vaal Hazak Talon x2
+Fucium Ore x1
+Dragoncore Ore x1
+
+
+Mighty Charm I
+
+Maximum Might 1
+
+Nergigante Gem x1
+Nergigante Horn+ x2
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Mighty Charm II
+
+Maximum Might 2
+
+Xeno-jiiva Gem x1
+Xeno-jiiva Tail x2
+Novacrystal x1
+Dragoncore Ore x1
+
+
+Impact Charm I
+
+Flinch Free 1
+
+Xeno-jiiva Gem x1
+Xeno-jiiva Horn x2
+Firecell Stone x1
+Dreamcore Ore x1
+
+
+Impact Charm II
+
+Flinch Free 2
+
+Daora Gem x1
+Xeno-jiiva Shell x5
+Elder Dragon Bone x2
+Dragoncore Ore x1
+
+
+Miasma Charm I
+
+Effluvia Resistance 1
+
+Vaal Hazak Gem x1
+Vaal Hazak Fang+ x2
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Miasma Charm II
+
+Effluvia Resistance 2
+
+Vaal Hazak Gem x1
+Vaal Hazak Talon x2
+Lightcrystal x2
+Dreamcore Ore x1
+
+
+Miasma Charm III
+
+Effluvia Resistance 3
+
+High Commendation x3
+Xeno-jiiva Wing x2
+Dragonbone Relic x3
+Dreamcore Ore x1
+
+
+Normal Shots Charm
+
+Normal Shots 1
+
+High Commendation x2
+Wyvern Gem x1
+Bird Wyvern Gem x2
+Dreamcore Ore x1
+
+
+Clearmind Charm
+
+Heat Guard 1
+Effluvial Expert 1
+
+Teostra Gem x1
+Vaal Hazak Gem x1
+Vaal Hazak Carapace x5
+Dreamcore Ore x2
+
+
+Rider-s Charm
+
+Master Mounter 1
+Jump Master 1
+
+Daora Gem x1
+Legiana Gem x1
+Legiana Scale+ x5
+Dreamcore Ore x2
+
+
+Surveyor-s Charm
+
+Scoutfly Range Up 1
+Scholar 1
+
+Nergigante Gem x1
+Zorah Magdaros Heat Scale x5
+Zorah Magdaros Magma x3
+Dreamcore Ore x2
+
+
+Critical Charm I
+
+Critical Boost 1
+
+Rathalos Ruby x1
+Rathian Ruby x1
+Xeno-jiiva Gem x1
+Dragoncore Ore x1
+
+
+Invigorate Charm I
+
+Power Prolonger 1
+
+Xeno-jiiva Gem x1
+Xeno-jiiva Horn x1
+Novacrystal x1
+Dreamcore Ore x1
+
+
+Invigorate Charm II
+
+Power Prolonger 2
+
+Nergigante Gem x1
+Xeno-jiiva Claw x2
+Firecell Stone x3
+Dragoncore Ore x1
+
+
+Penetration Charm
+
+Piercing Shots 1
+
+Research Commission Ticket x1
+Xeno-jiiva Gem x1
+Xeno-jiiva Tail x3
+Dragoncore Ore x1
+
+
+Dispersal Charm
+
+Spread/Power Shots 1
+
+Research Commission Ticket x1
+Nergigante Gem x1
+Nergigante Tail x3
+Dragoncore Ore x1
+
+
+Poison Coating Charm
+
+Poison Functionality 1
+
+Rathian Ruby x1
+Rathian Spike+ x3
+Toxin Sac x3
+Dragoncore Ore x1
+
+
+Para Coating Charm
+
+Para Functionality 1
+
+Great Girros Hood+ x5
+Great Girros Tail x5
+Omniplegia Sac x3
+Dragoncore Ore x1
+
+
+Sleep Coating Charm
+
+Sleep Functionality 1
+
+Radobaan Medulla x1
+Wyvern Gem x2
+Coma Sac x3
+Dragoncore Ore x1
+
+
+Blast Coating Charm
+
+Blast Functionality 1
+
+Bazelgeuse Gem x1
+Bazelgeuse Tail x3
+Bazelgeuse Fuse x3
+Dragoncore Ore x1
+
+
+Geomancy Charm
+
+Forager-s Luck 1
+Detector 1
+
+Xeno-jiiva Gem x1
+Xeno-jiiva Veil x3
+Teostra Mane x2
+Dreamcore Ore x2
+
+
+Gale Charm
+
+Affinity Sliding 1
+Airborne 1
+
+Research Commission Ticket x1
+Odogaron Gem x1
+Legiana Gem x1
+Dragoncore Ore x2
+
+
+Wyrmslayer Charm
+
+Elderseal Boost 1
+Dragon Attack 1
+
+Research Commission Ticket x1
+Xeno-jiiva Gem x1
+Vaal Hazak Talon x1
+Dragoncore Ore x2
+
+
+Bulwark Charm
+
+Guard Up 1
+Resuscitate 1
+
+Research Commission Ticket x1
+Majestic Horn x2
+Black Spiral Horn+ x2
+Dragoncore Ore x2
+
+
+Fair Wind Charm
+
+Attack Boost 1
+Divine Blessing 1
+

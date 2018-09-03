@@ -438,6 +438,21 @@ namespace HunterNotes
 
             return results;
         }
+
+        public static int GetOwned(string decoName)
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+
+            selectQuery = "SELECT owned FROM Decorations WHERE name = \"" + decoName + "\";";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            selectResults.Read();
+            return (int)selectResults[0];
+        }
+
         #endregion
 
         #endregion

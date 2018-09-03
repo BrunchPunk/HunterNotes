@@ -8,10 +8,10 @@ namespace HunterNotes
 {
     public class Decoration
     {
-        string Name { get; set; }
-        string Skill { get; set; }
-        int Size { get; set; }
-        int Owned { get; set; }
+        public string Name { get; set; }
+        public string Skill { get; set; }
+        public int Size { get; set; }
+        public int Owned { get; set; }
 
         public Decoration(string newName, string newSkill, int newSize, int newOwned)
         {

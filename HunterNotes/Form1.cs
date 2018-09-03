@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using System.Globalization;
+using System.IO;
 
 namespace HunterNotes
 {
@@ -23,7 +24,7 @@ namespace HunterNotes
 
                 InitializeMaterialsTab();
                 InitializeSkillsTab();
-                
+                InitializeDecorationsTab();
 
             }
             catch(Exception e)
@@ -72,11 +73,66 @@ namespace HunterNotes
 
         private void InitializeDecorationsTab()
         {
-            //TODO - Populate the Decorations group table with all Deocrations Name/Skill (one row per) values from the DB
+            //Populate the Decorations group table with all Deocrations Name/Skill (one row per) values from the DB
+            List<Decoration> allDecorations = HNDatabase.GetAllDecorations();
 
-            //TODO - Update the Owned amounts in the Database based on the MyDeco.txt file
+            tableLayoutPanelDecorations.RowStyles.Clear();
+            tableLayoutPanelDecorations.RowCount = allDecorations.Count;
 
-            //TODO - Populate the My Decorations group table with all Decorations Name/Owned (one per row) values from the DB
+            for(int row = 0; row < allDecorations.Count; row++)
+            {
+                tableLayoutPanelDecorations.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+                tableLayoutPanelDecorations.Controls.Add(new Label() { Text = allDecorations[row].Name }, 0, row);
+                tableLayoutPanelDecorations.Controls.Add(new Label() { Text = allDecorations[row].Skill }, 1, row);
+
+            }
+
+            tableLayoutPanelDecorations.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
+
+            tableLayoutPanelDecorations.Refresh();
+            
+            // Update the Owned amounts in the Database based on the MyDeco.txt file
+            if(File.Exists("MyDeco.txt"))
+            {
+                foreach(string line in File.ReadLines("MyDeco.txt"))
+                {
+                    if(line.Length > 0 && line[0] != '#')
+                    {
+                        string[] deco = line.Split('\t');
+                        if(deco.Length == 2)
+                        {
+                            int newOwned; 
+
+                            if(int.TryParse(deco[1], out newOwned))
+                            {
+                                HNDatabase.UpdateOwned(deco[0], newOwned);
+                            }
+                        }
+                    }
+                }
+            }
+            else
+            {
+                throw new FileNotFoundException("The MyDeco.txt file is missing.");
+            }
+
+            // Populate the My Decorations group table with all Decorations Name/Owned (one per row) values from the DB
+            allDecorations = HNDatabase.GetAllDecorations();
+
+            tableLayoutPanelMyDecorations.RowStyles.Clear();
+            tableLayoutPanelMyDecorations.Controls.Clear();
+            tableLayoutPanelMyDecorations.RowCount = allDecorations.Count;
+
+            for (int row = 0; row < allDecorations.Count; row++)
+            {
+                tableLayoutPanelMyDecorations.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+                tableLayoutPanelMyDecorations.Controls.Add(new Label() { Text = allDecorations[row].Name }, 0, row);
+                tableLayoutPanelMyDecorations.Controls.Add(new NumericUpDown { Value = allDecorations[row].Owned }, 1, row);
+            }
+
+            tableLayoutPanelMyDecorations.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
+
+            tableLayoutPanelMyDecorations.Refresh();
 
         }
 
@@ -148,12 +204,33 @@ namespace HunterNotes
         #region Decorations Tab Handlers
         private void revertButton_Click(object sender, EventArgs e)
         {
-            //TODO - Update all owned amounts in the My Decorations group table based on the database values
+            for(int index = 0; index < tableLayoutPanelMyDecorations.RowCount; index++)
+            {
+                string name = ((Label)tableLayoutPanelMyDecorations.GetControlFromPosition(0, index)).Text;
+                ((NumericUpDown)tableLayoutPanelMyDecorations.GetControlFromPosition(1, index)).Value = HNDatabase.GetOwned(name);
+            }
         }
 
         private void commitButton_Click(object sender, EventArgs e)
         {
-            //TODO - Update the database owned amounts with whatever is in teh My Decorations group table
+            List<string> myDecoFile = new List<string>();
+            myDecoFile.Add("# File for keeping track of your acquired decorations");
+            myDecoFile.Add("# Lines starting with a '#' are ignored");
+            myDecoFile.Add("# Decorations are specified one per line with the ");
+            myDecoFile.Add("# Decoration name followed by a tab then the number owned");
+            myDecoFile.Add("# e.g. ");
+            myDecoFile.Add("# Antidote Jewel	2");
+
+            for (int index = 0; index < tableLayoutPanelMyDecorations.RowCount; index++)
+            {
+                string name = ((Label)tableLayoutPanelMyDecorations.GetControlFromPosition(0, index)).Text;
+                int value = Convert.ToInt32(((NumericUpDown)tableLayoutPanelMyDecorations.GetControlFromPosition(1, index)).Value);
+
+                myDecoFile.Add(name + '\t' + value);
+                HNDatabase.UpdateOwned(name, value);
+            }
+
+            File.WriteAllLines("MyDeco.txt", myDecoFile.ToArray());
         }
 
         #endregion

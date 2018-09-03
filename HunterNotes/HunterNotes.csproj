@@ -121,6 +121,9 @@
     <Folder Include="resources\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MyDeco.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
