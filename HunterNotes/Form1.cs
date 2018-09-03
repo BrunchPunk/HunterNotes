@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using System.Globalization;
 
 namespace HunterNotes
 {
@@ -21,6 +22,7 @@ namespace HunterNotes
                 HNDatabase.Init();
 
                 InitializeMaterialsTab();
+                InitializeSkillsTab();
                 
 
             }
@@ -40,15 +42,98 @@ namespace HunterNotes
             foreach(Material mat in materialsList)
             {
                 materialsAutoCompleteList.Add(mat.Name);
-                listBox1.Items.Add(mat.Name);
+                listBoxMaterials.Items.Add(mat.Name);
             }
 
-            textBox1.AutoCompleteSource = AutoCompleteSource.CustomSource;
-            textBox1.AutoCompleteCustomSource = materialsAutoCompleteList;
+            textBoxMaterials.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            textBoxMaterials.AutoCompleteCustomSource = materialsAutoCompleteList;
 
-            textBox1.Refresh();
-            listBox1.Refresh();
+            textBoxMaterials.Refresh();
+            listBoxMaterials.Refresh();
         }
+
+        private void InitializeSkillsTab()
+        {
+            AutoCompleteStringCollection skillsAutoCompleteList = new AutoCompleteStringCollection();
+            List<Skill> skillsList = HNDatabase.GetAllSkills();
+
+            foreach (Skill skill in skillsList)
+            {
+                skillsAutoCompleteList.Add(skill.Name);
+                listBoxSkills.Items.Add(skill.Name);
+            }
+
+            textBoxSkills.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            textBoxSkills.AutoCompleteCustomSource = skillsAutoCompleteList;
+
+            textBoxSkills.Refresh();
+            listBoxSkills.Refresh();
+        }
+
+        #endregion
+
+        #region Tab Handlers
+        #region Materials Tab Handlers
+        private void listBoxMaterials_DoubleClick(object sender, EventArgs e)
+        {
+            string selectedMaterial = (string) listBoxMaterials.SelectedItem;
+
+            string materialDescription = HNDatabase.GetMaterialDescription(selectedMaterial);
+
+            labelMaterials.Text = materialDescription;
+        }
+
+        // Handle the Enter Key Press in the Materials TextBox
+        private void textBoxMaterials_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                string enteredMaterial = (string)textBoxMaterials.Text;
+                enteredMaterial = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(enteredMaterial);
+                string materialDescription = HNDatabase.GetMaterialDescription(enteredMaterial);
+                labelMaterials.Text = materialDescription;
+            }
+        }
+
+        private void buttonMaterials_Click(object sender, EventArgs e)
+        {
+            string enteredMaterial = (string)textBoxMaterials.Text;
+            string materialDescription = HNDatabase.GetMaterialDescription(enteredMaterial);
+            labelMaterials.Text = materialDescription;
+        }
+
+        #endregion
+
+        #region Skills Tab Handler
+        private void listBoxSkills_DoubleClick(object sender, EventArgs e)
+        {
+            string selectedSkill = (string)listBoxSkills.SelectedItem;
+
+            string skillDescription = HNDatabase.GetSkillDescription(selectedSkill);
+
+            labelSkills.Text = skillDescription;
+        }
+
+        // Handle the Enter Key Press in the Materials TextBox
+        private void textBoxSkills_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                string enteredSkill = (string)textBoxSkills.Text;
+                enteredSkill = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(enteredSkill);
+                string skillDescription = HNDatabase.GetSkillDescription(enteredSkill);
+                labelSkills.Text = skillDescription;
+            }
+        }
+
+        private void buttonSkills_Click(object sender, EventArgs e)
+        {
+            string enteredSkill = (string)textBoxSkills.Text;
+            string skillDescription = HNDatabase.GetSkillDescription(enteredSkill);
+            labelSkills.Text = skillDescription;
+        }
+
+        #endregion
 
         #endregion
 
@@ -60,33 +145,6 @@ namespace HunterNotes
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void listBox1_DoubleClick(object sender, EventArgs e)
-        {
-            string selectedMaterial = (string) listBox1.SelectedItem;
-
-            string materialDescription = HNDatabase.GetMaterialDescription(selectedMaterial);
-
-            label1.Text = materialDescription;
-        }
-
-        // Handle the Enter Key Press in the Materials TextBox
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode == Keys.Enter)
-            {
-                string enteredMaterial = (string)textBox1.Text;
-                string materialDescription = HNDatabase.GetMaterialDescription(enteredMaterial);
-                label1.Text = materialDescription;
-            }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string enteredMaterial = (string)textBox1.Text;
-            string materialDescription = HNDatabase.GetMaterialDescription(enteredMaterial);
-            label1.Text = materialDescription;
         }
     }
 }

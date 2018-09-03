@@ -40,7 +40,7 @@ namespace HunterNotes
                 //TODO Read static data into the database
                 try
                 {
-                    //LoadSkillsTable();
+                    LoadSkillsTable();
                     LoadMaterialsTable();
                     //LoadArmorTable();
                     //LoadForgeTable();
@@ -79,7 +79,8 @@ namespace HunterNotes
             string createTableSQL = 
                 "CREATE TABLE Skills (" +
                 "name VARCHAR(50), " +
-                "description VARCHAR(100), " +
+                "maxPoints INT, " + 
+                "description VARCHAR(600), " +
                 "PRIMARY KEY (name) )";
             SQLiteCommand createTableCommand = new SQLiteCommand(createTableSQL, HNDatabase.HNDatabaseConn);
             createTableCommand.ExecuteNonQuery();
@@ -171,10 +172,41 @@ namespace HunterNotes
         #region Load Table Functions
         private static void LoadSkillsTable()
         {
-            //TODO Load data from files into Skills table
             if(File.Exists("data/formatted/skills.csv"))
             {
                 Console.WriteLine("Loading data into the Skills table");
+
+                //String defining the insert SQL for the Skills table
+                string insertSkillsSQL = "INSERT INTO Skills VALUES ";
+
+                //Prepare the parser to parse the Skills data file
+                TextFieldParser skillsParser = new TextFieldParser("data/formatted/skills.csv");
+                skillsParser.TextFieldType = FieldType.Delimited;
+                skillsParser.SetDelimiters(",");
+
+                //Read each line of the file and add it to insertSkillsSQL as a value e.g. "("Airborne",1,"Lv1: Jumping attack power +10% | "), "
+                while (!skillsParser.EndOfData)
+                {
+                    //Begin a new value
+                    insertSkillsSQL = insertSkillsSQL + "(";
+
+                    //Add each of the three fields to the value (Since first and third fields in skills should be strings, wrap them in quotes for SQL)
+                    string[] fields = skillsParser.ReadFields();
+                    insertSkillsSQL = insertSkillsSQL + "\"" + fields[0] + "\"" + ", ";
+                    insertSkillsSQL = insertSkillsSQL + fields[1] + ", ";
+                    insertSkillsSQL = insertSkillsSQL + "\"" + fields[2].Replace(" | ", "\n").Replace(" |", "\n") + "\"";
+
+                    //End the new value
+                    insertSkillsSQL = insertSkillsSQL + "), ";
+
+                }
+                //Remove trailing ", " from last value and add SQL terminating ";"
+                insertSkillsSQL = insertSkillsSQL.Substring(0, insertSkillsSQL.Length - 2);
+                insertSkillsSQL = insertSkillsSQL + ";";
+
+                //Create the SQL command and execute it
+                SQLiteCommand insertSkillsCommand = new SQLiteCommand(insertSkillsSQL, HNDatabase.HNDatabaseConn);
+                insertSkillsCommand.ExecuteNonQuery();
             }
             else
             {
@@ -270,6 +302,7 @@ namespace HunterNotes
         #endregion
 
         #region Database Accessors
+        #region Materials Methods
         public static List<Material> GetAllMaterials()
         {
             string selectQuery;
@@ -309,6 +342,51 @@ namespace HunterNotes
 
             return result;
         }
+
+        #endregion
+
+        #region Skills Method
+        public static List<Skill> GetAllSkills()
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+            List<Skill> results = new List<Skill>();
+
+            selectQuery = "SELECT * FROM Skills;";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            while (selectResults.Read())
+            {
+                results.Add(new Skill((string)selectResults[0], (int)selectResults[1], (string)selectResults[2]));
+            }
+
+            return results;
+
+        }
+
+        public static string GetSkillDescription(string skillName)
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+            string result = "";
+
+            selectQuery = "SELECT description FROM Skills WHERE name=\"" + skillName + "\" LIMIT 1;";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            while (selectResults.Read())
+            {
+                result = (string)selectResults[0];
+                break;
+            }
+
+            return result;
+        }
+
+        #endregion
 
         #endregion
     }
