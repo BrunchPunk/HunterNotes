@@ -261,10 +261,50 @@ namespace HunterNotes
 
         private static void LoadArmorTable()
         {
-            //TODO Load data from files into Armor table
             if (File.Exists("data/formatted/armor.csv"))
             {
                 Console.WriteLine("Loading data into the Armor table");
+                //String defining the insert SQL for the Decorations table
+                string insertArmorSQL = "INSERT INTO Armor VALUES ";
+
+                //Prepare the parser to parse the Decorations data file
+                TextFieldParser armorParser = new TextFieldParser("data/formatted/armor.csv");
+                armorParser.TextFieldType = FieldType.Delimited;
+                armorParser.SetDelimiters(",");
+
+                //Read each line of the file and add it to insertArmorSQL as a value e.g. "("Poison Charm I","Charm","Poison Resistance",1,"",,"",,"",,"","",""), "
+                while (!armorParser.EndOfData)
+                {
+                    //Begin a new value
+                    insertArmorSQL = insertArmorSQL + "(";
+
+                    //Add each of the 13 fields to the value (wrap strings in quotes where necessary)
+                    string[] fields = armorParser.ReadFields();
+                    insertArmorSQL = insertArmorSQL + "\"" + fields[0] + "\"" + ", ";
+                    insertArmorSQL = insertArmorSQL + "\"" + fields[1] + "\"" + ", ";
+                    insertArmorSQL = insertArmorSQL + "\"" + fields[2] + "\"" + ", ";
+                    insertArmorSQL = insertArmorSQL + fields[3] + ", ";
+                    insertArmorSQL = insertArmorSQL + "\"" + fields[4] + "\"" + ", ";
+                    insertArmorSQL = insertArmorSQL + fields[5] + ", ";
+                    insertArmorSQL = insertArmorSQL + "\"" + fields[6] + "\"" + ", ";
+                    insertArmorSQL = insertArmorSQL + fields[7] + ", ";
+                    insertArmorSQL = insertArmorSQL + "\"" + fields[8] + "\"" + ", ";
+                    insertArmorSQL = insertArmorSQL + fields[9] + ", ";
+                    insertArmorSQL = insertArmorSQL + fields[10] + ", ";
+                    insertArmorSQL = insertArmorSQL + fields[11] + ", ";
+                    insertArmorSQL = insertArmorSQL + fields[12];
+
+                    //End the new value
+                    insertArmorSQL = insertArmorSQL + "), ";
+
+                }
+                //Remove trailing ", " from last value and add SQL terminating ";"
+                insertArmorSQL = insertArmorSQL.Substring(0, insertArmorSQL.Length - 2);
+                insertArmorSQL = insertArmorSQL + ";";
+
+                //Create the SQL command and execute it
+                SQLiteCommand insertArmorCommand = new SQLiteCommand(insertArmorSQL, HNDatabase.HNDatabaseConn);
+                insertArmorCommand.ExecuteNonQuery();
             }
             else
             {
@@ -278,6 +318,44 @@ namespace HunterNotes
             if (File.Exists("data/formatted/forge.csv"))
             {
                 Console.WriteLine("Loading data into the Forge table");
+
+                //String defining the insert SQL for the Decorations table
+                string insertForgeSQL = "INSERT INTO Forge VALUES ";
+
+                //Prepare the parser to parse the Decorations data file
+                TextFieldParser forgeParser = new TextFieldParser("data/formatted/forge.csv");
+                forgeParser.TextFieldType = FieldType.Delimited;
+                forgeParser.SetDelimiters(",");
+
+                //Read each line of the file and add it to insertArmorSQL as a value e.g. "("Poison Charm I","Charm","Poison Resistance",1,"",,"",,"",,"","",""), "
+                while (!forgeParser.EndOfData)
+                {
+                    //Begin a new value
+                    insertForgeSQL = insertForgeSQL + "(";
+
+                    //Add each of the 13 fields to the value (wrap strings in quotes where necessary)
+                    string[] fields = forgeParser.ReadFields();
+                    insertForgeSQL = insertForgeSQL + "\"" + fields[0] + "\"" + ", ";
+                    insertForgeSQL = insertForgeSQL + "\"" + fields[1] + "\"" + ", ";
+                    insertForgeSQL = insertForgeSQL + fields[2] + ", ";
+                    insertForgeSQL = insertForgeSQL + "\"" + fields[3] + "\"" + ", ";
+                    insertForgeSQL = insertForgeSQL + fields[4] + ", ";
+                    insertForgeSQL = insertForgeSQL + "\"" + fields[5] + "\"" + ", ";
+                    insertForgeSQL = insertForgeSQL + fields[6] + ", ";
+                    insertForgeSQL = insertForgeSQL + "\"" + fields[7] + "\"" + ", ";
+                    insertForgeSQL = insertForgeSQL + fields[8] + ", ";
+
+                    //End the new value
+                    insertForgeSQL = insertForgeSQL + "), ";
+
+                }
+                //Remove trailing ", " from last value and add SQL terminating ";"
+                insertForgeSQL = insertForgeSQL.Substring(0, insertForgeSQL.Length - 2);
+                insertForgeSQL = insertForgeSQL + ";";
+
+                //Create the SQL command and execute it
+                SQLiteCommand insertForgeCommand = new SQLiteCommand(insertForgeSQL, HNDatabase.HNDatabaseConn);
+                insertForgeCommand.ExecuteNonQuery();
             }
             else
             {

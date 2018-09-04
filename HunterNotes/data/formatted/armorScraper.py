@@ -26,10 +26,8 @@ for line in armorFile:
         outFile.close();
 
         sleepLength = random.randint(5, 25) + (random.randint(0, 999)/1000)
-        print("Sleeping for " + sleepLength + " seconds. ")
+        print("Sleeping for " + str(sleepLength) + " seconds. ")
         time.sleep(sleepLength)
-
-        break
 
 armorFile.close()
 print("Done")
