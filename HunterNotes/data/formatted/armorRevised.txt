@@ -1,0 +1,989 @@
+Leather Set
+head|Leather Headgear|leather-headgear
+chest|Leather Mail|leather-mail
+arms|Leather Gloves|leather-gloves
+waist|Leather Belt|leather-belt
+legs|Leather Trousers|leather-trousers
+
+Chainmail Set
+head|Chainmail Headgear|chainmail-headgear
+chest|Chainmail Vest|chainmail-vest
+arms|Chainmail Gloves|chainmail-gloves
+waist|Chainmail Belt|chainmail-belt
+legs|Chainmail Trousers|chainmail-trousers
+
+Hunter's Set
+head|Hunter's Headgear|hunters-headgear
+chest|Hunter's Mail|hunters-mail
+arms|Hunter's Vambraces|hunters-vambraces
+waist|Hunter's Coil|hunters-coil
+legs|Hunter's Greaves|hunters-greaves
+
+Bone Set
+head|Bone Helm|bone-helm
+chest|Bone Mail|bone-mail
+arms|Bone Vambraces|bone-vambraces
+waist|Bone Coil|bone-coil
+legs|Bone Greaves|bone-greaves
+
+Vespoid Set
+head|Vespoid Helm|vespoid-helm
+chest|Vespoid Mail|vespoid-mail
+arms|Vespoid Vambraces|vespoid-vambraces
+waist|Vespoid Coil|vespoid-coil
+legs|Vespoid Greaves|vespoid-greaves
+
+Kestodon Set
+head|Kestodon Guards|kestodon-guards
+
+Gajau Set
+head|Gajau Boots|gajau-boots
+
+Jagras Set
+head|Jagras Helm|jagras-helm
+chest|Jagras Mail|jagras-mail
+arms|Jagras Vambraces|jagras-vambraces
+waist|Jagras Coil|jagras-coil
+legs|Jagras Greaves|jagras-greaves
+
+Kulu Set
+head|Kulu Headpiece|kulu-headpiece
+chest|Kulu Mail|kulu-mail
+arms|Kulu Vambraces|kulu-vambraces
+waist|Kulu Coil|kulu-coil
+legs|Kulu Greaves|kulu-greaves
+
+Alloy Set
+head|Alloy Helm|alloy-helm
+chest|Alloy Mail|alloy-mail
+arms|Alloy Vambraces|alloy-vambraces
+waist|Alloy Coil|alloy-coil
+legs|Alloy Greaves|alloy-greaves
+
+Pukei Set
+head|Pukei Hood|pukei-hood
+chest|Pukei Mail|pukei-mail
+arms|Pukei Vambraces|pukei-vambraces
+waist|Pukei Coil|pukei-coil
+legs|Pukei Greaves|pukei-greaves
+
+Barroth Set
+head|Barroth Helm|barroth-helm
+chest|Barroth Mail|barroth-mail
+arms|Barroth Vambraces|barroth-vambraces
+waist|Barroth Coil|barroth-coil
+legs|Barroth Greaves|barroth-greaves
+
+Jyura Set
+head|Jyura Helm|jyura-helm
+chest|Jyura Mail|jyura-mail
+arms|Jyura Vambraces|jyura-vambraces
+waist|Jyura Coil|jyura-coil
+legs|Jyura Greaves|jyura-greaves
+
+Kadachi Set
+head|Kadachi Helm|kadachi-helm
+chest|Kadachi Mail|kadachi-mail
+arms|Kadachi Vambraces|kadachi-vambraces
+waist|Kadachi Coil|kadachi-coil
+legs|Kadachi Greaves|kadachi-greaves
+
+High Metal Set
+head|High Metal Helm|high-metal-helm
+chest|High Metal Mail|high-metal-mail
+arms|High Metal Braces|high-metal-braces
+waist|High Metal Coil|high-metal-coil
+legs|High Metal Greaves|high-metal-greaves
+
+King Beetle Set
+head|King Beetle Vertex|king-beetle-vertex
+chest|King Beetle Thorax|king-beetle-thorax
+arms|King Beetle Brachia|king-beetle-brachia
+waist|King Beetle Elytra|king-beetle-elytra
+legs|King Beetle Crura|king-beetle-crura
+
+Butterfly Set
+head|Butterfly Vertex|butterfly-vertex
+chest|Butterfly Thorax|butterfly-thorax
+arms|Butterfly Barchia|butterfly-barchia
+waist|Butterfly Elytra|butterfly-elytra
+legs|Butterfly Crura|butterfly-crura
+
+Shamos Set
+head|Shamos Goggles|shamos-goggles
+
+Hornetaur Set
+head|Hornetaur Helm|hornetaur-helm
+chest|Hornetaur Mail|hornetaur-mail
+arms|Hornetaur Vambraces|hornetaur-vambraces
+waist|Hornetaur Coil|hornetaur-coil
+legs|Hornetaur Greaves|hornetaur-greaves
+
+Anja Set
+head|Anja Helm|anja-helm
+chest|Anja Mail|anja-mail
+arms|Anja Vambraces|anja-vambraces
+waist|Anja Coil|anja-coil
+legs|Anja Greaves|anja-greaves
+
+Rathian Set
+head|Rathian Helm|rathian-helm
+chest|Rathian Mail|rathian-mail
+arms|Rathian Vambraces|rathian-vambraces
+waist|Rathian Coil|rathian-coil
+legs|Rathian Greaves|rathian-greaves
+
+Tzitzi Set
+head|Tzitzi Headgear|tzitzi-headgear
+chest|Tzitzi Mail|tzitzi-mail
+arms|Tzitzi Vambraces|tzitzi-vambraces
+waist|Tzitzi Coil|tzitzi-coil
+legs|Tzitzi Greaves|tzitzi-greaves
+
+Lumu Set
+head|Lumu Hat|lumu-hat
+chest|Lumu Mail|lumu-mail
+arms|Lumu Vambraces|lumu-vambraces
+waist|Lumu Coil|lumu-coil
+legs|Lumu Greaves|lumu-greaves
+
+Girros Set
+head|Girros Mask|girros-mask
+chest|Girros Mail|girros-mail
+arms|Girros Vambraces|girros-vambraces
+waist|Girros Coil|girros-coil
+legs|Girros Greaves|girros-greaves
+
+Baan Set
+head|Baan Helm|baan-helm
+chest|Baan Mail|baan-mail
+arms|Baan Vambraces|baan-vambraces
+waist|Baan Coil|baan-coil
+legs|Baan Greaves|baan-greaves
+
+Ingot Set
+head|Ingot Helm|ingot-helm
+chest|Ingot Mail|ingot-mail
+arms|Ingot Vambraces|ingot-vambraces
+waist|Ingot Coil|ingot-coil
+legs|Ingot Greaves|ingot-greaves
+
+Death Stench Set
+head|Death Stench Brain|death-stench-brain
+chest|Death Stench Muscle|death-stench-muscle
+arms|Death Stench Grip|death-stench-grip
+waist|Death Stench Bowels|death-stench-bowels
+legs|Death Stench Heels|death-stench-heels
+
+Brigade Set
+head|Brigade Lobos|brigade-lobos
+chest|Brigade Suit|brigade-suit
+arms|Brigade Vambraces|brigade-vambraces
+waist|Brigade Coil|brigade-coil
+legs|Brigade Boots|brigade-boots
+
+Legiana Set
+head|Legiana Helm|legiana-helm
+chest|Legiana Mail|legiana-mail
+arms|Legiana Vambraces|legiana-vambraces
+waist|Legiana Coil|legiana-coil
+legs|Legiana Greaves|legiana-greaves
+
+Odogaron Set
+head|Odogaron Helm|odogaron-helm
+chest|Odogaron Mail|odogaron-mail
+arms|Odogaron Vambraces|odogaron-vambraces
+waist|Odogaron Coil|odogaron-coil
+legs|Odogaron Greaves|odogaron-greaves
+
+Rathalos Set
+head|Rathalos Helm|rathalos-helm
+chest|Rathalos Mail|rathalos-mail
+arms|Rathalos Vambraces|rathalos-vambraces
+waist|Rathalos Coil|rathalos-coil
+legs|Rathalos Greaves|rathalos-greaves
+
+Diablos Set
+head|Diablos Helm|diablos-helm
+chest|Diablos Mail|diablos-mail
+arms|Diablos Vambraces|diablos-vambraces
+waist|Diablos Coil|diablos-coil
+legs|Diablos Greaves|diablos-greaves
+
+Kirin Set
+head|Kirin Horn|kirin-horn
+chest|Kirin Jacket|kirin-jacket
+arms|Kirin Longarms|kirin-longarms
+waist|Kirin Hoop|kirin-hoop
+legs|Kirin Leg Guards|kirin-leg-guards
+
+Blossom Set
+head|Blossom Headgear|blossom-headgear
+chest|Blossom Vest|blossom-vest
+arms|Blossom Cuffs|blossom-cuffs
+waist|Blossom Coat|blossom-coat
+legs|Blossom Boots|blossom-boots
+
+Queen Beetle Set
+head|Queen Beetle Vertex|queen-beetle-vertex
+chest|Queen Beetle Thorax|queen-beetle-thorax
+arms|Queen Beetle Brachia|queen-beetle-brachia
+waist|Queen Beetle Elytra|queen-beetle-elytra
+legs|Queen Beetle Crura|queen-beetle-crura
+
+Leather Alpha Set
+head|Leather Headgear Alpha|leather-headgear-alpha
+chest|Leather Mail Alpha|leather-mail-alpha
+arms|Leather Gloves Alpha|leather-gloves-alpha
+waist|Leather Belt Alpha|leather-belt-alpha
+legs|Leather Trousers Alpha|leather-trousers-alpha
+
+Leather Beta Set
+head|Leather Headgear Beta|leather-headgear-beta
+chest|Leather Mail Beta|leather-mail-beta
+arms|Leather Gloves Beta|leather-gloves-beta
+waist|Leather Belt Beta|leather-belt-beta
+legs|Leather Trousers Beta|leather-trousers-beta
+
+Chainmail Alpha Set
+head|Chainmail Headgear Alpha|chainmail-headgear-alpha
+chest|Chainmail Armor Alpha|chainmail-armor-alpha
+arms|Chainmail Gloves Alpha|chainmail-gloves-alpha
+waist|Chainmail Belt Alpha|chainmail-belt-alpha
+legs|Chainmail Trousers Alpha|chainmail-trousers-alpha
+
+Chainmail Beta Set
+head|Chainmail Headgear Beta|chainmail-headgear-beta
+chest|Chainmail Armor Beta|chainmail-armor-beta
+arms|Chainmail Gloves Beta|chainmail-gloves-beta
+waist|Chainmail Belt Beta|chainmail-belt-beta
+legs|Chainmail Trousers Beta|chainmail-trousers-beta
+
+Hunter's Alpha Set
+head|Hunter's Headgear Alpha|hunters-headgear-alpha
+chest|Hunter's Mail Alpha|hunters-mail-alpha
+arms|Hunter's Vambraces Alpha|hunters-vambraces-alpha
+waist|Hunter's Coil Alpha|hunters-coil-alpha
+legs|Hunter's Greaves Alpha|hunters-greaves-alpha
+
+Hunter's Beta Set
+head|Hunter's Headgear Beta|hunters-headgear-beta
+chest|Hunter's Mail Beta|hunters-mail-beta
+arms|Hunter's Vambraces Beta|hunters-vambraces-beta
+waist|Hunter's Coil Beta|hunters-coil-beta
+legs|Hunter's Greaves Beta|hunters-greaves-beta
+
+Bone Alpha Set
+head|Bone Helm Alpha|bone-helm-alpha
+chest|Bone Mail Alpha|bone-mail-alpha
+arms|Bone Vambraces Alpha|bone-vambraces-alpha
+waist|Bone Coil Alpha|bone-coil-alpha
+legs|Bone Greaves Alpha|bone-greaves-alpha
+
+Bone Beta Set
+head|Bone Helm Beta|bone-helm-beta
+chest|Bone Mail Beta|bone-mail-beta
+arms|Bone Vambraces Beta|bone-vambraces-beta
+waist|Bone Coil Beta|bone-coil-beta
+legs|Bone Greaves Beta|bone-greaves-beta
+
+Alloy Alpha Set
+head|Alloy Helm Alpha|alloy-helm-alpha
+chest|Alloy Mail Alpha|alloy-mail-alpha
+arms|Alloy Vambraces Alpha|alloy-vambraces-alpha
+waist|Alloy Coil Alpha|alloy-coil-alpha
+legs|Alloy Greaves Alpha|alloy-greaves-alpha
+
+Alloy Beta Set
+head|Alloy Helm Beta|alloy-helm-beta
+chest|Alloy Mail Beta|alloy-mail-beta
+arms|Alloy Vambraces Beta|alloy-vambraces-beta
+waist|Alloy Coil Beta|alloy-coil-beta
+legs|Alloy Greaves Beta|alloy-greaves-beta
+
+King Beetle Alpha Set
+head|King Beetle Vertex Alpha|king-beetle-vertex-alpha
+chest|King Beetle Thorax Alpha|king-beetle-thorax-alpha
+arms|King Beetle Brachia Alpha|king-beetle-brachia-alpha
+waist|King Beetle Elytra Alpha|king-beetle-elytra-alpha
+legs|King Beetle Crura Alpha|king-beetle-crura-alpha
+
+King Beetle Beta Set
+head|King Beetle Vertex Beta|king-beetle-vertex-beta
+chest|King Beetle Thorax Beta|king-beetle-thorax-beta
+arms|King Beetle Brachia Beta|king-beetle-brachia-beta
+waist|King Beetle Elytra Beta|king-beetle-elytra-beta
+legs|King Beetle Crura Beta|king-beetle-crura-beta
+
+Butterfly Alpha Set
+head|Butterfly Vertex Alpha|butterfly-vertex-alpha
+chest|Butterfly Thorax Alpha|butterfly-thorax-alpha
+arms|Butterfly Brachia Alpha|butterfly-brachia-alpha
+waist|Butterfly Elytra Alpha|butterfly-elytra-alpha
+legs|Butterfly Crura Alpha|butterfly-crura-alpha
+
+Butterfly Beta Set
+head|Butterfly Vertex Beta|butterfly-vertex-beta
+chest|Butterfly Thorax Beta|butterfly-thorax-beta
+arms|Butterfly Brachia Beta|butterfly-brachia-beta
+waist|Butterfly Elytra Beta|butterfly-elytra-beta
+legs|Butterfly Crura Beta|butterfly-crura-beta
+
+Vespoid Alpha Set
+head|Vespoid Helm Alpha|vespoid-helm-alpha
+chest|Vespoid Mail Alpha|vespoid-mail-alpha
+arms|Vespoid Vambraces Alpha|vespoid-vambraces-alpha
+waist|Vespoid Coil Alpha|vespoid-coil-alpha
+legs|Vespoid Greaves Alpha|vespoid-greaves-alpha
+
+Vespoid Beta Set
+head|Vespoid Helm Beta|vespoid-helm-beta
+chest|Vespoid Mail Beta|vespoid-mail-beta
+arms|Vespoid Vambraces Beta|vespoid-vambraces-beta
+waist|Vespoid Coil Beta|vespoid-coil-beta
+legs|Vespoid Greaves Beta|vespoid-greaves-beta
+
+Hornetaur Alpha Set
+head|Hornetaur Helm Alpha|hornetaur-helm-alpha
+chest|Hornetaur Mail Apha|hornetaur-mail-apha
+arms|Hornetaur Vambraces Alpha|hornetaur-vambraces-alpha
+waist|Hornetaur Coil Alpha|hornetaur-coil-alpha
+legs|Hornetaur Greaves Alpha|hornetaur-greaves-alpha
+
+Hornetaur Beta Set
+head|Hornetaur Helm Beta|hornetaur-helm-beta
+chest|Hornetaur Mail Beta|hornetaur-mail-beta
+arms|Hornetaur Vambraces Beta|hornetaur-vambraces-beta
+waist|Hornetaur Coil Beta|hornetaur-coil-beta
+legs|Hornetaur Greaves Beta|hornetaur-greaves-beta
+
+Mosswine Mask Alpha Set
+head|Mossswine Mask Alpha|mossswine-mask-alpha
+
+Kestodon Alpha Set
+head|Kestodon Guards Alpha|kestodon-guards-alpha
+
+Kestodon Beta Set
+head|Kestodon Guards Beta|kestodon-guards-beta
+
+Gajau Alpha Set
+head|Gajau Boots Alpha|gajau-boots-alpha
+
+Gajau Beta Set
+head|Gajau Boots Beta|gajau-boots-beta
+
+Shamos Alpha Set
+head|Shamos Goggles Alpha|shamos-goggles-alpha
+
+Shamos Beta Set
+head|Shamos Goggles Beta|shamos-goggles-beta
+
+Jagras Alpha Set
+head|Jagras Helm Alpha|jagras-helm-alpha
+chest|Jagras Mail Alpha|jagras-mail-alpha
+arms|Jagras Vambraces Alpha|jagras-vambraces-alpha
+waist|Jagras Coil Alpha|jagras-coil-alpha
+legs|Jagras Greaves Alpha|jagras-greaves-alpha
+
+Jagras Beta Set
+head|Jagras Helm Beta|jagras-helm-beta
+chest|Jagras Mail Beta|jagras-mail-beta
+arms|Jagras Vambraces Beta|jagras-vambraces-beta
+waist|Jagras Coil Beta|jagras-coil-beta
+legs|Jagras Greaves Beta|jagras-greaves-beta
+
+Kulu Alpha Set
+head|Kulu Headpiece Alpha|kulu-headpiece-alpha
+chest|Kulu Mail Alpha|kulu-mail-alpha
+arms|Kulu Vambraces Alpha|kulu-vambraces-alpha
+waist|Kulu Coil Alpha|kulu-coil-alpha
+legs|Kulu Greaves Alpha|kulu-greaves-alpha
+
+Kulu Beta Set
+head|Kulu Headpiece Beta|kulu-headpiece-beta
+chest|Kulu Mail Beta|kulu-mail-beta
+arms|Kulu Vambraces Beta|kulu-vambraces-beta
+waist|Kulu Coil Beta|kulu-coil-beta
+legs|Kulu Greaves Beta|kulu-greaves-beta
+
+Tzitzi Alpha Set
+head|Tzitzi Headgear Alpha|tzitzi-headgear-alpha
+chest|Tzitzi Mail Alpha|tzitzi-mail-alpha
+arms|Tzitzi Vambraces Alpha|tzitzi-vambraces-alpha
+waist|Tzitzi Coil Alpha|tzitzi-coil-alpha
+legs|Tzitzi Greaves Alpha|tzitzi-greaves-alpha
+
+Tzitzi Beta Set
+head|Tzitzi Headgear Beta|tzitzi-headgear-beta
+chest|Tzitzi Mail Beta|tzitzi-mail-beta
+arms|Tzitzi Vambraces Beta|tzitzi-vambraces-beta
+waist|Tzitzi Coil Beta|tzitzi-coil-beta
+legs|Tzitzi Greaves Beta|tzitzi-greaves-beta
+
+Girros Alpha Set
+head|Girros Mask Alpha|girros-mask-alpha
+chest|Girros Mail Alpha|girros-mail-alpha
+arms|Girros Vambraces Alpha|girros-vambraces-alpha
+waist|Girros Coil Alpha|girros-coil-alpha
+legs|Girros Greaves Alpha|girros-greaves-alpha
+
+Girros Beta Set
+head|Girros Mask Beta|girros-mask-beta
+chest|Girros Mail Beta|girros-mail-beta
+arms|Girros Vambraces Beta|girros-vambraces-beta
+waist|Girros Coil Beta|girros-coil-beta
+legs|Girros Greaves Beta|girros-greaves-beta
+
+Pukei Alpha Set
+head|Pukei Hood Alpha|pukei-hood-alpha
+chest|Pukei Mail Alpha|pukei-mail-alpha
+arms|Pukei Vambraces Alpha|pukei-vambraces-alpha
+waist|Pukei Coil Alpha|pukei-coil-alpha
+legs|Pukei Greaves Alpha|pukei-greaves-alpha
+
+Pukei Beta Set
+head|Pukei Hood Beta|pukei-hood-beta
+chest|Pukei Mail Beta|pukei-mail-beta
+arms|Pukei Vambraces Beta|pukei-vambraces-beta
+waist|Pukei Coil Beta|pukei-coil-beta
+legs|Pukei Greaves Beta|pukei-greaves-beta
+
+Barroth Alpha Set
+head|Barroth Helm Alpha|barroth-helm-alpha
+chest|Barroth Mail Alpha|barroth-mail-alpha
+arms|Barroth Vambraces Alpha|barroth-vambraces-alpha
+waist|Barroth Coil Alpha|barroth-coil-alpha
+legs|Barroth Greaves Alpha|barroth-greaves-alpha
+
+Barroth Beta Set
+head|Barroth Helm Beta|barroth-helm-beta
+chest|Barroth Mail Beta|barroth-mail-beta
+arms|Barroth Vambraces Beta|barroth-vambraces-beta
+waist|Barroth Coil Beta|barroth-coil-beta
+legs|Barroth Greaves Beta|barroth-greaves-beta
+
+Anja Alpha Set
+head|Anja Helm Alpha|anja-helm-alpha
+chest|Anja Mail Alpha|anja-mail-alpha
+arms|Anja Vambraces Alpha|anja-vambraces-alpha
+waist|Anja Coil Alpha|anja-coil-alpha
+legs|Anja Greaves Alpha|anja-greaves-alpha
+
+Anja Beta Set
+head|Anja Helm Beta|anja-helm-beta
+chest|Anja Mail Beta|anja-mail-beta
+arms|Anja Vambraces Beta|anja-vambraces-beta
+waist|Anja Coil Beta|anja-coil-beta
+legs|Anja Greaves Beta|anja-greaves-beta
+
+Jyura Alpha Set
+head|Jyura Helm Alpha|jyura-helm-alpha
+chest|Jyura Mail Alpha|jyura-mail-alpha
+arms|Jyura Vambraces Alpha|jyura-vambraces-alpha
+waist|Jyura Coil Alpha|jyura-coil-alpha
+legs|Jyura Greaves Alpha|jyura-greaves-alpha
+
+Jyura Beta Set
+head|Jyura Helm Beta|jyura-helm-beta
+chest|Jyura Mail Beta|jyura-mail-beta
+arms|Jyura Vambraces Beta|jyura-vambraces-beta
+waist|Jyura Coil Beta|jyura-coil-beta
+legs|Jyura Greaves Beta|jyura-greaves-beta
+
+Kadachi Alpha Set
+head|Kadachi Helm Alpha|kadachi-helm-alpha
+chest|Kadachi Mail Alpha|kadachi-mail-alpha
+arms|Kadachi Vambraces Alpha|kadachi-vambraces-alpha
+waist|Kadachi Coil Alpha|kadachi-coil-alpha
+legs|Kadachi Greaves Alpha|kadachi-greaves-alpha
+
+Kadachi Beta Set
+head|Kadachi Helm Beta|kadachi-helm-beta
+chest|Kadachi Mail Beta|kadachi-mail-beta
+arms|Kadachi Vambraces Beta|kadachi-vambraces-beta
+waist|Kadachi Coil Beta|kadachi-coil-beta
+legs|Kadachi Greaves Beta|kadachi-greaves-beta
+
+Lumu Alpha Set
+head|Lumu Hat Alpha|lumu-hat-alpha
+chest|Lumu Mail Alpha|lumu-mail-alpha
+arms|Lumu Vambraces Alpha|lumu-vambraces-alpha
+waist|Lumu Coil Alpha|lumu-coil-alpha
+legs|Lumu Greaves Alpha|lumu-greaves-alpha
+
+Lumu Beta Set
+head|Lumu Hat Beta|lumu-hat-beta
+chest|Lumu Mail Beta|lumu-mail-beta
+arms|Lumu Vambraces Beta|lumu-vambraces-beta
+waist|Lumu Coil Beta|lumu-coil-beta
+legs|Lumu Greaves Beta|lumu-greaves-beta
+
+Rathian Alpha Set
+head|Rathian Helm Alpha|rathian-helm-alpha
+chest|Rathian Mail Alpha|rathian-mail-alpha
+arms|Rathian Vambraces Alpha|rathian-vambraces-alpha
+waist|Rathian Coil Alpha|rathian-coil-alpha
+legs|Rathian Greaves Alpha|rathian-greaves-alpha
+
+Rathian Beta Set
+head|Rathian Helm Beta|rathian-helm-beta
+chest|Rathian Mail Beta|rathian-mail-beta
+arms|Rathian Vambraces Beta|rathian-vambraces-beta
+waist|Rathian Coil Beta|rathian-coil-beta
+legs|Rathian Greaves Beta|rathian-greaves-beta
+
+Rath Heart Alpha Set
+head|Rath Heart Helm Alpha|rath-heart-helm-alpha
+chest|Rath Heart Mail Alpha|rath-heart-mail-alpha
+arms|Rath Heart Braces Alpha|rath-heart-braces-alpha
+waist|Rath Heart Coil Alpha|rath-heart-coil-alpha
+legs|Rath Heart Greaves Alpha|rath-heart-greaves-alpha
+
+Rath Heart Beta Set
+head|Rath Heart Helm Beta|rath-heart-helm-beta
+chest|Rath Heart Mail Beta|rath-heart-mail-beta
+arms|Rath Heart Braces Beta|rath-heart-braces-beta
+waist|Rath Heart Coil Beta|rath-heart-coil-beta
+legs|Rath Heart Greaves Beta|rath-heart-greaves-beta
+
+Baan Alpha Set
+head|Baan Helm Alpha|baan-helm-alpha
+chest|Baan Mail Alpha|baan-mail-alpha
+arms|Baan Vambraces Alpha|baan-vambraces-alpha
+waist|Baan Coil Alpha|baan-coil-alpha
+legs|Baan Greaves Alpha|baan-greaves-alpha
+
+Baan Beta Set
+head|Baan Helm Beta|baan-helm-beta
+chest|Baan Mail Beta|baan-mail-beta
+arms|Baan Vambraces Beta|baan-vambraces-beta
+waist|Baan Coil Beta|baan-coil-beta
+legs|Baan Greaves Beta|baan-greaves-beta
+
+Gastodon Alpha Set
+head|Gastodon Horn Alpha|gastodon-horn-alpha
+
+Gastodon Beta Set
+head|Gastodon Horn Beta|gastodon-horn-beta
+
+Barnos Alpha Set
+head|Barnos Jacket Alpha|barnos-jacket-alpha
+
+Barnos Beta Set
+head|Barnos Jacket Beta|barnos-jacket-beta
+
+Dodogama Alpha Set
+head|Dodogama Helm Alpha|dodogama-helm-alpha
+chest|Dodogama Mail Alpha|dodogama-mail-alpha
+arms|Dodogama Vambraces Alpha|dodogama-vambraces-alpha
+waist|Dodogama Coil Alpha|dodogama-coil-alpha
+legs|Dodogame Greaves Alpha|dodogame-greaves-alpha
+
+Dodogama Beta Set
+head|Dodogama Helm Beta|dodogama-helm-beta
+chest|Dodogama Mail Beta|dodogama-mail-beta
+arms|Dodogama Vambraces Beta|dodogama-vambraces-beta
+waist|Dodogama Coil Beta|dodogama-coil-beta
+legs|Dodogama Greaves Beta|dodogama-greaves-beta
+
+Zorah Alpha Set
+head|Zorah Headgear Apha|zorah-headgear-apha
+chest|Zorah Hide Alpha|zorah-hide-alpha
+arms|Zorah Claws Alpha|zorah-claws-alpha
+waist|Zorah Spine Alpha|zorah-spine-alpha
+legs|Zorah Spurs Alpha|zorah-spurs-alpha
+
+Zorah Beta Set
+head|Zorah Headgear Beta|zorah-headgear-beta
+chest|Zorah Hide Beta|zorah-hide-beta
+arms|Zorah Claws Beta|zorah-claws-beta
+waist|Zorah Spine Beta|zorah-spine-beta
+legs|Zorah Spurs Beta|zorah-spurs-beta
+
+High Metal Alpha Set
+head|High Metal Helm Alpha|high-metal-helm-alpha
+chest|High Metal Mail Alpha|high-metal-mail-alpha
+arms|High Metal Braces Alpha|high-metal-braces-alpha
+waist|High Metal Coil Alpha|high-metal-coil-alpha
+legs|High Metal Greaves Alpha|high-metal-greaves-alpha
+
+High Metal Beta Set
+head|High Metal Helm Beta|high-metal-helm-beta
+chest|High Metal Mail Beta|high-metal-mail-beta
+arms|High Metal Braces Beta|high-metal-braces-beta
+waist|High Metal Coil Beta|high-metal-coil-beta
+legs|High Metal Greaves Beta|high-metal-greaves-beta
+
+Ingot Alpha Set
+head|Ingot Helm Alpha|ingot-helm-alpha
+chest|Ingot Mail Alpha|ingot-mail-alpha
+arms|Ingot Vambraces Alpha|ingot-vambraces-alpha
+waist|Ingot Coil Alpha|ingot-coil-alpha
+legs|Ingot Greaves Alpha|ingot-greaves-alpha
+
+Ingot Beta Set
+head|Ingot Helm Beta|ingot-helm-beta
+chest|Ingot Mail Beta|ingot-mail-beta
+arms|Ingot Vambraces Beta|ingot-vambraces-beta
+waist|Ingot Coil Beta|ingot-coil-beta
+legs|Ingot Greaves Beta|ingot-greaves-beta
+
+Brigade Alpha Set
+head|Brigade Lobos Alpha|brigade-lobos-alpha
+chest|Brigade Suit Alpha|brigade-suit-alpha
+arms|Brigade Vambraces Alpha|brigade-vambraces-alpha
+waist|Brigade Coil Alpha|brigade-coil-alpha
+legs|Brigade Boots Alpha|brigade-boots-alpha
+
+Brigade Beta Set
+head|Brigade Lobos Beta|brigade-lobos-beta
+chest|Brigade Suit Beta|brigade-suit-beta
+arms|Brigade Vambraces Beta|brigade-vambraces-beta
+waist|Brigade Coil Beta|brigade-coil-beta
+legs|Brigade Boots Beta|brigade-boots-beta
+
+Faux Felyne Alpha Set
+head|Faux Felyne Alpha|faux-felyne-alpha
+
+Strategist Alpha Set
+head|Strategist Spectacles Alpha|strategist-spectacles-alpha
+
+Lavasioth Alpha Set
+head|Lavasioth Helm Alpha|lavasioth-helm-alpha
+chest|Lavasioth Mail Alpha|lavasioth-mail-alpha
+arms|Lavasioth Vambraces Alpha|lavasioth-vambraces-alpha
+waist|Lavasioth Coil Alpha|lavasioth-coil-alpha
+legs|Lavasioth Greaves Alpha|lavasioth-greaves-alpha
+
+Lavasioth Beta Set
+head|Lavasioth Helm Beta|lavasioth-helm-beta
+chest|Lavasioth Mail Beta|lavasioth-mail-beta
+arms|Lavasioth Vambraces Beta|lavasioth-vambraces-beta
+waist|Lavasioth Coil Beta|lavasioth-coil-beta
+legs|Lavasioth Greaves Beta|lavasioth-greaves-beta
+
+Legiana Alpha Set
+head|Legiana Helm Alpha|legiana-helm-alpha
+chest|Legiana Mail Alpha|legiana-mail-alpha
+arms|Legiana Vambraces Alpha|legiana-vambraces-alpha
+waist|Legiana Coil Alpha|legiana-coil-alpha
+legs|Legiana Greaves Alpha|legiana-greaves-alpha
+
+Legiana Beta Set
+head|Legiana Helm Beta|legiana-helm-beta
+chest|Legiana Mail Beta|legiana-mail-beta
+arms|Legiana Vambraces Beta|legiana-vambraces-beta
+waist|Legiana Coil Beta|legiana-coil-beta
+legs|Legiana Greaves Beta|legiana-greaves-beta
+
+Odogaron Alpha Set
+head|Odogaron Helm Alpha|odogaron-helm-alpha
+chest|Odogaron Mail Alpha|odogaron-mail-alpha
+arms|Odogaron Vambraces Alpha|odogaron-vambraces-alpha
+waist|Odogaron Coil Alpha|odogaron-coil-alpha
+legs|Odogaron Greaves Alpha|odogaron-greaves-alpha
+
+Odogaron Beta Set
+head|Odogaron Helm Beta|odogaron-helm-beta
+chest|Odogaron Mail Beta|odogaron-mail-beta
+arms|Odogaron Vambraces Beta|odogaron-vambraces-beta
+waist|Odogaron Coil Beta|odogaron-coil-beta
+legs|Odogaron Greaves Beta|odogaron-greaves-beta
+
+Rathalos Alpha Set
+head|Rathalos Helm Alpha|rathalos-helm-alpha
+chest|Rathalos Mail Alpha|rathalos-mail-alpha
+arms|Rathalos Vambraces Alpha|rathalos-vambraces-alpha
+waist|Rathalos Coil Alpha|rathalos-coil-alpha
+legs|Rathalos Greaves Alpha|rathalos-greaves-alpha
+
+Rathalos Beta Set
+head|Rathalos Helm Beta|rathalos-helm-beta
+chest|Rathalos Mail Beta|rathalos-mail-beta
+arms|Rathalos Vambraces Beta|rathalos-vambraces-beta
+waist|Rathalos Coil Beta|rathalos-coil-beta
+legs|Rathalos Greaves Beta|rathalos-greaves-beta
+
+Rath Soul Alpha Set
+head|Rath Soul Helm Alpha|rath-soul-helm-alpha
+chest|Rath Soul Mail Alpha|rath-soul-mail-alpha
+arms|Rath Soul Braces Alpha|rath-soul-braces-alpha
+waist|Rath Soul Coil Alpha|rath-soul-coil-alpha
+legs|Rath Soul Greaves Alpha|rath-soul-greaves-alpha
+
+Rath Soul Beta Set
+head|Rath Soul Helm Beta|rath-soul-helm-beta
+chest|Rath Soul Mail Beta|rath-soul-mail-beta
+arms|Rath Soul Braces Beta|rath-soul-braces-beta
+waist|Rath Soul Coil Beta|rath-soul-coil-beta
+legs|Rath Soul Greaves Beta|rath-soul-greaves-beta
+
+Diablos Alpha Set
+head|Diablos Helm Alpha|diablos-helm-alpha
+chest|Diablos Mail Alpha|diablos-mail-alpha
+arms|Diablos Vambraces Alpha|diablos-vambraces-alpha
+waist|Diablos Coil Alpha|diablos-coil-alpha
+legs|Diablos Greaves Alpha|diablos-greaves-alpha
+
+Diablos Beta Set
+head|Diablos Helm Beta|diablos-helm-beta
+chest|Diablos Mail Beta|diablos-mail-beta
+arms|Diablos Vambraces Beta|diablos-vambraces-beta
+waist|Diablos Coil Beta|diablos-coil-beta
+legs|Diablos Greaves Beta|diablos-greaves-beta
+
+Diablos Nero Alpha Set
+head|Diablos Nero Helm Alpha|diablos-nero-helm-alpha
+chest|Diablos Nero Mail Alpha|diablos-nero-mail-alpha
+arms|Diablos Nero Braces Alpha|diablos-nero-braces-alpha
+waist|Diablos Nero Coil Alpha|diablos-nero-coil-alpha
+legs|Diablos Nero Greaves Alpha|diablos-nero-greaves-alpha
+
+Diablos Nero Beta Set
+head|Diablos Nero Helm Beta|diablos-nero-helm-beta
+chest|Diablos Nero Mail Beta|diablos-nero-mail-beta
+arms|Diablos Nero Braces Beta|diablos-nero-braces-beta
+waist|Diablos Nero Coil Beta|diablos-nero-coil-beta
+legs|Diablos Nero Greaves Beta|diablos-nero-greaves-beta
+
+Uragaan Alpha Set
+head|Uragaan Helm Alpha|uragaan-helm-alpha
+chest|Uragaan Mail Alpha|uragaan-mail-alpha
+arms|Uragaan Vambraces Alpha|uragaan-vambraces-alpha
+waist|Uragaan Coil Alpha|uragaan-coil-alpha
+legs|Uragaan Greaves Alpha|uragaan-greaves-alpha
+
+Uragaan Beta Set
+head|Uragaan Helm Beta|uragaan-helm-beta
+chest|Uragaan Mail Beta|uragaan-mail-beta
+arms|Uragaan Vambraces Beta|uragaan-vambraces-beta
+waist|Uragaan Coil Beta|uragaan-coil-beta
+legs|Uragaan Greaves Beta|uragaan-greaves-beta
+
+Bazel Alpha Set
+head|Bazel Helm Alpha|bazel-helm-alpha
+chest|Bazel Mail Alpha|bazel-mail-alpha
+arms|Bazel Vambraces Alpha|bazel-vambraces-alpha
+waist|Bazel Coil Alpha|bazel-coil-alpha
+legs|Bazel Greaves Alpha|bazel-greaves-alpha
+
+Bazel Beta Set
+head|Bazel Helm Beta|bazel-helm-beta
+chest|Bazel Mail Beta|bazel-mail-beta
+arms|Bazel Vambraces Beta|bazel-vambraces-beta
+waist|Bazel Coil Beta|bazel-coil-beta
+legs|Bazel Greaves Beta|bazel-greaves-beta
+
+Damascus Alpha Set
+head|Damascus Helm Alpha|damascus-helm-alpha
+chest|Damascus Mail Alpha|damascus-mail-alpha
+arms|Damascus Vambraces Alpha|damascus-vambraces-alpha
+waist|Damascus Coil Alpha|damascus-coil-alpha
+legs|Damascus Greaves Alpha|damascus-greaves-alpha
+
+Damascus Beta Set
+head|Damascus Helm Beta|damascus-helm-beta
+chest|Damascus Mail Beta|damascus-mail-beta
+arms|Damascus Vambraces Beta|damascus-vambraces-beta
+waist|Damascus Coil Beta|damascus-coil-beta
+legs|Damascus Greaves Beta|damascus-greaves-beta
+
+Dober Alpha Set
+head|Dober Helm Alpha|dober-helm-alpha
+chest|Dober Mail Alpha|dober-mail-alpha
+arms|Dober Vambraces Alpha|dober-vambraces-alpha
+waist|Dober Coil Alpha|dober-coil-alpha
+legs|Dober Greaves Alpha|dober-greaves-alpha
+
+Dober Beta Set
+head|Dober Helm Beta|dober-helm-beta
+chest|Dober Mail Beta|dober-mail-beta
+arms|Dober Vambraces Beta|dober-vambraces-beta
+waist|Dober Coil Beta|dober-coil-beta
+legs|Dober Greaves Beta|dober-greaves-beta
+
+Death Stench Alpha Set
+head|Death Stench Brain Alpha|death-stench-brain-alpha
+chest|Death Stench Muscle Alpha|death-stench-muscle-alpha
+arms|Death Stench Grip Alpha|death-stench-grip-alpha
+waist|Death Stench Bowels Alpha|death-stench-bowels-alpha
+legs|Death Stench Heel Alpha|death-stench-heel-alpha
+
+Death Stench Beta Set
+head|Death Stench Brain Beta|death-stench-brain-beta
+chest|Death Stench Muscle Beta|death-stench-muscle-beta
+arms|Death Stench Grip Beta|death-stench-grip-beta
+waist|Death Stench Bowels Beta|death-stench-bowels-beta
+legs|Death Stench Heel Beta|death-stench-heel-beta
+
+Skull Alpha Set
+head|Skull Mask Alpha|skull-mask-alpha
+
+Nergigante Alpha Set
+head|Nergigante Helm Alpha|nergigante-helm-alpha
+chest|Nergigante Mail Alpha|nergigante-mail-alpha
+arms|Nergigante Vambraces Alpha|nergigante-vambraces-alpha
+waist|Nergigante Coil Alpha|nergigante-coil-alpha
+legs|Nergigante Greaves Alpha|nergigante-greaves-alpha
+
+Nergigante Beta Set
+head|Nergigante Helm Beta|nergigante-helm-beta
+chest|Nergigante Mail Beta|nergigante-mail-beta
+arms|Nergigante Vambraces Beta|nergigante-vambraces-beta
+waist|Nergigante Coil Beta|nergigante-coil-beta
+legs|Nergigante Greaves Beta|nergigante-greaves-beta
+
+Teostra Alpha Set
+head|Kaiser Crown Alpha|kaiser-crown-alpha
+chest|Kaiser Mail Alpha|kaiser-mail-alpha
+arms|Kaiser Vambraces Alpha|kaiser-vambraces-alpha
+waist|Kaiser Coil Alpha|kaiser-coil-alpha
+legs|Kaiser Greaves Alpha|kaiser-greaves-alpha
+
+Teostra Beta Set
+head|Kaiser Crown Beta|kaiser-crown-beta
+chest|Kaiser Mail Beta|kaiser-mail-beta
+arms|Kaiser Vambraces Beta|kaiser-vambraces-beta
+waist|Kaiser Coil Beta|kaiser-coil-beta
+legs|Kaiser Greaves Beta|kaiser-greaves-beta
+
+Kushala Alpha Set
+head|Kushala Glare Alpha|kushala-glare-alpha
+chest|Kushala Cista Alpha|kushala-cista-alpha
+arms|Kushala Grip Alpha|kushala-grip-alpha
+waist|Kushala Cocoon Alpha|kushala-cocoon-alpha
+legs|Kushala Crus Alpha|kushala-crus-alpha
+
+Kushala Beta Set
+head|Kushala Glare Beta|kushala-glare-beta
+chest|Kushala Cista Beta|kushala-cista-beta
+arms|Kushala Grip Beta|kushala-grip-beta
+waist|Kushala Cocoon Beta|kushala-cocoon-beta
+legs|Kushala Crus Beta|kushala-crus-beta
+
+Vaal Hazak Alpha Set
+head|Vaal Hazak Helm Alpha|vaal-hazak-helm-alpha
+chest|Vaal Hazak Mail Alpha|vaal-hazak-mail-alpha
+arms|Vaal Hazak Braces Alpha|vaal-hazak-braces-alpha
+waist|Vaal Hazak Coil Alpha|vaal-hazak-coil-alpha
+legs|Vaal Hazak Greaves Alpha|vaal-hazak-greaves-alpha
+
+Vaal Hazak Beta Set
+head|Vaal Hazak Helm Beta|vaal-hazak-helm-beta
+chest|Vaal Hazak Mail Beta|vaal-hazak-mail-beta
+arms|Vaal Hazak Braces Beta|vaal-hazak-braces-beta
+waist|Vaal Hazak Coil Beta|vaal-hazak-coil-beta
+legs|Vaal Hazak Greaves Beta|vaal-hazak-greaves-beta
+
+Kirin Alpha Set
+head|Kirin Horn Alpha|kirin-horn-alpha
+chest|Kirin Jacket Alpha|kirin-jacket-alpha
+arms|Kirin Longarms Alpha|kirin-longarms-alpha
+waist|Kirin Hoop Alpha|kirin-hoop-alpha
+legs|Kirin Leg Guards Alpha|kirin-leg-guards-alpha
+
+Kirin Beta Set
+head|Kirin Horn Beta|kirin-horn-beta
+chest|Kirin Jacket Beta|kirin-jacket-beta
+arms|Kirin Longarms Beta|kirin-longarms-beta
+waist|Kirin Hoop Beta|kirin-hoop-beta
+legs|Kirin Leg Guards Beta|kirin-leg-guards-beta
+
+Xeno'jiiva Alpha Set
+head|Xeno'jiiva Headgear Alpha|xenojiiva-headgear-alpha
+chest|Xeno'jiiva Hide Alpha|xenojiiva-hide-alpha
+arms|Xeno'jiiva Claws Alpha|xenojiiva-claws-alpha
+waist|Xeno'jiiva Spine Alpha|xenojiiva-spine-alpha
+legs|Xeno'jiiva Spurs Alpha|xenojiiva-spurs-alpha
+
+Xeno'jiiva Beta Set
+head|Xeno'jiiva Headgear Beta|xenojiiva-headgear-beta
+chest|Xeno'jiiva Hide Beta|xenojiiva-hide-beta
+arms|Xeno'jiiva Claws Beta|xenojiiva-claws-beta
+waist|Xeno'jiiva Spine Beta|xenojiiva-spine-beta
+legs|Xeno'jiiva Spurs Beta|xenojiiva-spurs-beta
+
+Guild Cross Alpha Set
+head|Guild Cross Circlet Alpha|guild-cross-circlet-alpha
+chest|Guild Cross Suit Alpha|guild-cross-suit-alpha
+arms|Guild Cross Vambraces Alpha|guild-cross-vambraces-alpha
+waist|Guild Cross Coil Alpha|guild-cross-coil-alpha
+legs|Guild Cross Boots Alpha|guild-cross-boots-alpha
+
+Guild Cross Beta Set
+head|Guild Cross Circlet Beta|guild-cross-circlet-beta
+chest|Guild Cross Suit Beta|guild-cross-suit-beta
+arms|Guild Cross Vambraces Beta|guild-cross-vambraces-beta
+waist|Guild Cross Coil Beta|guild-cross-coil-beta
+legs|Guild Cross Boots Beta|guild-cross-boots-beta
+
+Dragonking Alpha Set
+head|Dragonking Eyepatch Alpha|dragonking-eyepatch-alpha
+
+Commission Alpha Set
+head|Commission Gorget Alpha|commission-gorget-alpha
+chest|Commission Jacket Alpha|commission-jacket-alpha
+arms|Commission Vambraces Alpha|commission-vambraces-alpha
+waist|Commission Belt Alpha|commission-belt-alpha
+legs|Commission Pants Alpha|commission-pants-alpha
+
+Commission Beta Set
+head|Commission Gorget Beta|commission-gorget-beta
+chest|Commission Jacket Beta|commission-jacket-beta
+arms|Commission Vambraces Beta|commission-vambraces-beta
+waist|Commission Belt Beta|commission-belt-beta
+legs|Commission Pants Beta|commission-pants-beta
+
+Deviljho Alpha Set
+head|Vangis Helm Alpha|vangis-helm-alpha
+chest|Vangis Mail Alpha|vangis-mail-alpha
+arms|Vangis Vambraces Alpha|vangis-vambraces-alpha
+waist|Vangis Coil Alpha|vangis-coil-alpha
+legs|Vangis Greaves Alpha|vangis-greaves-alpha
+
+Deviljho Beta Set
+head|Vangis Helm Beta|vangis-helm-beta
+chest|Vangis Mail Beta|vangis-mail-beta
+arms|Vangis Vambraces Beta|vangis-vambraces-beta
+waist|Vangis Coil Beta|vangis-coil-beta
+legs|Vangis Greaves Beta|vangis-greaves-beta
+
+Kulve Taroth Alpha Set
+head|Kulve Taroth's Fury Alpha|kulve-taroths-fury-alpha
+chest|Kulve Taroth's Ire Alpha|kulve-taroths-ire-alpha
+arms|Kulve Taroth's Rage Alpha|kulve-taroths-rage-alpha
+waist|Kulve Taroth's Malice Alpha|kulve-taroths-malice-alpha
+legs|Kulve Taroth's Wrath Alpha|kulve-taroths-wrath-alpha
+
+Kulve Taroth Beta Set
+head|Kulve Taroth's Fury Beta|kulve-taroths-fury-beta
+chest|Kulve Taroth's Ire Beta|kulve-taroths-ire-beta
+arms|Kulve Taroth's Rage Beta|kulve-taroths-rage-beta
+waist|Kulve Taroth's Malice Beta|kulve-taroths-malice-beta
+legs|Kulve Taroth's Wrath Beta|kulve-taroths-wrath-beta
+
+Blossom Alpha Set
+head|Blossom Headgear Alpha|blossom-headgear-alpha
+chest|Blossom Vest Alpha|blossom-vest-alpha
+arms|Blossom Cuffs Alpha|blossom-cuffs-alpha
+waist|Blossom Coat Alpha|blossom-coat-alpha
+legs|Blossom Boots Alpha|blossom-boots-alpha
+
+Dante Alpha Set
+head|Dante's Hair Alpha|dantes-hair-alpha
+chest|Dante's Coat Alpha|dantes-coat-alpha
+arms|Dante's Gloves Alpha|dantes-gloves-alpha
+waist|Dante's Belt Alpha|dantes-belt-alpha
+legs|Dante's Leather Boots Alpha|dantes-leather-boots-alpha
+
+Sealed Eyepatch Alpha Set
+head|Sealed Eyepatch Alpha|sealed-eyepatch-alpha
+
+Shadow Shades Alpha Set
+head|Shadow Shades Alpha|shadow-shades-alpha
+
+Kulu-Yaku Head Alpha Set
+head|Kulu-Yaku Head Alpha|kulu-yaku-head-alpha
+
+Wiggler Head Alpha Set
+head|Wiggler Head Alpha|wiggler-head-alpha
