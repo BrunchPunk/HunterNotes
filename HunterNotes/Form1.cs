@@ -25,6 +25,7 @@ namespace HunterNotes
                 InitializeMaterialsTab();
                 InitializeSkillsTab();
                 InitializeDecorationsTab();
+                InitializeArmorTab();
 
             }
             catch(Exception e)
@@ -35,6 +36,11 @@ namespace HunterNotes
         }
 
         #region Tab Initializers
+        private void InitializeArmorTab()
+        {
+            
+        }
+
         private void InitializeMaterialsTab()
         {
             AutoCompleteStringCollection materialsAutoCompleteList = new AutoCompleteStringCollection();

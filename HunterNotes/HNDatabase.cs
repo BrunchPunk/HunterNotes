@@ -37,7 +37,7 @@ namespace HunterNotes
                 CreateForgeTable();
                 CreateDecorationsTable();
 
-                //TODO Read static data into the database
+                // Read static data into the database
                 try
                 {
                     LoadSkillsTable();
@@ -340,7 +340,7 @@ namespace HunterNotes
 
         private static void LoadForgeTable()
         {
-            //TODO Load data from files into Forge table
+            // Load data from files into Forge table
             if (File.Exists("data/formatted/forge.csv"))
             {
                 Console.WriteLine("Loading data into the Forge table");
