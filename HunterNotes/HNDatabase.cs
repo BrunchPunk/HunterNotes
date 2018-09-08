@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.IO;
 using Microsoft.VisualBasic.FileIO;
+using System.Data;
 
 namespace HunterNotes
 {
@@ -263,6 +264,8 @@ namespace HunterNotes
         {
             if (File.Exists("data/formatted/armor.csv"))
             {
+                Console.WriteLine("Loading data into the Armor table");
+
                 //String defining the insert SQL for the Decorations table
                 string insertArmorSQL = "INSERT INTO Armor VALUES ";
 
@@ -575,6 +578,33 @@ namespace HunterNotes
 
             selectResults.Read();
             return (int)selectResults[0];
+        }
+
+        #endregion
+
+        #region Armor Methods
+        public static DataSet GetArmorDataSet()
+        {
+            DataSet armorDataSet = new DataSet();
+            SQLiteDataAdapter armorDataAdapter = new SQLiteDataAdapter("SELECT * FROM Armor;", HNDatabaseConn);
+
+            armorDataAdapter.Fill(armorDataSet);
+
+            return armorDataSet;
+        }
+
+
+        #endregion
+
+        #region Forge Methods
+        public static DataSet GetForgeDataSet()
+        {
+            DataSet forgeDataSet = new DataSet();
+            SQLiteDataAdapter forgeDataAdapter = new SQLiteDataAdapter("SELECT * FROM Forge;", HNDatabaseConn);
+
+            forgeDataAdapter.Fill(forgeDataSet);
+
+            return forgeDataSet;
         }
 
         #endregion

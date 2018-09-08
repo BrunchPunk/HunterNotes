@@ -26,6 +26,7 @@ namespace HunterNotes
                 InitializeSkillsTab();
                 InitializeDecorationsTab();
                 InitializeArmorTab();
+                InitializeForgeTab();
 
             }
             catch(Exception e)
@@ -38,7 +39,45 @@ namespace HunterNotes
         #region Tab Initializers
         private void InitializeArmorTab()
         {
-            
+            BindingSource armorBS = new BindingSource {DataSource = HNDatabase.GetArmorDataSet().Tables[0].DefaultView };
+            dataGridView1.DataSource = armorBS;
+            //dataGridView1.DataSource = HNDatabase.GetArmorDataSet().Tables[0].DefaultView;
+
+            dataGridView1.Columns[0].HeaderText = "Armor Name";
+            dataGridView1.Columns[1].HeaderText = "Equip Slot";
+            dataGridView1.Columns[2].HeaderText = "Skill 1 Name";
+            dataGridView1.Columns[3].HeaderText = "Skill 1 Points";
+            dataGridView1.Columns[4].HeaderText = "Skill 2 Name";
+            dataGridView1.Columns[5].HeaderText = "Skill 2 Points";
+            dataGridView1.Columns[6].HeaderText = "Skill 3 Name";
+            dataGridView1.Columns[7].HeaderText = "Skill 3 Points";
+            dataGridView1.Columns[8].HeaderText = "Skill 4 Name";
+            dataGridView1.Columns[9].HeaderText = "Skill 4 Points";
+            dataGridView1.Columns[10].HeaderText = "Decoration Size 1";
+            dataGridView1.Columns[11].HeaderText = "Decoration Size 2";
+            dataGridView1.Columns[12].HeaderText = "Decoration Size 3";
+
+            dataGridView1.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+
+        }
+
+        private void InitializeForgeTab()
+        {
+            BindingSource forgeBS = new BindingSource { DataSource = HNDatabase.GetForgeDataSet().Tables[0].DefaultView };
+            dataGridView2.DataSource = forgeBS;
+            //dataGridView1.DataSource = HNDatabase.GetArmorDataSet().Tables[0].DefaultView;
+
+            dataGridView2.Columns[0].HeaderText = "Armor Name";
+            dataGridView2.Columns[1].HeaderText = "Ingredient 1";
+            dataGridView2.Columns[2].HeaderText = "Ingredient 1 Count";
+            dataGridView2.Columns[3].HeaderText = "Ingredient 2";
+            dataGridView2.Columns[4].HeaderText = "Ingredient 2 Count";
+            dataGridView2.Columns[5].HeaderText = "Ingredient 3";
+            dataGridView2.Columns[6].HeaderText = "Ingredient 3 Count";
+            dataGridView2.Columns[7].HeaderText = "Ingredient 4";
+            dataGridView2.Columns[8].HeaderText = "Ingredient 4 Count";
+
+            dataGridView2.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
         }
 
         private void InitializeMaterialsTab()
