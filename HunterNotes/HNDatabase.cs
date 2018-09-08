@@ -33,6 +33,7 @@ namespace HunterNotes
 
                 //Create the tables in the database (Note, order is important for foreign key constraints)
                 CreateSkillsTable();
+                CreateSetBonusesTable();
                 CreateMaterialsTable();
                 CreateArmorTable();
                 CreateForgeTable();
@@ -42,6 +43,7 @@ namespace HunterNotes
                 try
                 {
                     LoadSkillsTable();
+                    LoadSetBonuesTable();
                     LoadMaterialsTable();
                     LoadDecorationsTable();
                     LoadArmorTable();
@@ -83,8 +85,29 @@ namespace HunterNotes
                 "maxPoints INT, " + 
                 "description VARCHAR(600), " +
                 "PRIMARY KEY (name) )";
+
             SQLiteCommand createTableCommand = new SQLiteCommand(createTableSQL, HNDatabase.HNDatabaseConn);
             createTableCommand.ExecuteNonQuery();
+        }
+
+        private static void CreateSetBonusesTable()
+        {
+            Console.WriteLine("Creating SetBonuses Table");
+
+            string createTableSQL =
+                "CREATE TABLE SetBonuses (" +
+                "name VARCHAR(50), " +
+                "skillName1 VARCHAR(50), " +
+                "skillPieces1 INT, " +
+                "skillName2 VARCHAR(50), " +
+                "skillPieces2 INT, " +
+                "PRIMARY KEY (name), " +
+                "FOREIGN KEY(skillName1) REFERENCES Skills(name)," +
+                "FOREIGN KEY(skillName2) REFERENCES Skills(name)  )";
+
+            SQLiteCommand createTableCommand = new SQLiteCommand(createTableSQL, HNDatabase.HNDatabaseConn);
+            createTableCommand.ExecuteNonQuery();
+
         }
 
         private static void CreateMaterialsTable()
@@ -119,11 +142,13 @@ namespace HunterNotes
                 "decorationSlot1 INT, " +
                 "decorationSlot2 INT, " +
                 "decorationSlot3 INT, " +
+                "setBonus VARCHAR(50), " + 
                 "PRIMARY KEY (name), " +
                 "FOREIGN KEY (skill1Name) REFERENCES Skills (name), " +
                 "FOREIGN KEY (skill2Name) REFERENCES Skills (name), " +
                 "FOREIGN KEY (skill3Name) REFERENCES Skills (name), " +
-                "FOREIGN KEY (skill3Name) REFERENCES Skills (name) )";
+                "FOREIGN KEY (skill3Name) REFERENCES Skills (name), " +
+                "FOREIGN KEY (setBonus) REFERENCES SetBonuses (name) )";
             SQLiteCommand createTableCommand = new SQLiteCommand(createTableSQL, HNDatabase.HNDatabaseConn);
             createTableCommand.ExecuteNonQuery();
         }
@@ -214,6 +239,63 @@ namespace HunterNotes
             }
         }
 
+        private static void LoadSetBonuesTable()
+        {
+            if (File.Exists("data/formatted/setBonuses.csv"))
+            {
+                Console.WriteLine("Loading data into the SetBonuses table");
+
+                //String defining the insert SQL for the SetBonues table
+                string insertSetBonusesSQL = "INSERT INTO SetBonuses VALUES ";
+
+                //Prepare the parser to parse the Skills data file
+                TextFieldParser setBonuesParser = new TextFieldParser("data/formatted/setBonuses.csv");
+                setBonuesParser.TextFieldType = FieldType.Delimited;
+                setBonuesParser.SetDelimiters(",");
+
+                //Read each line of the file and add it to insertSkillsSQL as a value e.g. "("Odogaron Mastery", "Punishing Draw", 2, "Protective Polish", 4), "
+                while (!setBonuesParser.EndOfData)
+                {
+                    //Begin a new value
+                    insertSetBonusesSQL = insertSetBonusesSQL + "(";
+
+                    //Add each of the three fields to the value (Since first, second and fourth fields in setBonues should be strings, wrap them in quotes for SQL)
+                    string[] fields = setBonuesParser.ReadFields();
+                    insertSetBonusesSQL = insertSetBonusesSQL + "\"" + fields[0] + "\"" + ", ";
+
+                    insertSetBonusesSQL = insertSetBonusesSQL + "\"" + fields[1] + "\"" + ", ";
+
+                    if (fields[2].Length == 0)
+                        insertSetBonusesSQL = insertSetBonusesSQL + "0" + ", ";
+                    else
+                        insertSetBonusesSQL = insertSetBonusesSQL + fields[2] + ", ";
+
+                    insertSetBonusesSQL = insertSetBonusesSQL + "\"" + fields[3] + "\"" + ", ";
+
+                    if (fields[4].Length == 0)
+                        insertSetBonusesSQL = insertSetBonusesSQL + "0";
+                    else
+                        insertSetBonusesSQL = insertSetBonusesSQL + fields[4];
+
+
+                    //End the new value
+                    insertSetBonusesSQL = insertSetBonusesSQL + "), ";
+
+                }
+                //Remove trailing ", " from last value and add SQL terminating ";"
+                insertSetBonusesSQL = insertSetBonusesSQL.Substring(0, insertSetBonusesSQL.Length - 2);
+                insertSetBonusesSQL = insertSetBonusesSQL + ";";
+
+                //Create the SQL command and execute it
+                SQLiteCommand insertSetBonusesCommand = new SQLiteCommand(insertSetBonusesSQL, HNDatabase.HNDatabaseConn);
+                insertSetBonusesCommand.ExecuteNonQuery();
+            }
+            else
+            {
+                throw new FileNotFoundException("The setBonuses.csv file is missing.");
+            }
+        }
+
         private static void LoadMaterialsTable()
         {
             if (File.Exists("data/formatted/materials.csv"))
@@ -274,13 +356,13 @@ namespace HunterNotes
                 armorParser.TextFieldType = FieldType.Delimited;
                 armorParser.SetDelimiters(",");
 
-                //Read each line of the file and add it to insertArmorSQL as a value e.g. "("Poison Charm I","Charm","Poison Resistance",1,"",,"",,"",,"","",""), "
+                //Read each line of the file and add it to insertArmorSQL as a value e.g. "("Poison Charm I","Charm","Poison Resistance",1,"",,"",,"",,"","","",""), "
                 while (!armorParser.EndOfData)
                 {
                     //Begin a new value
                     insertArmorSQL = insertArmorSQL + "(";
 
-                    //Add each of the 13 fields to the value (wrap strings in quotes where necessary)
+                    //Add each of the 14 fields to the value (wrap strings in quotes where necessary)
                     string[] fields = armorParser.ReadFields();
 
                     insertArmorSQL = insertArmorSQL + "\"" + fields[0] + "\"" + ", ";
@@ -319,9 +401,10 @@ namespace HunterNotes
                     else
                         insertArmorSQL = insertArmorSQL + fields[11] + ", ";
                     if (fields[12].Length == 0)
-                        insertArmorSQL = insertArmorSQL + "0";
+                        insertArmorSQL = insertArmorSQL + "0" + ", ";
                     else
-                        insertArmorSQL = insertArmorSQL + fields[12];
+                        insertArmorSQL = insertArmorSQL + fields[12] + ", ";
+                    insertArmorSQL = insertArmorSQL + "\"" + fields[13] + "\"";
 
                     //End the new value
                     insertArmorSQL = insertArmorSQL + "), ";
@@ -605,6 +688,19 @@ namespace HunterNotes
             forgeDataAdapter.Fill(forgeDataSet);
 
             return forgeDataSet;
+        }
+
+        #endregion
+
+        #region SetBonuses Methods
+        public static DataSet GetSetBonusesDataSet()
+        {
+            DataSet setBonusesDataSet = new DataSet();
+            SQLiteDataAdapter setBonusesDataAdapter = new SQLiteDataAdapter("SELECT * FROM SetBonuses;", HNDatabaseConn);
+
+            setBonusesDataAdapter.Fill(setBonusesDataSet);
+
+            return setBonusesDataSet;
         }
 
         #endregion

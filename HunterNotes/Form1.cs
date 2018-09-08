@@ -27,6 +27,7 @@ namespace HunterNotes
                 InitializeDecorationsTab();
                 InitializeArmorTab();
                 InitializeForgeTab();
+                InitializeSetBonusesTab();
 
             }
             catch(Exception e)
@@ -56,6 +57,8 @@ namespace HunterNotes
             dataGridView1.Columns[10].HeaderText = "Decoration Size 1";
             dataGridView1.Columns[11].HeaderText = "Decoration Size 2";
             dataGridView1.Columns[12].HeaderText = "Decoration Size 3";
+            dataGridView1.Columns[13].HeaderText = "Set Bonus";
+
 
             dataGridView1.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
 
@@ -116,6 +119,21 @@ namespace HunterNotes
 
             textBoxSkills.Refresh();
             listBoxSkills.Refresh();
+        }
+
+        private void InitializeSetBonusesTab()
+        {
+            BindingSource setBonusesBS = new BindingSource { DataSource = HNDatabase.GetSetBonusesDataSet().Tables[0].DefaultView };
+            dataGridView3.DataSource = setBonusesBS;
+            //dataGridView1.DataSource = HNDatabase.GetArmorDataSet().Tables[0].DefaultView;
+
+            dataGridView3.Columns[0].HeaderText = "Set Bonus Name";
+            dataGridView3.Columns[1].HeaderText = "Skill 1 Name";
+            dataGridView3.Columns[2].HeaderText = "Skill 1 Pieces Needed";
+            dataGridView3.Columns[3].HeaderText = "Skill 2 Name";
+            dataGridView3.Columns[4].HeaderText = "Skill 2 Pieces Needed";
+
+            dataGridView3.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
         }
 
         private void InitializeDecorationsTab()
