@@ -43,8 +43,8 @@ namespace HunterNotes
                     LoadSkillsTable();
                     LoadMaterialsTable();
                     LoadDecorationsTable();
-                    //LoadArmorTable();
-                    //LoadForgeTable();
+                    LoadArmorTable();
+                    LoadForgeTable();
                 }
                 catch(FileNotFoundException ex)
                 {
@@ -263,7 +263,6 @@ namespace HunterNotes
         {
             if (File.Exists("data/formatted/armor.csv"))
             {
-                Console.WriteLine("Loading data into the Armor table");
                 //String defining the insert SQL for the Decorations table
                 string insertArmorSQL = "INSERT INTO Armor VALUES ";
 
@@ -280,19 +279,46 @@ namespace HunterNotes
 
                     //Add each of the 13 fields to the value (wrap strings in quotes where necessary)
                     string[] fields = armorParser.ReadFields();
+
                     insertArmorSQL = insertArmorSQL + "\"" + fields[0] + "\"" + ", ";
                     insertArmorSQL = insertArmorSQL + "\"" + fields[1] + "\"" + ", ";
+
                     insertArmorSQL = insertArmorSQL + "\"" + fields[2] + "\"" + ", ";
-                    insertArmorSQL = insertArmorSQL + fields[3] + ", ";
+                    if(fields[3].Length == 0)
+                        insertArmorSQL = insertArmorSQL + "0" + ", ";
+                    else
+                        insertArmorSQL = insertArmorSQL + fields[3] + ", ";
+
                     insertArmorSQL = insertArmorSQL + "\"" + fields[4] + "\"" + ", ";
-                    insertArmorSQL = insertArmorSQL + fields[5] + ", ";
+                    if (fields[5].Length == 0)
+                        insertArmorSQL = insertArmorSQL + "0" + ", ";
+                    else
+                        insertArmorSQL = insertArmorSQL + fields[5] + ", ";
+
                     insertArmorSQL = insertArmorSQL + "\"" + fields[6] + "\"" + ", ";
-                    insertArmorSQL = insertArmorSQL + fields[7] + ", ";
+                    if (fields[7].Length == 0)
+                        insertArmorSQL = insertArmorSQL + "0" + ", ";
+                    else
+                        insertArmorSQL = insertArmorSQL + fields[7] + ", ";
+
                     insertArmorSQL = insertArmorSQL + "\"" + fields[8] + "\"" + ", ";
-                    insertArmorSQL = insertArmorSQL + fields[9] + ", ";
-                    insertArmorSQL = insertArmorSQL + fields[10] + ", ";
-                    insertArmorSQL = insertArmorSQL + fields[11] + ", ";
-                    insertArmorSQL = insertArmorSQL + fields[12];
+                    if (fields[9].Length == 0)
+                        insertArmorSQL = insertArmorSQL + "0" + ", ";
+                    else
+                        insertArmorSQL = insertArmorSQL + fields[9] + ", ";
+
+                    if (fields[10].Length == 0)
+                        insertArmorSQL = insertArmorSQL + "0" + ", ";
+                    else
+                        insertArmorSQL = insertArmorSQL + fields[10] + ", ";
+                    if (fields[11].Length == 0)
+                        insertArmorSQL = insertArmorSQL + "0" + ", ";
+                    else
+                        insertArmorSQL = insertArmorSQL + fields[11] + ", ";
+                    if (fields[12].Length == 0)
+                        insertArmorSQL = insertArmorSQL + "0";
+                    else
+                        insertArmorSQL = insertArmorSQL + fields[12];
 
                     //End the new value
                     insertArmorSQL = insertArmorSQL + "), ";
@@ -337,18 +363,38 @@ namespace HunterNotes
                     string[] fields = forgeParser.ReadFields();
                     insertForgeSQL = insertForgeSQL + "\"" + fields[0] + "\"" + ", ";
                     insertForgeSQL = insertForgeSQL + "\"" + fields[1] + "\"" + ", ";
-                    insertForgeSQL = insertForgeSQL + fields[2] + ", ";
+
+                    if (fields[2].Length == 0)
+                        insertForgeSQL = insertForgeSQL + "0" + ",";
+                    else
+                        insertForgeSQL = insertForgeSQL + fields[2] + ", ";
+
                     insertForgeSQL = insertForgeSQL + "\"" + fields[3] + "\"" + ", ";
-                    insertForgeSQL = insertForgeSQL + fields[4] + ", ";
+
+                    if (fields[4].Length == 0)
+                        insertForgeSQL = insertForgeSQL + "0" + ",";
+                    else
+                        insertForgeSQL = insertForgeSQL + fields[4] + ", ";
+
                     insertForgeSQL = insertForgeSQL + "\"" + fields[5] + "\"" + ", ";
-                    insertForgeSQL = insertForgeSQL + fields[6] + ", ";
+
+                    if (fields[6].Length == 0)
+                        insertForgeSQL = insertForgeSQL + "0" + ",";
+                    else
+                        insertForgeSQL = insertForgeSQL + fields[6] + ", ";
+
                     insertForgeSQL = insertForgeSQL + "\"" + fields[7] + "\"" + ", ";
-                    insertForgeSQL = insertForgeSQL + fields[8] + ", ";
+
+                    if (fields[8].Length == 0)
+                        insertForgeSQL = insertForgeSQL + "0";
+                    else
+                        insertForgeSQL = insertForgeSQL + fields[8];
 
                     //End the new value
                     insertForgeSQL = insertForgeSQL + "), ";
 
                 }
+
                 //Remove trailing ", " from last value and add SQL terminating ";"
                 insertForgeSQL = insertForgeSQL.Substring(0, insertForgeSQL.Length - 2);
                 insertForgeSQL = insertForgeSQL + ";";

@@ -143,8 +143,8 @@ def parseArmorFile(armorFileName):
 #END parseArmorFile def         
 
 armorMainFile = open('armorRevised.txt', 'r', encoding='utf-8')
-armorResultsFile = open('armor.csv', 'w', encoding='utf-8')
-forgeResultsFile = open('forge.csv', 'w', encoding='utf-8')
+armorResultsFile = open('armorPart.csv', 'w', encoding='utf-8')
+forgeResultsFile = open('forgePart.csv', 'w', encoding='utf-8')
 
 parseMode = 1
 
