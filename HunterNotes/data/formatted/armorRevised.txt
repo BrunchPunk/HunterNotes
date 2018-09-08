@@ -34,10 +34,10 @@ waist|Vespoid Coil|vespoid-coil
 legs|Vespoid Greaves|vespoid-greaves
 
 Kestodon Set
-head|Kestodon Guards|kestodon-guards
+arms|Kestodon Guards|kestodon-guards
 
 Gajau Set
-head|Gajau Boots|gajau-boots
+legs|Gajau Boots|gajau-boots
 
 Jagras Set
 head|Jagras Helm|jagras-helm
@@ -367,10 +367,10 @@ Kestodon Beta Set
 head|Kestodon Guards Beta|kestodon-guards-beta
 
 Gajau Alpha Set
-head|Gajau Boots Alpha|gajau-boots-alpha
+legs|Gajau Boots Alpha|gajau-boots-alpha
 
 Gajau Beta Set
-head|Gajau Boots Beta|gajau-boots-beta
+legs|Gajau Boots Beta|gajau-boots-beta
 
 Shamos Alpha Set
 head|Shamos Goggles Alpha|shamos-goggles-alpha
@@ -567,10 +567,10 @@ Gastodon Beta Set
 head|Gastodon Horn Beta|gastodon-horn-beta
 
 Barnos Alpha Set
-head|Barnos Jacket Alpha|barnos-jacket-alpha
+chest|Barnos Jacket Alpha|barnos-jacket-alpha
 
 Barnos Beta Set
-head|Barnos Jacket Beta|barnos-jacket-beta
+chest|Barnos Jacket Beta|barnos-jacket-beta
 
 Dodogama Alpha Set
 head|Dodogama Helm Alpha|dodogama-helm-alpha

@@ -1,0 +1,682 @@
+"Leather Headgear","head","Hunger Resistance",1,,,,,,,0,0,0
+"Leather Mail","chest",,,,,,,,,0,0,0
+"Leather Gloves","arms",,,,,,,,,0,0,0
+"Leather Belt","waist",,,,,,,,,0,0,0
+"Leather Trousers","legs",,,,,,,,,0,0,0
+"Chainmail Headgear","head","Master Gatherer",1,,,,,,,0,0,0
+"Chainmail Vest","chest",,,,,,,,,0,0,0
+"Chainmail Gloves","arms",,,,,,,,,0,0,0
+"Chainmail Belt","waist",,,,,,,,,0,0,0
+"Chainmail Trousers","legs",,,,,,,,,0,0,0
+"Hunter's Headgear","head","Scoutfly Range Up",1,,,,,,,0,0,0
+"Hunter's Mail","chest","Slinger Capacity",1,,,,,,,0,0,0
+"Hunter's Vambraces","arms","Stealth",1,,,,,,,0,0,0
+"Hunter's Coil","waist","Scenthound",1,,,,,,,0,0,0
+"Hunter's Greaves","legs","BBQ Master",1,,,,,,,0,0,0
+"Bone Helm","head","Health Boost",1,,,,,,,0,0,0
+"Bone Mail","chest","Attack Boost",1,,,,,,,0,0,0
+"Bone Vambraces","arms","Slugger",1,,,,,,,0,0,0
+"Bone Coil","waist","Horn Maestro",1,,,,,,,0,0,0
+"Bone Greaves","legs","Entomologist",1,,,,,,,0,0,0
+"Vespoid Helm","head","Quick Sheath",1,,,,,,,0,0,0
+"Vespoid Mail","chest","Windproof",1,,,,,,,0,0,0
+"Vespoid Vambraces","arms","Paralysis Attack",1,,,,,,,0,0,0
+"Vespoid Coil","waist","Paralysis Resistance",1,,,,,,,0,0,0
+"Vespoid Greaves","legs","Honey Hunter",1,,,,,,,0,0,0
+"Kestodon Guards","arms","Affinity Sliding",1,,,,,,,0,0,0
+"Gajau Boots","legs","Aquatic Expert",1,,,,,,,0,0,0
+"Jagras Helm","head","Speed Eating",1,,,,,,,0,0,0
+"Jagras Mail","chest","Intimidator",1,,,,,,,0,0,0
+"Jagras Vambraces","arms","Palico Rally",1,,,,,,,0,0,0
+"Jagras Coil","waist","Fortify",1,,,,,,,0,0,0
+"Jagras Greaves","legs","Speed Crawler",1,,,,,,,0,0,0
+"Kulu Headpiece","head","Fire Resistance",1,,,,,,,0,0,0
+"Kulu Mail","chest","Stamina Surge",1,,,,,,,0,0,0
+"Kulu Vambraces","arms","Pro Transporter",1,,,,,,,0,0,0
+"Kulu Coil","waist","Item Prolonger",1,,,,,,,0,0,0
+"Kulu Greaves","legs","Critical Eye",1,,,,,,,0,0,0
+"Alloy Helm","head","Windproof",1,,,,,,,0,0,0
+"Alloy Mail","chest","Water Resistance",1,,,,,,,0,0,0
+"Alloy Vambraces","arms","Defense Boost",1,,,,,,,0,0,0
+"Alloy Coil","waist","Poison Resistance",1,,,,,,,0,0,0
+"Alloy Greaves","legs","Speed Sharpening",1,,,,,,,0,0,0
+"Pukei Hood","head","Sporepuff Expert",1,,,,,,,0,0,0
+"Pukei Mail","chest","Item Prolonger",1,,,,,,,0,0,0
+"Pukei Vambraces","arms","Poison Resistance",1,,,,,,,0,0,0
+"Pukei Coil","waist","Poison Attack",1,,,,,,,0,0,0
+"Pukei Greaves","legs","Botanist",1,,,,,,,0,0,0
+"Barroth Helm","head","Guard",1,,,,,,,0,0,0
+"Barroth Mail","chest","Stamina Thief",1,,,,,,,0,0,0
+"Barroth Vambraces","arms","Marathon Runner",1,,,,,,,0,0,0
+"Barroth Coil","waist","Muck Resistance",1,,,,,,,0,0,0
+"Barroth Greaves","legs","Stun Resistance",1,,,,,,,0,0,0
+"Jyura Helm","head","Aquatic Expert",1,,,,,,,0,0,0
+"Jyura Mail","chest","Muck Resistance",1,,,,,,,0,0,0
+"Jyura Vambraces","arms","Water Attack",1,,,,,,,0,0,0
+"Jyura Coil","waist","Ice Resistance",1,,,,,,,0,0,0
+"Jyura Greaves","legs","Focus",1,,,,,,,0,0,0
+"Kadachi Helm","head","Constitution",1,,,,,,,0,0,0
+"Kadachi Mail","chest","Jump Master",1,,,,,,,0,0,0
+"Kadachi Vambraces","arms","Evade Extender",1,,,,,,,0,0,0
+"Kadachi Coil","waist","Thunder Attack",1,,,,,,,0,0,0
+"Kadachi Greaves","legs","Thunder Resistance",1,,,,,,,0,0,0
+"High Metal Helm","head","Ice Resistance",1,,,,,,,0,0,0
+"High Metal Mail","chest","Earplugs",1,,,,,,,0,0,0
+"High Metal Braces","arms","Defense Boost",1,,,,,,,0,0,0
+"High Metal Coil","waist","Capacity Boost",1,,,,,,,0,0,0
+"High Metal Greaves","legs","Heavy Artillery",1,,,,,,,0,0,0
+"King Beetle Vertex","head","Evade Window",1,,,,,,,0,0,0
+"King Beetle Thorax","chest","Quick Sheath",1,,,,,,,0,0,0
+"King Beetle Brachia","arms","Leap of Faith",1,,,,,,,0,0,0
+"King Beetle Elytra","waist","Honey Hunter",1,,,,,,,0,0,0
+"King Beetle Crura","legs","Forager&#039;s Luck",1,,,,,,,0,0,0
+"Butterfly Vertex","head","Evade Window",1,,,,,,,0,0,0
+"Butterfly Thorax","chest","Quick Sheath",1,,,,,,,0,0,0
+"Butterfly Barchia","arms","Leap of Faith",1,,,,,,,0,0,0
+"Butterfly Elytra","waist","Honey Hunter",1,,,,,,,0,0,0
+"Butterfly Crura","legs","Forager&#039;s Luck",1,,,,,,,0,0,0
+"Shamos Goggles","head","Detector",1,,,,,,,0,0,0
+"Hornetaur Helm","head","Dungmaster",1,,,,,,,0,0,0
+"Hornetaur Mail","chest","Effluvial Expert",1,,,,,,,0,0,0
+"Hornetaur Vambraces","arms","Free Meal",1,,,,,,,0,0,0
+"Hornetaur Coil","waist","Carving Pro",1,,,,,,,0,0,0
+"Hornetaur Greaves","legs","Handicraft",1,,,,,,,0,0,0
+"Anja Helm","head","Fire Attack",1,,,,,,,0,0,0
+"Anja Mail","chest","Marathon Runner",1,,,,,,,0,0,0
+"Anja Vambraces","arms","Special Ammo Boost",1,,,,,,,0,0,0
+"Anja Coil","waist","Fire Resistance",1,,,,,,,0,0,0
+"Anja Greaves","legs","Artillery",1,,,,,,,0,0,0
+"Rathian Helm","head","Health Boost",1,,,,,,,0,0,0
+"Rathian Mail","chest","Botanist",1,,,,,,,0,0,0
+"Rathian Vambraces","arms","Poison Attack",1,,,,,,,0,0,0
+"Rathian Coil","waist","Poison Resistance",1,,,,,,,0,0,0
+"Rathian Greaves","legs","Recovery Up",1,,,,,,,0,0,0
+"Tzitzi Headgear","head","Blindsider",1,,,,,,,0,0,0
+"Tzitzi Mail","chest","Constitution",1,,,,,,,0,0,0
+"Tzitzi Vambraces","arms","Stun Resistance",1,,,,,,,0,0,0
+"Tzitzi Coil","waist","Wide-Range",1,,,,,,,0,0,0
+"Tzitzi Greaves","legs","Sleep Resistance",1,,,,,,,0,0,0
+"Lumu Hat","head","Stamina Surge",1,,,,,,,0,0,0
+"Lumu Mail","chest","Master Mounter",1,,,,,,,0,0,0
+"Lumu Vambraces","arms","Artillery",1,,,,,,,0,0,0
+"Lumu Coil","waist","Divine Blessing",1,,,,,,,0,0,0
+"Lumu Greaves","legs","Windproof",1,,,,,,,0,0,0
+"Girros Mask","head","Horn Maestro",1,,,,,,,0,0,0
+"Girros Mail","chest","Paralysis Resistance",1,,,,,,,0,0,0
+"Girros Vambraces","arms","Palico Rally",1,,,,,,,0,0,0
+"Girros Coil","waist","Effluvial Expert",1,,,,,,,0,0,0
+"Girros Greaves","legs","Paralysis Attack",1,,,,,,,0,0,0
+"Baan Helm","head","Slugger",1,,,,,,,0,0,0
+"Baan Mail","chest","Sleep Resistance",1,,,,,,,0,0,0
+"Baan Vambraces","arms","Sleep Attack",1,,,,,,,0,0,0
+"Baan Coil","waist","Guard",1,,,,,,,0,0,0
+"Baan Greaves","legs","Bleeding Resistance",1,,,,,,,0,0,0
+"Ingot Helm","head","Thunder Attack",1,,,,,,,0,0,0
+"Ingot Mail","chest","Thunder Resistance",1,,,,,,,0,0,0
+"Ingot Vambraces","arms","Health Boost",1,,,,,,,0,0,0
+"Ingot Coil","waist","Windproof",1,,,,,,,0,0,0
+"Ingot Greaves","legs","Defense Boost",1,,,,,,,0,0,0
+"Death Stench Brain","head","Resuscitate",1,,,,,,,0,0,0
+"Death Stench Muscle","chest","Fortify",1,,,,,,,0,0,0
+"Death Stench Grip","arms","Focus",1,,,,,,,0,0,0
+"Death Stench Bowels","waist","Dragon Attack",1,,,,,,,0,0,0
+"Death Stench Heels","legs","Handicraft",1,,,,,,,0,0,0
+"Brigade Lobos","head","Recovery Speed",1,,,,,,,0,0,0
+"Brigade Suit","chest","Divine Blessing",1,,,,,,,0,0,0
+"Brigade Vambraces","arms","Heavy Artillery",1,,,,,,,0,0,0
+"Brigade Coil","waist","Geologist",1,,,,,,,0,0,0
+"Brigade Boots","legs","Scholar",1,,,,,,,0,0,0
+"Legiana Helm","head","Divine Blessing",1,,,,,,,0,0,0
+"Legiana Mail","chest","Evade Window",1,,,,,,,0,0,0
+"Legiana Vambraces","arms","Airborne",1,,,,,,,0,0,0
+"Legiana Coil","waist","Ice Attack",1,,,,,,,0,0,0
+"Legiana Greaves","legs","Ice Resistance",1,,,,,,,0,0,0
+"Odogaron Helm","head","Bleeding Resistance",1,,,,,,,0,0,0
+"Odogaron Mail","chest","Speed Sharpening",1,,,,,,,0,0,0
+"Odogaron Vambraces","arms","Constitution",1,,,,,,,0,0,0
+"Odogaron Coil","waist","Critical Eye",1,,,,,,,0,0,0
+"Odogaron Greaves","legs","Quick Sheath",1,,,,,,,0,0,0
+"Rathalos Helm","head","Attack Boost",1,,,,,,,0,0,0
+"Rathalos Mail","chest","Weakness Exploit",1,,,,,,,0,0,0
+"Rathalos Vambraces","arms","Fire Resistance",1,,,,,,,0,0,0
+"Rathalos Coil","waist","Fire Attack",1,,,,,,,0,0,0
+"Rathalos Greaves","legs","Jump Master",1,,,,,,,0,0,0
+"Diablos Helm","head","Critical Draw",1,,,,,,,0,0,0
+"Diablos Mail","chest","Slugger",1,,,,,,,0,0,0
+"Diablos Vambraces","arms","Heroics",1,,,,,,,0,0,0
+"Diablos Coil","waist","Marathon Runner",1,,,,,,,0,0,0
+"Diablos Greaves","legs","Tremor Resistance",1,,,,,,,0,0,0
+"Kirin Horn","head","Marathon Runner",1,,,,,,,0,0,0
+"Kirin Jacket","chest","Divine Blessing",1,,,,,,,0,0,0
+"Kirin Longarms","arms","Blight Resistance",1,,,,,,,0,0,0
+"Kirin Hoop","waist","Thunder Attack",1,,,,,,,0,0,0
+"Kirin Leg Guards","legs","Thunder Resistance",1,,,,,,,0,0,0
+"Blossom Headgear","head","Honey Hunter",1,,,,,,,0,0,0
+"Blossom Vest","chest","Quick Sheath",1,,,,,,,0,0,0
+"Blossom Cuffs","arms","Paralysis Resistance",1,,,,,,,0,0,0
+"Blossom Coat","waist","Scoutfly Range Up",1,,,,,,,0,0,0
+"Blossom Boots","legs","Recovery Speed",1,,,,,,,0,0,0
+"Queen Beetle Vertex","head","Stun Resistance",1,,,,,,,0,0,0
+"Queen Beetle Thorax","chest","Health Boost",1,,,,,,,0,0,0
+"Queen Beetle Brachia","arms","Critical Eye",1,,,,,,,0,0,0
+"Queen Beetle Elytra","waist","Defense Boost",1,,,,,,,0,0,0
+"Queen Beetle Crura","legs","Marathon Runner",1,,,,,,,0,0,0
+"Leather Headgear Alpha","head","Hunger Resistance",2,,,,,,,0,0,0
+"Leather Mail Alpha","chest","Fire Resistance",1,,,,,,,0,0,0
+"Leather Gloves Alpha","arms","Recovery Speed",1,,,,,,,0,0,0
+"Leather Belt Alpha","waist","Stamina Surge",1,,,,,,,0,0,0
+"Leather Trousers Alpha","legs","Cliffhanger",1,,,,,,,0,0,0
+"Leather Headgear Beta","head","Hunger Resistance",1,,,,,,,1,0,0
+"Leather Mail Beta","chest",,,,,,,,,1,0,0
+"Leather Gloves Beta","arms",,,,,,,,,1,0,0
+"Leather Belt Beta","waist",,,,,,,,,1,0,0
+"Leather Trousers Beta","legs",,,,,,,,,1,0,0
+"Chainmail Headgear Alpha","head","Master Gatherer",1,"Guard",1,,,,,0,0,0
+"Chainmail Armor Alpha","chest","Water Resistance",1,,,,,,,0,0,0
+"Chainmail Gloves Alpha","arms","Recovery Speed",1,,,,,,,0,0,0
+"Chainmail Belt Alpha","waist","Quick Sheath",1,,,,,,,0,0,0
+"Chainmail Trousers Alpha","legs","Recovery Up",1,,,,,,,0,0,0
+"Chainmail Headgear Beta","head","Master Gatherer",1,,,,,,,1,0,0
+"Chainmail Armor Beta","chest",,,,,,,,,1,0,0
+"Chainmail Gloves Beta","arms",,,,,,,,,1,0,0
+"Chainmail Belt Beta","waist",,,,,,,,,1,0,0
+"Chainmail Trousers Beta","legs",,,,,,,,,1,0,0
+"Hunter's Headgear Alpha","head","Scoutfly Range Up",1,"Scholar",1,,,,,0,0,0
+"Hunter's Mail Alpha","chest","Slinger Capacity",2,,,,,,,0,0,0
+"Hunter's Vambraces Alpha","arms","Stealth",2,,,,,,,0,0,0
+"Hunter's Coil Alpha","waist","Stealth",1,"Master Gatherer",1,,,,,0,0,0
+"Hunter's Greaves Alpha","legs","Slinger Capacity",1,"Scenthound",1,,,,,0,0,0
+"Hunter's Headgear Beta","head","Scoutfly Range Up",1,,,,,,,1,0,0
+"Hunter's Mail Beta","chest","Slinger Capacity",1,,,,,,,1,0,0
+"Hunter's Vambraces Beta","arms","Stealth",1,,,,,,,1,0,0
+"Hunter's Coil Beta","waist","Master Gatherer",1,,,,,,,1,0,0
+"Hunter's Greaves Beta","legs","Scenthound",1,,,,,,,1,0,0
+"Bone Helm Alpha","head","Health Boost",1,"Entomologist",1,,,,,0,0,0
+"Bone Mail Alpha","chest","Attack Boost",1,,,,,,,0,0,0
+"Bone Vambraces Alpha","arms","Slugger",1,"Attack Boost",1,,,,,0,0,0
+"Bone Coil Alpha","waist","Horn Maestro",1,"Master Fisher",1,,,,,0,0,0
+"Bone Greaves Alpha","legs","Entomologist",2,,,,,,,0,0,0
+"Bone Helm Beta","head","Health Boost",1,,,,,,,1,0,0
+"Bone Mail Beta","chest","Attack Boost",1,,,,,,,1,0,0
+"Bone Vambraces Beta","arms","Slugger",1,,,,,,,1,0,0
+"Bone Coil Beta","waist","Horn Maestro",1,,,,,,,1,0,0
+"Bone Greaves Beta","legs","Entomologist",1,,,,,,,1,0,0
+"Alloy Helm Alpha","head","Windproof",1,"Defense Boost",1,,,,,0,0,0
+"Alloy Mail Alpha","chest","Water Resistance",2,,,,,,,0,0,0
+"Alloy Vambraces Alpha","arms","Defense Boost",1,"Speed Sharpening",1,,,,,0,0,0
+"Alloy Coil Alpha","waist","Poison Resistance",1,"Water Resistance",1,,,,,0,0,0
+"Alloy Greaves Alpha","legs","Speed Sharpening",2,,,,,,,0,0,0
+"Alloy Helm Beta","head","Windproof",1,,,,,,,1,0,0
+"Alloy Mail Beta","chest","Water Resistance",1,,,,,,,1,0,0
+"Alloy Vambraces Beta","arms","Defense Boost",1,,,,,,,1,0,0
+"Alloy Coil Beta","waist","Poison Resistance",1,,,,,,,1,0,0
+"Alloy Greaves Beta","legs","Speed Sharpening",1,,,,,,,1,0,0
+"King Beetle Vertex Alpha","head","Evade Window",2,"Botanist",1,,,,,0,0,0
+"King Beetle Thorax Alpha","chest","Quick Sheath",2,"Botanist",1,,,,,0,0,0
+"King Beetle Brachia Alpha","arms","Botanist",2,"Leap of Faith",1,,,,,1,0,0
+"King Beetle Elytra Alpha","waist","Honey Hunter",1,"Quick Sheath",1,,,,,1,0,0
+"King Beetle Crura Alpha","legs","Forager&#039;s Luck",1,"Evade Window",1,,,,,1,0,0
+"King Beetle Vertex Beta","head","Evade Window",2,,,,,,,1,0,0
+"King Beetle Thorax Beta","chest","Quick Sheath",2,,,,,,,1,0,0
+"King Beetle Brachia Beta","arms","Botanist",2,,,,,,,2,1,0
+"King Beetle Elytra Beta","waist","Honey Hunter",1,,,,,,,2,1,0
+"King Beetle Crura Beta","legs","Forager&#039;s Luck",1,,,,,,,2,1,0
+"Butterfly Vertex Alpha","head","Botanist",1,"Evade Window",2,,,,,0,0,0
+"Butterfly Thorax Alpha","chest","Botanist",1,"Quick Sheath",2,,,,,0,0,0
+"Butterfly Brachia Alpha","arms","Botanist",2,"Leap of Faith",1,,,,,0,0,0
+"Butterfly Elytra Alpha","waist","Honey Hunter",1,"Quick Sheath",1,,,,,0,0,0
+"Butterfly Crura Alpha","legs","Forager&#039;s Luck",1,"Evade Window",1,,,,,0,0,0
+"Butterfly Vertex Beta","head","Evade Window",2,,,,,,,1,0,0
+"Butterfly Thorax Beta","chest","Quick Sheath",2,,,,,,,1,0,0
+"Butterfly Brachia Beta","arms","Botanist",2,,,,,,,2,1,0
+"Butterfly Elytra Beta","waist","Honey Hunter",1,,,,,,,2,1,0
+"Butterfly Crura Beta","legs","Forager&#039;s Luck",1,,,,,,,2,1,0
+"Vespoid Helm Alpha","head","Quick Sheath",1,"Paralysis Attack",1,,,,,0,0,0
+"Vespoid Mail Alpha","chest","Windproof",1,,,,,,,0,0,0
+"Vespoid Vambraces Alpha","arms","Paralysis Attack",1,,,,,,,0,0,0
+"Vespoid Coil Alpha","waist","Paralysis Resistance",2,,,,,,,0,0,0
+"Vespoid Greaves Alpha","legs","Honey Hunter",1,"Paralysis Resistance",1,,,,,0,0,0
+"Vespoid Helm Beta","head","Quick Sheath",1,,,,,,,1,0,0
+"Vespoid Mail Beta","chest","Windproof",1,,,,,,,1,0,0
+"Vespoid Vambraces Beta","arms","Paralysis Attack",1,,,,,,,1,0,0
+"Vespoid Coil Beta","waist","Paralysis Resistance",1,,,,,,,1,0,0
+"Vespoid Greaves Beta","legs","Honey Hunter",1,,,,,,,1,0,0
+"Hornetaur Helm Alpha","head","Dungmaster",1,"Dragon Attack",1,,,,,0,0,0
+"Hornetaur Mail Apha","chest","Effluvial Expert",1,"Hunger Resistance",1,,,,,0,0,0
+"Hornetaur Vambraces Alpha","arms","Free Meal",1,"Hunger Resistance",1,,,,,0,0,0
+"Hornetaur Coil Alpha","waist","Carving Pro",1,"Hunger Resistance",1,,,,,0,0,0
+"Hornetaur Greaves Alpha","legs","Handicraft",1,"Dragon Attack",1,,,,,0,0,0
+"Hornetaur Helm Beta","head","Dungmaster",1,,,,,,,1,0,0
+"Hornetaur Mail Beta","chest","Effluvial Expert",1,,,,,,,1,0,0
+"Hornetaur Vambraces Beta","arms","Free Meal",1,,,,,,,1,0,0
+"Hornetaur Coil Beta","waist","Carving Pro",1,,,,,,,1,0,0
+"Hornetaur Greaves Beta","legs","Handicraft",1,,,,,,,1,0,0
+"Mossswine Mask Alpha","head","Mushroomancer",2,,,,,,,0,0,0
+"Kestodon Guards Alpha","head","Affinity Sliding",1,"Focus",1,,,,,0,0,0
+"Kestodon Guards Beta","head","Affinity Sliding",1,,,,,,,1,0,0
+"Gajau Boots Alpha","legs","Aquatic Expert",2,"Water Attack",1,,,,,0,0,0
+"Gajau Boots Beta","legs","Aquatic Expert",1,"Water Attack",1,,,,,1,0,0
+"Shamos Goggles Alpha","head","Detector",1,"Geologist",1,,,,,0,0,0
+"Shamos Goggles Beta","head","Detector",1,,,,,,,1,0,0
+"Jagras Helm Alpha","head","Speed Eating",2,,,,,,,0,0,0
+"Jagras Mail Alpha","chest","Intimidator",2,,,,,,,0,0,0
+"Jagras Vambraces Alpha","arms","Palico Rally",1,"Intimidator",1,,,,,0,0,0
+"Jagras Coil Alpha","waist","Fortify",1,"Speed Eating",1,,,,,0,0,0
+"Jagras Greaves Alpha","legs","Speed Crawler",1,"Free Meal",1,,,,,0,0,0
+"Jagras Helm Beta","head","Speed Eating",1,,,,,,,1,0,0
+"Jagras Mail Beta","chest","Intimidator",1,,,,,,,1,0,0
+"Jagras Vambraces Beta","arms","Palico Rally",1,,,,,,,1,0,0
+"Jagras Coil Beta","waist","Fortify",1,,,,,,,1,0,0
+"Jagras Greaves Beta","legs","Speed Crawler",1,,,,,,,1,0,0
+"Kulu Headpiece Alpha","head","Fire Resistance",1,"Weakness Exploit",1,,,,,0,0,0
+"Kulu Mail Alpha","chest","Stamina Surge",1,"Critical Eye",1,,,,,0,0,0
+"Kulu Vambraces Alpha","arms","Pro Transporter",1,"Critical Eye",1,,,,,0,0,0
+"Kulu Coil Alpha","waist","Item Prolonger",2,,,,,,,0,0,0
+"Kulu Greaves Alpha","legs","Critical Eye",1,"Item Prolonger",1,,,,,0,0,0
+"Kulu Headpiece Beta","head","Fire Resistance",1,,,,,,,1,1,0
+"Kulu Mail Beta","chest","Stamina Surge",1,,,,,,,1,0,0
+"Kulu Vambraces Beta","arms","Pro Transporter",1,,,,,,,2,0,0
+"Kulu Coil Beta","waist","Item Prolonger",1,,,,,,,2,0,0
+"Kulu Greaves Beta","legs","Critical Eye",1,,,,,,,1,0,0
+"Tzitzi Headgear Alpha","head","Blindsider",1,"Stun Resistance",1,,,,,0,0,0
+"Tzitzi Mail Alpha","chest","Constitution",1,"Water Attack",2,,,,,0,0,0
+"Tzitzi Vambraces Alpha","arms","Stun Resistance",2,"Wide-Range",1,,,,,0,0,0
+"Tzitzi Coil Alpha","waist","Wide-Range",2,"Water Attack",1,,,,,0,0,0
+"Tzitzi Greaves Alpha","legs","Sleep Resistance",2,,,,,,,0,0,0
+"Tzitzi Headgear Beta","head","Blindsider",1,,,,,,,1,0,0
+"Tzitzi Mail Beta","chest","Constitution",1,,,,,,,1,1,0
+"Tzitzi Vambraces Beta","arms","Stun Resistance",2,,,,,,,1,0,0
+"Tzitzi Coil Beta","waist","Wide-Range",1,,,,,,,2,0,0
+"Tzitzi Greaves Beta","legs","Sleep Resistance",1,,,,,,,1,0,0
+"Girros Mask Alpha","head","Horn Maestro",1,"Paralysis Resistance",1,,,,,0,0,0
+"Girros Mail Alpha","chest","Paralysis Resistance",2,,,,,,,0,0,0
+"Girros Vambraces Alpha","arms","Palico Rally",2,,,,,,,0,0,0
+"Girros Coil Alpha","waist","Effluvial Expert",1,"Paralysis Attack",1,,,,,0,0,0
+"Girros Greaves Alpha","legs","Paralysis Attack",2,,,,,,,0,0,0
+"Girros Mask Beta","head","Horn Maestro",1,,,,,,,1,0,0
+"Girros Mail Beta","chest","Paralysis Resistance",1,,,,,,,1,0,0
+"Girros Vambraces Beta","arms","Palico Rally",1,,,,,,,1,0,0
+"Girros Coil Beta","waist","Effluvial Expert",1,,,,,,,1,0,0
+"Girros Greaves Beta","legs","Paralysis Attack",1,,,,,,,1,0,0
+"Pukei Hood Alpha","head","Sporepuff Expert",2,,,,,,,0,0,0
+"Pukei Mail Alpha","chest","Item Prolonger",1,"Botanist",1,,,,,0,0,0
+"Pukei Vambraces Alpha","arms","Poison Resistance",2,"Poison Attack",1,,,,,0,0,0
+"Pukei Coil Alpha","waist","Poison Attack",2,,,,,,,0,0,0
+"Pukei Greaves Alpha","legs","Botanist",2,"Sporepuff Expert",1,,,,,0,0,0
+"Pukei Hood Beta","head","Sporepuff Expert",1,,,,,,,1,1,0
+"Pukei Mail Beta","chest","Item Prolonger",1,,,,,,,1,0,0
+"Pukei Vambraces Beta","arms","Poison Resistance",1,,,,,,,1,1,0
+"Pukei Coil Beta","waist","Poison Attack",1,,,,,,,1,0,0
+"Pukei Greaves Beta","legs","Botanist",1,,,,,,,2,0,0
+"Barroth Helm Alpha","head","Guard",2,,,,,,,0,0,0
+"Barroth Mail Alpha","chest","Stamina Thief",2,,,,,,,0,0,0
+"Barroth Vambraces Alpha","arms","Marathon Runner",1,"Stamina Thief",1,,,,,0,0,0
+"Barroth Coil Alpha","waist","Muck Resistance",1,"Guard",1,,,,,0,0,0
+"Barroth Greaves Alpha","legs","Stun Resistance",2,"Marathon Runner",1,,,,,0,0,0
+"Barroth Helm Beta","head","Guard",1,,,,,,,1,0,0
+"Barroth Mail Beta","chest","Stamina Thief",1,,,,,,,1,0,0
+"Barroth Vambraces Beta","arms","Marathon Runner",1,,,,,,,1,0,0
+"Barroth Coil Beta","waist","Muck Resistance",1,,,,,,,2,0,0
+"Barroth Greaves Beta","legs","Stun Resistance",1,,,,,,,1,1,0
+"Anja Helm Alpha","head","Fire Attack",2,"Fire Resistance",1,,,,,0,0,0
+"Anja Mail Alpha","chest","Marathon Runner",1,"Special Ammo Boost",1,,,,,0,0,0
+"Anja Vambraces Alpha","arms","Special Ammo Boost",1,"Fire Attack",1,,,,,0,0,0
+"Anja Coil Alpha","waist","Fire Resistance",2,"Artillery",1,,,,,0,0,0
+"Anja Greaves Alpha","legs","Artillery",2,,,,,,,0,0,0
+"Anja Helm Beta","head","Fire Attack",2,,,,,,,2,0,0
+"Anja Mail Beta","chest","Marathon Runner",1,,,,,,,1,1,0
+"Anja Vambraces Beta","arms","Special Ammo Boost",1,,,,,,,1,0,0
+"Anja Coil Beta","waist","Fire Resistance",2,,,,,,,2,0,0
+"Anja Greaves Beta","legs","Artillery",1,,,,,,,1,0,0
+"Jyura Helm Alpha","head","Aquatic Expert",2,,,,,,,0,0,0
+"Jyura Mail Alpha","chest","Muck Resistance",1,"Water Attack",1,,,,,0,0,0
+"Jyura Vambraces Alpha","arms","Water Attack",2,"Aquatic Expert",1,,,,,0,0,0
+"Jyura Coil Alpha","waist","Ice Resistance",2,,,,,,,0,0,0
+"Jyura Greaves Alpha","legs","Focus",2,,,,,,,0,0,0
+"Jyura Helm Beta","head","Aquatic Expert",1,,,,,,,1,0,0
+"Jyura Mail Beta","chest","Muck Resistance",1,,,,,,,1,0,0
+"Jyura Vambraces Beta","arms","Water Attack",2,,,,,,,1,0,0
+"Jyura Coil Beta","waist","Ice Resistance",1,,,,,,,1,0,0
+"Jyura Greaves Beta","legs","Focus",1,,,,,,,2,0,0
+"Kadachi Helm Alpha","head","Constitution",2,,,,,,,0,0,0
+"Kadachi Mail Alpha","chest","Jump Master",1,"Evade Extender",1,,,,,0,0,0
+"Kadachi Vambraces Alpha","arms","Evade Extender",2,,,,,,,0,0,0
+"Kadachi Coil Alpha","waist","Thunder Attack",2,"Thunder Resistance",1,,,,,0,0,0
+"Kadachi Greaves Alpha","legs","Thunder Resistance",2,"Constitution",1,,,,,0,0,0
+"Kadachi Helm Beta","head","Constitution",1,,,,,,,2,0,0
+"Kadachi Mail Beta","chest","Jump Master",1,,,,,,,2,0,0
+"Kadachi Vambraces Beta","arms","Evade Extender",1,,,,,,,2,0,0
+"Kadachi Coil Beta","waist","Thunder Attack",1,,,,,,,1,1,0
+"Kadachi Greaves Beta","legs","Thunder Resistance",1,,,,,,,1,1,0
+"Lumu Hat Alpha","head","Stamina Surge",2,,,,,,,0,0,0
+"Lumu Mail Alpha","chest","Master Mounter",1,"Artillery",1,,,,,0,0,0
+"Lumu Vambraces Alpha","arms","Artillery",2,,,,,,,0,0,0
+"Lumu Coil Alpha","waist","Divine Blessing",2,,,,,,,0,0,0
+"Lumu Greaves Alpha","legs","Windproof",1,"Stamina Surge",1,,,,,0,0,0
+"Lumu Hat Beta","head","Stamina Surge",1,,,,,,,2,0,0
+"Lumu Mail Beta","chest","Master Mounter",1,,,,,,,1,0,0
+"Lumu Vambraces Beta","arms","Artillery",1,,,,,,,1,0,0
+"Lumu Coil Beta","waist","Divine Blessing",1,,,,,,,1,0,0
+"Lumu Greaves Beta","legs","Windproof",1,,,,,,,1,1,0
+"Rathian Helm Alpha","head","Health Boost",2,"Poison Attack",1,,,,,0,0,0
+"Rathian Mail Alpha","chest","Botanist",2,"Recovery Up",1,,,,,0,0,0
+"Rathian Vambraces Alpha","arms","Poison Attack",2,,,,,,,0,0,0
+"Rathian Coil Alpha","waist","Poison Resistance",2,"Health Boost",1,,,,,0,0,0
+"Rathian Greaves Alpha","legs","Recovery Up",2,,,,,,,0,0,0
+"Rathian Helm Beta","head","Health Boost",1,"Poison Attack",1,,,,,1,0,0
+"Rathian Mail Beta","chest","Botanist",1,"Recovery Up",1,,,,,1,0,0
+"Rathian Vambraces Beta","arms","Poison Attack",1,,,,,,,1,0,0
+"Rathian Coil Beta","waist","Poison Resistance",1,"Health Boost",1,,,,,1,0,0
+"Rathian Greaves Beta","legs","Recovery Up",1,,,,,,,1,0,0
+"Rath Heart Helm Alpha","head","Evade Extender",1,"Poison Attack",1,,,,,0,0,0
+"Rath Heart Mail Alpha","chest","Tool Specialist",2,,,,,,,0,0,0
+"Rath Heart Braces Alpha","arms","Windproof",2,,,,,,,0,0,0
+"Rath Heart Coil Alpha","waist","Handicraft",1,"Poison Resistance",1,,,,,0,0,0
+"Rath Heart Greaves Alpha","legs","Tool Specialist",1,"Windproof",1,,,,,0,0,0
+"Rath Heart Helm Beta","head","Evade Extender",1,,,,,,,2,0,0
+"Rath Heart Mail Beta","chest","Tool Specialist",1,,,,,,,1,1,0
+"Rath Heart Braces Beta","arms","Windproof",1,,,,,,,2,0,0
+"Rath Heart Coil Beta","waist","Handicraft",1,,,,,,,1,0,0
+"Rath Heart Greaves Beta","legs","Tool Specialist",1,,,,,,,2,0,0
+"Baan Helm Alpha","head","Tremor Resistance",2,,,,,,,0,0,0
+"Baan Mail Alpha","chest","Sleep Attack",1,"Bleeding Resistance",1,,,,,0,0,0
+"Baan Vambraces Alpha","arms","Sleep Attack",2,"Guard",1,,,,,0,0,0
+"Baan Coil Alpha","waist","Guard",2,,,,,,,0,0,0
+"Baan Greaves Alpha","legs","Bleeding Resistance",2,,,,,,,0,0,0
+"Baan Helm Beta","head","Tremor Resistance",1,,,,,,,2,0,0
+"Baan Mail Beta","chest","Sleep Attack",1,,,,,,,1,0,0
+"Baan Vambraces Beta","arms","Sleep Attack",1,"Guard",1,,,,,1,0,0
+"Baan Coil Beta","waist","Guard",1,,,,,,,2,0,0
+"Baan Greaves Beta","legs","Bleeding Resistance",1,,,,,,,1,0,0
+"Gastodon Horn Alpha","head","Flinch Free",1,"Blast Resistance",1,,,,,0,0,0
+"Gastodon Horn Beta","head","Flinch Free",1,,,,,,,1,0,0
+"Barnos Jacket Alpha","chest","Heat Guard",1,"Iron Skin",1,,,,,0,0,0
+"Barnos Jacket Beta","chest","Heat Guard",1,,,,,,,1,0,0
+"Dodogama Helm Alpha","head","Blast Resistance",2,,,,,,,0,0,0
+"Dodogama Mail Alpha","chest","Blast Attack",2,,,,,,,0,0,0
+"Dodogama Vambraces Alpha","arms","Bombardier",2,,,,,,,0,0,0
+"Dodogama Coil Alpha","waist","Artillery",2,"Blast Resistance",1,,,,,0,0,0
+"Dodogame Greaves Alpha","legs","Capacity Boost",1,"Blast Attack",1,,,,,0,0,0
+"Dodogama Helm Beta","head","Blast Resistance",1,,,,,,,1,0,0
+"Dodogama Mail Beta","chest","Blast Attack",1,,,,,,,1,0,0
+"Dodogama Vambraces Beta","arms","Bombardier",1,,,,,,,1,0,0
+"Dodogama Coil Beta","waist","Artillery",2,,,,,,,1,0,0
+"Dodogama Greaves Beta","legs","Capacity Boost",1,,,,,,,1,0,0
+"Zorah Headgear Apha","head","Handicraft",1,"Blast Attack",1,,,,,0,0,0
+"Zorah Hide Alpha","chest","Blast Attack",2,"Windproof",1,,,,,0,0,0
+"Zorah Claws Alpha","arms","Free Elem/Ammo Up",1,"Bombardier",1,,,,,0,0,0
+"Zorah Spine Alpha","waist","Fortify",1,"Tremor Resistance",1,,,,,0,0,0
+"Zorah Spurs Alpha","legs","Bombardier",2,"Earplugs",1,,,,,0,0,0
+"Zorah Headgear Beta","head","Handicraft",1,,,,,,,1,0,0
+"Zorah Hide Beta","chest","Blast Attack",2,,,,,,,2,0,0
+"Zorah Claws Beta","arms","Free Elem/Ammo Up",1,,,,,,,1,0,0
+"Zorah Spine Beta","waist","Fortify",1,,,,,,,2,0,0
+"Zorah Spurs Beta","legs","Bombardier",2,,,,,,,2,0,0
+"High Metal Helm Alpha","head","Ice Resistance",2,"Earplugs",1,,,,,0,0,0
+"High Metal Mail Alpha","chest","Earplugs",2,"Ice Attack",1,,,,,0,0,0
+"High Metal Braces Alpha","arms","Defense Boost",2,"Ice Attack",1,,,,,0,0,0
+"High Metal Coil Alpha","waist","Capacity Boost",1,"Defense Boost",1,,,,,0,0,0
+"High Metal Greaves Alpha","legs","Heavy Artillery",1,"Ice Resistance",1,,,,,0,0,0
+"High Metal Helm Beta","head","Ice Resistance",2,,,,,,,2,0,0
+"High Metal Mail Beta","chest","Earplugs",1,"Ice Attack",1,,,,,2,0,0
+"High Metal Braces Beta","arms","Defense Boost",2,,,,,,,1,0,0
+"High Metal Coil Beta","waist","Capacity Boost",1,,,,,,,1,0,0
+"High Metal Greaves Beta","legs","Heavy Artillery",1,,,,,,,1,0,0
+"Ingot Helm Alpha","head","Thunder Attack",2,,,,,,,0,0,0
+"Ingot Mail Alpha","chest","Thunder Resistance",2,,,,,,,0,0,0
+"Ingot Vambraces Alpha","arms","Health Boost",2,"Thunder Attack",1,,,,,0,0,0
+"Ingot Coil Alpha","waist","Windproof",2,,,,,,,0,0,0
+"Ingot Greaves Alpha","legs","Defense Boost",2,"Windproof",1,,,,,0,0,0
+"Ingot Helm Beta","head","Thunder Attack",1,,,,,,,1,0,0
+"Ingot Mail Beta","chest","Thunder Resistance",1,,,,,,,1,0,0
+"Ingot Vambraces Beta","arms","Health Boost",2,,,,,,,1,0,0
+"Ingot Coil Beta","waist","Windproof",1,,,,,,,3,0,0
+"Ingot Greaves Beta","legs","Defense Boost",2,,,,,,,2,0,0
+"Brigade Lobos Alpha","head","Recovery Speed",2,"Horn Maestro",1,,,,,0,0,0
+"Brigade Suit Alpha","chest","Divine Blessing",2,,,,,,,2,0,0
+"Brigade Vambraces Alpha","arms","Heavy Artillery",2,"Divine Blessing",1,,,,,0,0,0
+"Brigade Coil Alpha","waist","Geologist",2,"Recovery Speed",1,,,,,0,0,0
+"Brigade Boots Alpha","legs","Scholar",1,"Geologist",1,,,,,1,0,0
+"Brigade Lobos Beta","head","Recovery Speed",2,,,,,,,1,0,0
+"Brigade Suit Beta","chest","Divine Blessing",1,,,,,,,2,2,0
+"Brigade Vambraces Beta","arms","Heavy Artillery",2,,,,,,,1,0,0
+"Brigade Coil Beta","waist","Geologist",2,,,,,,,1,0,0
+"Brigade Boots Beta","legs","Scholar",1,,,,,,,3,0,0
+"Faux Felyne Alpha","head","Palico Rally",3,,,,,,,0,0,0
+"Strategist Spectacles Alpha","head","Critical Eye",2,,,,,,,1,0,0
+"Lavasioth Helm Alpha","head","Fire Attack",2,"Quick Sheath",1,,,,,0,0,0
+"Lavasioth Mail Alpha","chest","Fire Attack",2,"Heat Guard",1,,,,,0,0,0
+"Lavasioth Vambraces Alpha","arms","Affinity Sliding",1,"Wide-Range",1,,,,,2,0,0
+"Lavasioth Coil Alpha","waist","Quick Sheath",2,"Recovery Up",1,,,,,0,0,0
+"Lavasioth Greaves Alpha","legs","Spread/Power Shots",1,"Fire Attack",1,,,,,1,0,0
+"Lavasioth Helm Beta","head","Fire Attack",1,"Quick Sheath",1,,,,,1,1,0
+"Lavasioth Mail Beta","chest","Fire Attack",2,,,,,,,1,1,0
+"Lavasioth Vambraces Beta","arms","Affinity Sliding",1,,,,,,,3,0,0
+"Lavasioth Coil Beta","waist","Quick Sheath",2,,,,,,,1,0,0
+"Lavasioth Greaves Beta","legs","Spread/Power Shots",1,,,,,,,2,0,0
+"Legiana Helm Alpha","head","Divine Blessing",2,"Ice Attack",1,,,,,0,0,0
+"Legiana Mail Alpha","chest","Evade Window",2,"Divine Blessing",1,,,,,0,0,0
+"Legiana Vambraces Alpha","arms","Airborne",1,"Evade Window",1,,,,,0,0,0
+"Legiana Coil Alpha","waist","Ice Attack",2,"Windproof",1,,,,,0,0,0
+"Legiana Greaves Alpha","legs","Ice Resistance",2,"Critical Draw",1,,,,,0,0,0
+"Legiana Helm Beta","head","Divine Blessing",2,,,,,,,1,0,0
+"Legiana Mail Beta","chest","Evade Window",2,,,,,,,1,0,0
+"Legiana Vambraces Beta","arms","Airborne",1,,,,,,,3,0,0
+"Legiana Coil Beta","waist","Ice Attack",2,,,,,,,2,0,0
+"Legiana Greaves Beta","legs","Ice Resistance",2,,,,,,,3,0,0
+"Odogaron Helm Alpha","head","Bleeding Resistance",2,"Critical Eye",1,,,,,0,0,0
+"Odogaron Mail Alpha","chest","Speed Sharpening",2,"Bleeding Resistance",1,,,,,0,0,0
+"Odogaron Vambraces Alpha","arms","Constitution",1,"Critical Eye",1,,,,,0,0,0
+"Odogaron Coil Alpha","waist","Critical Eye",2,"Speed Sharpening",1,,,,,0,0,0
+"Odogaron Greaves Alpha","legs","Quick Sheath",1,"Critical Eye",1,,,,,0,0,0
+"Odogaron Helm Beta","head","Bleeding Resistance",2,,,,,,,2,0,0
+"Odogaron Mail Beta","chest","Speed Sharpening",2,,,,,,,1,0,0
+"Odogaron Vambraces Beta","arms","Constitution",1,,,,,,,1,0,0
+"Odogaron Coil Beta","waist","Critical Eye",2,,,,,,,2,0,0
+"Odogaron Greaves Beta","legs","Quick Sheath",1,,,,,,,1,0,0
+"Rathalos Helm Alpha","head","Attack Boost",2,"Fire Attack",1,,,,,0,0,0
+"Rathalos Mail Alpha","chest","Weakness Exploit",2,"Fire Attack",1,,,,,0,0,0
+"Rathalos Vambraces Alpha","arms","Fire Resistance",2,"Attack Boost",1,,,,,0,0,0
+"Rathalos Coil Alpha","waist","Fire Attack",2,"Focus",1,,,,,0,0,0
+"Rathalos Greaves Alpha","legs","Jump Master",1,"Weakness Exploit",1,,,,,0,0,0
+"Rathalos Helm Beta","head","Attack Boost",2,,,,,,,1,0,0
+"Rathalos Mail Beta","chest","Weakness Exploit",2,,,,,,,1,0,0
+"Rathalos Vambraces Beta","arms","Fire Resistance",2,,,,,,,1,0,0
+"Rathalos Coil Beta","waist","Fire Attack",2,,,,,,,2,0,0
+"Rathalos Greaves Beta","legs","Jump Master",1,,,,,,,3,0,0
+"Rath Soul Helm Alpha","head","Critical Boost",1,"Intimidator",2,,,,,0,0,0
+"Rath Soul Mail Alpha","chest","Free Elem/Ammo Up",1,"Intimidator",1,,,,,1,0,0
+"Rath Soul Braces Alpha","arms","Focus",1,"Windproof",1,,,,,1,0,0
+"Rath Soul Coil Alpha","waist","Windproof",2,"Piercing Shots",1,,,,,0,0,0
+"Rath Soul Greaves Alpha","legs","Focus",1,"Cliffhanger",1,,,,,0,0,0
+"Rath Soul Helm Beta","head","Critical Boost",1,,,,,,,1,1,0
+"Rath Soul Mail Beta","chest","Free Elem/Ammo Up",1,,,,,,,2,0,0
+"Rath Soul Braces Beta","arms","Focus",1,,,,,,,2,0,0
+"Rath Soul Coil Beta","waist","Windproof",1,,,,,,,3,0,0
+"Rath Soul Greaves Beta","legs","Focus",1,,,,,,,1,0,0
+"Diablos Helm Alpha","head","Critical Draw",2,"Heroics",1,,,,,0,0,0
+"Diablos Mail Alpha","chest","Slugger",2,"Heroics",1,,,,,0,0,0
+"Diablos Vambraces Alpha","arms","Heroics",2,"Tremor Resistance",1,,,,,0,0,0
+"Diablos Coil Alpha","waist","Marathon Runner",2,"Critical Draw",1,,,,,0,0,0
+"Diablos Greaves Alpha","legs","Tremor Resistance",2,"Slugger",1,,,,,0,0,0
+"Diablos Helm Beta","head","Critical Draw",2,,,,,,,2,0,0
+"Diablos Mail Beta","chest","Slugger",2,,,,,,,2,0,0
+"Diablos Vambraces Beta","arms","Heroics",2,,,,,,,2,0,0
+"Diablos Coil Beta","waist","Marathon Runner",2,,,,,,,2,0,0
+"Diablos Greaves Beta","legs","Tremor Resistance",2,,,,,,,1,1,0
+"Diablos Nero Helm Alpha","head","Focus",2,,,,,,,1,0,0
+"Diablos Nero Mail Alpha","chest","Resentment",2,,,,,,,1,0,0
+"Diablos Nero Braces Alpha","arms","Focus",1,"Marathon Runner",1,,,,,0,0,0
+"Diablos Nero Coil Alpha","waist","Resentment",1,"Partbreaker",1,,,,,0,0,0
+"Diablos Nero Greaves Alpha","legs","Normal Shots",1,"Heroics",1,,,,,1,0,0
+"Diablos Nero Helm Beta","head","Focus",1,,,,,,,3,0,0
+"Diablos Nero Mail Beta","chest","Resentment",1,,,,,,,2,1,0
+"Diablos Nero Braces Beta","arms","Focus",1,,,,,,,2,1,0
+"Diablos Nero Coil Beta","waist","Resentment",1,,,,,,,2,0,0
+"Diablos Nero Greaves Beta","legs","Normal Shots",1,,,,,,,2,0,0
+"Uragaan Helm Alpha","head","Thunder Resistance",2,,,,,,,3,0,0
+"Uragaan Mail Alpha","chest","Partbreaker",2,,,,,,,1,0,0
+"Uragaan Vambraces Alpha","arms","Guard",1,"Defense Boost",1,,,,,1,0,0
+"Uragaan Coil Alpha","waist","Partbreaker",1,"Thunder Resistance",1,,,,,1,1,0
+"Uragaan Greaves Alpha","legs","Guard",2,,,,,,,1,0,0
+"Uragaan Helm Beta","head","Thunder Resistance",1,,,,,,,3,1,0
+"Uragaan Mail Beta","chest","Partbreaker",1,,,,,,,3,0,0
+"Uragaan Vambraces Beta","arms","Guard",1,,,,,,,2,0,0
+"Uragaan Coil Beta","waist","Partbreaker",1,,,,,,,2,1,0
+"Uragaan Greaves Beta","legs","Guard",1,,,,,,,3,0,0
+"Bazel Helm Alpha","head","Earplugs",2,"Blast Attack",1,,,,,2,0,0
+"Bazel Mail Alpha","chest","Guard",2,"Blast Resistance",2,,,,,0,0,0
+"Bazel Vambraces Alpha","arms","Critical Draw",2,"Earplugs",1,,,,,0,0,0
+"Bazel Coil Alpha","waist","Earplugs",2,"Jump Master",1,,,,,1,0,0
+"Bazel Greaves Alpha","legs","Bombardier",2,"Critical Draw",1,,,,,1,0,0
+"Bazel Helm Beta","head","Earplugs",2,,,,,,,3,1,0
+"Bazel Mail Beta","chest","Guard",2,,,,,,,1,1,0
+"Bazel Vambraces Beta","arms","Critical Draw",2,,,,,,,3,0,0
+"Bazel Coil Beta","waist","Earplugs",2,,,,,,,3,0,0
+"Bazel Greaves Beta","legs","Bombardier",2,,,,,,,3,0,0
+"Damascus Helm Alpha","head","Defense Boost",2,"Speed Sharpening",1,,,,,1,0,0
+"Damascus Mail Alpha","chest","Focus",2,"Defense Boost",2,,,,,1,0,0
+"Damascus Vambraces Alpha","arms","Handicraft",1,"Speed Sharpening",1,,,,,0,0,0
+"Damascus Coil Alpha","waist","Focus",1,"Iron Skin",2,,,,,1,0,0
+"Damascus Greaves Alpha","legs","Defense Boost",2,"Iron Skin",1,,,,,1,0,0
+"Damascus Helm Beta","head","Defense Boost",2,,,,,,,3,0,0
+"Damascus Mail Beta","chest","Focus",2,,,,,,,1,1,1
+"Damascus Vambraces Beta","arms","Handicraft",1,,,,,,,1,0,0
+"Damascus Coil Beta","waist","Focus",1,,,,,,,1,1,1
+"Damascus Greaves Beta","legs","Defense Boost",2,,,,,,,3,0,0
+"Dober Helm Alpha","head","Free Elem/Ammo Up",1,"Dragon Resistance",1,,,,,0,0,0
+"Dober Mail Alpha","chest","Attack Boost",2,"Mushroomancer",1,,,,,1,0,0
+"Dober Vambraces Alpha","arms","Stamina Surge",2,"Mushroomancer",1,,,,,0,0,0
+"Dober Coil Alpha","waist","Dragon Resistance",2,"Attack Boost",1,,,,,2,0,0
+"Dober Greaves Alpha","legs","Attack Boost",2,"Stamina Surge",1,,,,,0,0,0
+"Dober Helm Beta","head","Free Elem/Ammo Up",1,,,,,,,1,0,0
+"Dober Mail Beta","chest","Attack Boost",2,,,,,,,3,0,0
+"Dober Vambraces Beta","arms","Stamina Surge",1,"Mushroomancer",1,,,,,1,1,0
+"Dober Coil Beta","waist","Dragon Resistance",2,,,,,,,3,0,0
+"Dober Greaves Beta","legs","Attack Boost",2,,,,,,,1,0,0
+"Death Stench Brain Alpha","head","Resuscitate",1,"Critical Eye",1,,,,,2,0,0
+"Death Stench Muscle Alpha","chest","Fortify",1,"Free Elem/Ammo Up",1,,,,,0,0,0
+"Death Stench Grip Alpha","arms","Focus",2,"Dragon Attack",1,,,,,1,0,0
+"Death Stench Bowels Alpha","waist","Dragon Attack",2,"Focus",1,,,,,0,0,0
+"Death Stench Heel Alpha","legs","Handicraft",2,"Dragon Attack",2,,,,,0,0,0
+"Death Stench Brain Beta","head","Resuscitate",1,,,,,,,3,0,0
+"Death Stench Muscle Beta","chest","Fortify",1,,,,,,,3,0,0
+"Death Stench Grip Beta","arms","Focus",2,,,,,,,1,1,0
+"Death Stench Bowels Beta","waist","Dragon Attack",2,,,,,,,1,1,0
+"Death Stench Heel Beta","legs","Handicraft",2,,,,,,,1,1,0
+"Skull Mask Alpha","head","Handicraft",1,,,,,,,2,0,0
+"Nergigante Helm Alpha","head","Maximum Might",2,"Attack Boost",1,,,,,1,0,0
+"Nergigante Mail Alpha","chest","Stamina Surge",2,"Agitator",1,,,,,1,0,0
+"Nergigante Vambraces Alpha","arms","Agitator",2,"Attack Boost",1,,,,,0,0,0
+"Nergigante Coil Alpha","waist","Attack Boost",2,"Stamina Surge",1,,,,,0,0,0
+"Nergigante Greaves Alpha","legs","Maximum Might",1,"Agitator",1,,,,,1,0,0
+"Nergigante Helm Beta","head","Maximum Might",2,,,,,,,1,1,0
+"Nergigante Mail Beta","chest","Stamina Surge",2,,,,,,,2,1,0
+"Nergigante Vambraces Beta","arms","Agitator",2,,,,,,,1,0,0
+"Nergigante Coil Beta","waist","Attack Boost",2,,,,,,,2,0,0
+"Nergigante Greaves Beta","legs","Maximum Might",1,,,,,,,2,0,0
+"Kaiser Crown Alpha","head","Latent Power",2,,,,,,,0,0,0
+"Kaiser Mail Alpha","chest","Special Ammo Boost",2,"Latent Power",1,,,,,0,0,0
+"Kaiser Vambraces Alpha","arms","Weakness Exploit",2,,,,,,,1,0,0
+"Kaiser Coil Alpha","waist","Blast Attack",2,"Weakness Exploit",1,,,,,0,0,0
+"Kaiser Greaves Alpha","legs","Latent Power",2,"Blast Attack",1,,,,,0,0,0
+"Kaiser Crown Beta","head","Latent Power",1,,,,,,,2,0,0
+"Kaiser Mail Beta","chest","Special Ammo Boost",2,,,,,,,1,1,0
+"Kaiser Vambraces Beta","arms","Weakness Exploit",1,,,,,,,3,0,0
+"Kaiser Coil Beta","waist","Blast Attack",2,,,,,,,2,0,0
+"Kaiser Greaves Beta","legs","Latent Power",2,,,,,,,1,0,0
+"Kushala Glare Alpha","head","Ice Attack",2,"Handicraft",1,,,,,0,0,0
+"Kushala Cista Alpha","chest","Handicraft",2,"Focus",1,,,,,0,0,0
+"Kushala Grip Alpha","arms","Evade Window",2,"Handicraft",1,,,,,0,0,0
+"Kushala Cocoon Alpha","waist","Ice Attack",2,"Evade Extender",1,,,,,0,0,0
+"Kushala Crus Alpha","legs","Evade Extender",2,"Handicraft",1,,,,,0,0,0
+"Kushala Glare Beta","head","Ice Attack",2,,,,,,,1,1,1
+"Kushala Cista Beta","chest","Handicraft",2,,,,,,,2,0,0
+"Kushala Grip Beta","arms","Evade Window",2,,,,,,,3,0,0
+"Kushala Cocoon Beta","waist","Ice Attack",2,,,,,,,1,1,0
+"Kushala Crus Beta","legs","Evade Extender",2,,,,,,,3,0,0
+"Vaal Hazak Helm Alpha","head","Peak Performance",1,"Dragon Attack",2,,,,,0,0,0
+"Vaal Hazak Mail Alpha","chest","Recovery Speed",2,"Dragon Attack",1,,,,,1,0,0
+"Vaal Hazak Braces Alpha","arms","Peak Performance",1,"Recovery Speed",1,,,,,1,0,0
+"Vaal Hazak Coil Alpha","waist","Peak Performance",1,"Effluvia Resistance",1,,,,,1,0,0
+"Vaal Hazak Greaves Alpha","legs","Effluvia Resistance",2,"Dragon Attack",1,,,,,1,0,0
+"Vaal Hazak Helm Beta","head","Peak Performance",1,,,,,,,1,0,0
+"Vaal Hazak Mail Beta","chest","Recovery Speed",2,,,,,,,1,1,0
+"Vaal Hazak Braces Beta","arms","Peak Performance",1,,,,,,,1,1,1
+"Vaal Hazak Coil Beta","waist","Peak Performance",1,,,,,,,1,1,0
+"Vaal Hazak Greaves Beta","legs","Effluvia Resistance",2,,,,,,,1,1,0
+"Kirin Horn Alpha","head","Marathon Runner",2,"Divine Blessing",1,,,,,0,0,0
+"Kirin Jacket Alpha","chest","Divine Blessing",2,"Thunder Attack",1,,,,,0,0,0
+"Kirin Longarms Alpha","arms","Thunder Attack",2,"Marathon Runner",1,,,,,0,0,0
+"Kirin Hoop Alpha","waist","Blight Resistance",1,"Free Elem/Ammo Up",1,,,,,0,0,0
+"Kirin Leg Guards Alpha","legs","Free Elem/Ammo Up",2,"Thunder Resistance",2,,,,,0,0,0
+"Kirin Horn Beta","head","Marathon Runner",2,,,,,,,1,0,0
+"Kirin Jacket Beta","chest","Divine Blessing",2,,,,,,,1,0,0
+"Kirin Longarms Beta","arms","Thunder Attack",2,,,,,,,1,1,0
+"Kirin Hoop Beta","waist","Blight Resistance",1,,,,,,,1,1,1
+"Kirin Leg Guards Beta","legs","Free Elem/Ammo Up",2,,,,,,,1,1,0
+"Xeno'jiiva Headgear Alpha","head","Flinch Free",1,"Special Ammo Boost",1,,,,,1,0,0
+"Xeno'jiiva Hide Alpha","chest","Power Prolonger",2,"Blight Resistance",1,,,,,1,0,0
+"Xeno'jiiva Claws Alpha","arms","Flinch Free",1,"Critical Boost",1,,,,,1,0,0
+"Xeno'jiiva Spine Alpha","waist","Blight Resistance",2,"Special Ammo Boost",1,,,,,3,0,0
+"Xeno'jiiva Spurs Alpha","legs","Flinch Free",1,"Power Prolonger",1,,,,,1,0,0
+"Xeno'jiiva Headgear Beta","head","Flinch Free",1,,,,,,,2,0,0
+"Xeno'jiiva Hide Beta","chest","Power Prolonger",2,,,,,,,1,1,0
+"Xeno'jiiva Claws Beta","arms","Flinch Free",1,,,,,,,3,0,0
+"Xeno'jiiva Spine Beta","waist","Blight Resistance",2,,,,,,,2,1,0
+"Xeno'jiiva Spurs Beta","legs","Flinch Free",1,,,,,,,1,1,0
+"Guild Cross Circlet Alpha","head","Divine Blessing",2,"Thunder Resistance",2,,,,,1,0,0
+"Guild Cross Suit Alpha","chest","Resuscitate",1,"Ice Resistance",2,,,,,1,0,0
+"Guild Cross Vambraces Alpha","arms","Tool Specialist",1,"Water Resistance",2,,,,,1,0,0
+"Guild Cross Coil Alpha","waist","Fortify",1,"Dragon Resistance",2,,,,,1,0,0
+"Guild Cross Boots Alpha","legs","Airborne",1,"Fire Resistance",2,,,,,1,0,0
+"Guild Cross Circlet Beta","head","Divine Blessing",2,,,,,,,1,1,1
+"Guild Cross Suit Beta","chest","Resuscitate",1,,,,,,,3,0,0
+"Guild Cross Vambraces Beta","arms","Tool Specialist",1,,,,,,,3,0,0
+"Guild Cross Coil Beta","waist","Fortify",1,,,,,,,1,1,1
+"Guild Cross Boots Beta","legs","Airborne",1,,,,,,,3,0,0
+"Dragonking Eyepatch Alpha","head","Weakness Exploit",2,,,,,,,3,0,0
+"Commission Gorget Alpha","head","Tool Specialist",1,"Master Gatherer",1,,,,,1,0,0
+"Commission Jacket Alpha","chest","Wide-Range",2,"Cliffhanger",1,,,,,0,0,0
+"Commission Vambraces Alpha","arms","Blindsider",1,"Carving Pro",1,,,,,1,0,0
+"Commission Belt Alpha","waist","Mushroomancer",1,"Pro Transporter",1,,,,,1,0,0
+"Commission Pants Alpha","legs","Stealth",2,"Affinity Sliding",1,,,,,0,0,0
+"Commission Gorget Beta","head","Tool Specialist",1,,,,,,,2,0,0
+"Commission Jacket Beta","chest","Wide-Range",2,,,,,,,1,0,0
+"Commission Vambraces Beta","arms","Blindsider",1,,,,,,,2,0,0
+"Commission Belt Beta","waist","Mushroomancer",1,,,,,,,2,0,0
+"Commission Pants Beta","legs","Stealth",2,,,,,,,2,0,0
+"Vangis Helm Alpha","head","Partbreaker",1,"Handicraft",1,,,,,1,0,0
+"Vangis Mail Alpha","chest","Speed Eating",1,"Handicraft",1,,,,,2,0,0
+"Vangis Vambraces Alpha","arms","Latent Power",2,"Partbreaker",1,,,,,0,0,0
+"Vangis Coil Alpha","waist","Latent Power",1,"Handicraft",1,,,,,1,0,0
+"Vangis Greaves Alpha","legs","Speed Eating",2,"Partbreaker",1,,,,,0,0,0
+"Vangis Helm Beta","head","Partbreaker",1,,,,,,,3,1,0
+"Vangis Mail Beta","chest","Speed Eating",1,,,,,,,3,0,0
+"Vangis Vambraces Beta","arms","Latent Power",2,,,,,,,2,0,0
+"Vangis Coil Beta","waist","Latent Power",1,,,,,,,3,1,0
+"Vangis Greaves Beta","legs","Speed Eating",2,,,,,,,1,1,0
+"Kulve Taroth's Fury Alpha","head","Free Elem/Ammo Up",1,"Agitator",2,,,,,1,0,0
+"Kulve Taroth's Ire Alpha","chest","Stun Resistance",2,"Critical Boost",2,,,,,1,0,0
+"Kulve Taroth's Rage Alpha","arms","Free Elem/Ammo Up",1,"Power Prolonger",2,,,,,1,0,0
+"Kulve Taroth's Malice Alpha","waist","Free Elem/Ammo Up",1,"Handicraft",2,,,,,1,0,0
+"Kulve Taroth's Wrath Alpha","legs","Wide-Range",2,"Peak Performance",2,,,,,1,0,0
+"Kulve Taroth's Fury Beta","head","Free Elem/Ammo Up",1,"Agitator",1,,,,,2,1,0
+"Kulve Taroth's Ire Beta","chest","Stun Resistance",2,"Critical Boost",1,,,,,3,1,0
+"Kulve Taroth's Rage Beta","arms","Free Elem/Ammo Up",1,"Power Prolonger",1,,,,,3,1,0
+"Kulve Taroth's Malice Beta","waist","Free Elem/Ammo Up",1,"Handicraft",1,,,,,3,1,0
+"Kulve Taroth's Wrath Beta","legs","Wide-Range",2,"Peak Performance",1,,,,,2,1,0
+"Blossom Headgear Alpha","head","Honey Hunter",1,,,,,,,1,1,0
+"Blossom Vest Alpha","chest","Quick Sheath",1,,,,,,,1,1,0
+"Blossom Cuffs Alpha","arms","Paralysis Resistance",1,,,,,,,1,1,0
+"Blossom Coat Alpha","waist","Scoutfly Range Up",1,,,,,,,1,1,0
+"Blossom Boots Alpha","legs","Recovery Speed",1,,,,,,,1,1,0
+"Dante's Hair Alpha","head","Weakness Exploit",1,"Critical Eye",1,,,,,1,0,0
+"Dante's Coat Alpha","chest","Evade Window",1,"Critical Eye",1,,,,,3,0,0
+"Dante's Gloves Alpha","arms","Evade Window",1,"Special Ammo Boost",1,,,,,3,0,0
+"Dante's Belt Alpha","waist","Evade Window",1,"Latent Power",1,,,,,3,0,0
+"Dante's Leather Boots Alpha","legs","Weakness Exploit",2,,,,,,,1,1,0
+"Sealed Eyepatch Alpha","head","Fire Resistance",1,,,,,,,2,1,0
+"Shadow Shades Alpha","head","Stun Resistance",1,,,,,,,1,1,1
+"Kulu-Yaku Head Alpha","head","Pro Transporter",1,,,,,,,3,1,0
+"Wiggler Head Alpha","head","Wide-Range",2,,,,,,,1,1,0
