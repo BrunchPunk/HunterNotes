@@ -607,6 +607,26 @@ namespace HunterNotes
 
         }
 
+        public static List<string> GetAllSkillsNames()
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+            List<string> results = new List<string>();
+
+            selectQuery = "SELECT name FROM Skills;";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            while (selectResults.Read())
+            {
+                results.Add((string)selectResults[0]);
+
+            }
+
+            return results;
+        }
+
         public static string GetSkillDescription(string skillName)
         {
             string selectQuery;
@@ -701,6 +721,26 @@ namespace HunterNotes
             setBonusesDataAdapter.Fill(setBonusesDataSet);
 
             return setBonusesDataSet;
+        }
+
+        public static List<String> GetAllSetBonusesNames()
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+            List<string> results = new List<string>();
+
+            selectQuery = "SELECT name FROM SetBonuses;";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            while (selectResults.Read())
+            {
+                results.Add((string)selectResults[0]);
+                
+            }
+
+            return results;
         }
 
         #endregion

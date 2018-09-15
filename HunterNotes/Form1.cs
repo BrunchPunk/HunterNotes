@@ -28,6 +28,7 @@ namespace HunterNotes
                 InitializeArmorTab();
                 InitializeForgeTab();
                 InitializeSetBonusesTab();
+                InitializeSolverTab();
 
             }
             catch(Exception e)
@@ -38,6 +39,42 @@ namespace HunterNotes
         }
 
         #region Tab Initializers
+        private void InitializeSolverTab()
+        {
+            AutoCompleteStringCollection skillOptionsAutoCompleteList = new AutoCompleteStringCollection();
+            List<string> skillOptions = new List<string>();
+
+            skillOptions.AddRange(HNDatabase.GetAllSkillsNames());
+            skillOptions.AddRange(HNDatabase.GetAllSetBonusesNames());
+
+            skillOptionsAutoCompleteList.AddRange(skillOptions.ToArray());
+
+            comboBoxSkill1.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            comboBoxSkill1.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
+            comboBoxSkill1.Items.AddRange(skillOptions.ToArray());
+
+            comboBoxSkill2.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            comboBoxSkill2.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
+            comboBoxSkill2.Items.AddRange(skillOptions.ToArray());
+
+            comboBoxSkill3.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            comboBoxSkill3.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
+            comboBoxSkill3.Items.AddRange(skillOptions.ToArray());
+
+            comboBoxSkill4.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            comboBoxSkill4.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
+            comboBoxSkill4.Items.AddRange(skillOptions.ToArray());
+
+            comboBoxSkill5.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            comboBoxSkill5.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
+            comboBoxSkill5.Items.AddRange(skillOptions.ToArray());
+
+            comboBoxSkill6.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            comboBoxSkill6.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
+            comboBoxSkill6.Items.AddRange(skillOptions.ToArray());
+
+        }
+
         private void InitializeArmorTab()
         {
             BindingSource armorBS = new BindingSource {DataSource = HNDatabase.GetArmorDataSet().Tables[0].DefaultView };
