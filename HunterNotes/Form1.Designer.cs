@@ -102,9 +102,6 @@
             this.numericUpDownSkill4 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownSkill5 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownSkill6 = new System.Windows.Forms.NumericUpDown();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkBoxSkill1 = new System.Windows.Forms.CheckBox();
             this.checkBoxSkill2 = new System.Windows.Forms.CheckBox();
             this.checkBoxSkill3 = new System.Windows.Forms.CheckBox();
@@ -114,6 +111,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.materialBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPageArmor.SuspendLayout();
@@ -791,6 +791,7 @@
             this.buttonSolve.TabIndex = 0;
             this.buttonSolve.Text = "Solve";
             this.buttonSolve.UseVisualStyleBackColor = true;
+            this.buttonSolve.Click += new System.EventHandler(this.buttonSolve_Click);
             // 
             // buttonReset
             // 
@@ -800,6 +801,7 @@
             this.buttonReset.TabIndex = 1;
             this.buttonReset.Text = "Reset";
             this.buttonReset.UseVisualStyleBackColor = true;
+            this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
             // 
             // tableLayoutPanel12
             // 
@@ -870,20 +872,27 @@
             // comboBoxSkill1
             // 
             this.comboBoxSkill1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxSkill1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxSkill1.FormattingEnabled = true;
             this.comboBoxSkill1.Location = new System.Drawing.Point(50, 33);
             this.comboBoxSkill1.Name = "comboBoxSkill1";
-            this.comboBoxSkill1.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSkill1.Size = new System.Drawing.Size(243, 21);
             this.comboBoxSkill1.TabIndex = 2;
+            this.comboBoxSkill1.SelectionChangeCommitted += new System.EventHandler(this.comboBoxSkill1_SelectionChangeCommitted);
+            this.comboBoxSkill1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comboBoxSkill1_KeyDown);
+            this.comboBoxSkill1.Leave += new System.EventHandler(this.comboBoxSkill1_Leave);
             // 
             // comboBoxSkill2
             // 
             this.comboBoxSkill2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxSkill2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxSkill2.FormattingEnabled = true;
             this.comboBoxSkill2.Location = new System.Drawing.Point(50, 83);
             this.comboBoxSkill2.Name = "comboBoxSkill2";
-            this.comboBoxSkill2.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSkill2.Size = new System.Drawing.Size(243, 21);
             this.comboBoxSkill2.TabIndex = 3;
+            this.comboBoxSkill2.SelectionChangeCommitted += new System.EventHandler(this.comboBoxSkill2_SelectionChangeCommitted);
+            this.comboBoxSkill2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comboBoxSkill2_KeyDown);
             // 
             // labelSkill3
             // 
@@ -924,80 +933,180 @@
             // comboBoxSkill3
             // 
             this.comboBoxSkill3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxSkill3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxSkill3.FormattingEnabled = true;
             this.comboBoxSkill3.Location = new System.Drawing.Point(50, 133);
             this.comboBoxSkill3.Name = "comboBoxSkill3";
-            this.comboBoxSkill3.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSkill3.Size = new System.Drawing.Size(243, 21);
             this.comboBoxSkill3.TabIndex = 8;
+            this.comboBoxSkill3.SelectionChangeCommitted += new System.EventHandler(this.comboBoxSkill3_SelectionChangeCommitted);
+            this.comboBoxSkill3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comboBoxSkill3_KeyDown);
             // 
             // comboBoxSkill4
             // 
             this.comboBoxSkill4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxSkill4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxSkill4.FormattingEnabled = true;
             this.comboBoxSkill4.Location = new System.Drawing.Point(50, 183);
             this.comboBoxSkill4.Name = "comboBoxSkill4";
-            this.comboBoxSkill4.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSkill4.Size = new System.Drawing.Size(243, 21);
             this.comboBoxSkill4.TabIndex = 9;
+            this.comboBoxSkill4.SelectionChangeCommitted += new System.EventHandler(this.comboBoxSkill4_SelectionChangeCommitted);
+            this.comboBoxSkill4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comboBoxSkill4_KeyDown);
             // 
             // comboBoxSkill5
             // 
             this.comboBoxSkill5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxSkill5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxSkill5.FormattingEnabled = true;
             this.comboBoxSkill5.Location = new System.Drawing.Point(50, 233);
             this.comboBoxSkill5.Name = "comboBoxSkill5";
-            this.comboBoxSkill5.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSkill5.Size = new System.Drawing.Size(243, 21);
             this.comboBoxSkill5.TabIndex = 10;
+            this.comboBoxSkill5.SelectionChangeCommitted += new System.EventHandler(this.comboBoxSkill5_SelectionChangeCommitted);
+            this.comboBoxSkill5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comboBoxSkill5_KeyDown);
             // 
             // comboBoxSkill6
             // 
             this.comboBoxSkill6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBoxSkill6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxSkill6.FormattingEnabled = true;
             this.comboBoxSkill6.Location = new System.Drawing.Point(50, 283);
             this.comboBoxSkill6.Name = "comboBoxSkill6";
-            this.comboBoxSkill6.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSkill6.Size = new System.Drawing.Size(243, 21);
             this.comboBoxSkill6.TabIndex = 11;
+            this.comboBoxSkill6.SelectionChangeCommitted += new System.EventHandler(this.comboBoxSkill6_SelectionChangeCommitted);
+            this.comboBoxSkill6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comboBoxSkill6_KeyDown);
             // 
             // numericUpDownSkill1
             // 
-            this.numericUpDownSkill1.Location = new System.Drawing.Point(219, 33);
+            this.numericUpDownSkill1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.numericUpDownSkill1.Location = new System.Drawing.Point(299, 33);
             this.numericUpDownSkill1.Name = "numericUpDownSkill1";
-            this.numericUpDownSkill1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownSkill1.Size = new System.Drawing.Size(40, 20);
             this.numericUpDownSkill1.TabIndex = 12;
             // 
             // numericUpDownSkill2
             // 
-            this.numericUpDownSkill2.Location = new System.Drawing.Point(219, 83);
+            this.numericUpDownSkill2.Location = new System.Drawing.Point(299, 83);
             this.numericUpDownSkill2.Name = "numericUpDownSkill2";
-            this.numericUpDownSkill2.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownSkill2.Size = new System.Drawing.Size(40, 20);
             this.numericUpDownSkill2.TabIndex = 13;
             // 
             // numericUpDownSkill3
             // 
-            this.numericUpDownSkill3.Location = new System.Drawing.Point(219, 133);
+            this.numericUpDownSkill3.Location = new System.Drawing.Point(299, 133);
             this.numericUpDownSkill3.Name = "numericUpDownSkill3";
-            this.numericUpDownSkill3.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownSkill3.Size = new System.Drawing.Size(40, 20);
             this.numericUpDownSkill3.TabIndex = 14;
             // 
             // numericUpDownSkill4
             // 
-            this.numericUpDownSkill4.Location = new System.Drawing.Point(219, 183);
+            this.numericUpDownSkill4.Location = new System.Drawing.Point(299, 183);
             this.numericUpDownSkill4.Name = "numericUpDownSkill4";
-            this.numericUpDownSkill4.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownSkill4.Size = new System.Drawing.Size(40, 20);
             this.numericUpDownSkill4.TabIndex = 15;
             // 
             // numericUpDownSkill5
             // 
-            this.numericUpDownSkill5.Location = new System.Drawing.Point(219, 233);
+            this.numericUpDownSkill5.Location = new System.Drawing.Point(299, 233);
             this.numericUpDownSkill5.Name = "numericUpDownSkill5";
-            this.numericUpDownSkill5.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownSkill5.Size = new System.Drawing.Size(40, 20);
             this.numericUpDownSkill5.TabIndex = 16;
             // 
             // numericUpDownSkill6
             // 
-            this.numericUpDownSkill6.Location = new System.Drawing.Point(219, 283);
+            this.numericUpDownSkill6.Location = new System.Drawing.Point(299, 283);
             this.numericUpDownSkill6.Name = "numericUpDownSkill6";
-            this.numericUpDownSkill6.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownSkill6.Size = new System.Drawing.Size(40, 20);
             this.numericUpDownSkill6.TabIndex = 17;
+            // 
+            // checkBoxSkill1
+            // 
+            this.checkBoxSkill1.AutoSize = true;
+            this.checkBoxSkill1.Location = new System.Drawing.Point(345, 33);
+            this.checkBoxSkill1.Name = "checkBoxSkill1";
+            this.checkBoxSkill1.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSkill1.TabIndex = 18;
+            this.checkBoxSkill1.UseVisualStyleBackColor = true;
+            this.checkBoxSkill1.CheckedChanged += new System.EventHandler(this.checkBoxSkill1_CheckedChanged);
+            // 
+            // checkBoxSkill2
+            // 
+            this.checkBoxSkill2.AutoSize = true;
+            this.checkBoxSkill2.Location = new System.Drawing.Point(345, 83);
+            this.checkBoxSkill2.Name = "checkBoxSkill2";
+            this.checkBoxSkill2.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSkill2.TabIndex = 19;
+            this.checkBoxSkill2.UseVisualStyleBackColor = true;
+            this.checkBoxSkill2.CheckedChanged += new System.EventHandler(this.checkBoxSkill2_CheckedChanged);
+            // 
+            // checkBoxSkill3
+            // 
+            this.checkBoxSkill3.AutoSize = true;
+            this.checkBoxSkill3.Location = new System.Drawing.Point(345, 133);
+            this.checkBoxSkill3.Name = "checkBoxSkill3";
+            this.checkBoxSkill3.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSkill3.TabIndex = 20;
+            this.checkBoxSkill3.UseVisualStyleBackColor = true;
+            this.checkBoxSkill3.CheckedChanged += new System.EventHandler(this.checkBoxSkill3_CheckedChanged);
+            // 
+            // checkBoxSkill4
+            // 
+            this.checkBoxSkill4.AutoSize = true;
+            this.checkBoxSkill4.Location = new System.Drawing.Point(345, 183);
+            this.checkBoxSkill4.Name = "checkBoxSkill4";
+            this.checkBoxSkill4.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSkill4.TabIndex = 21;
+            this.checkBoxSkill4.UseVisualStyleBackColor = true;
+            this.checkBoxSkill4.CheckedChanged += new System.EventHandler(this.checkBoxSkill4_CheckedChanged);
+            // 
+            // checkBoxSkill5
+            // 
+            this.checkBoxSkill5.AutoSize = true;
+            this.checkBoxSkill5.Location = new System.Drawing.Point(345, 233);
+            this.checkBoxSkill5.Name = "checkBoxSkill5";
+            this.checkBoxSkill5.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSkill5.TabIndex = 22;
+            this.checkBoxSkill5.UseVisualStyleBackColor = true;
+            this.checkBoxSkill5.CheckedChanged += new System.EventHandler(this.checkBoxSkill5_CheckedChanged);
+            // 
+            // checkBoxSkill6
+            // 
+            this.checkBoxSkill6.AutoSize = true;
+            this.checkBoxSkill6.Location = new System.Drawing.Point(345, 283);
+            this.checkBoxSkill6.Name = "checkBoxSkill6";
+            this.checkBoxSkill6.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSkill6.TabIndex = 23;
+            this.checkBoxSkill6.UseVisualStyleBackColor = true;
+            this.checkBoxSkill6.CheckedChanged += new System.EventHandler(this.checkBoxSkill6_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(50, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Skill";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(299, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(36, 13);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "Points";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(345, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 13);
+            this.label5.TabIndex = 26;
+            this.label5.Text = "Max?";
             // 
             // menuStrip1
             // 
@@ -1023,87 +1132,6 @@
             this.quitToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
-            // 
-            // checkBoxSkill1
-            // 
-            this.checkBoxSkill1.AutoSize = true;
-            this.checkBoxSkill1.Location = new System.Drawing.Point(345, 33);
-            this.checkBoxSkill1.Name = "checkBoxSkill1";
-            this.checkBoxSkill1.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSkill1.TabIndex = 18;
-            this.checkBoxSkill1.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxSkill2
-            // 
-            this.checkBoxSkill2.AutoSize = true;
-            this.checkBoxSkill2.Location = new System.Drawing.Point(345, 83);
-            this.checkBoxSkill2.Name = "checkBoxSkill2";
-            this.checkBoxSkill2.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSkill2.TabIndex = 19;
-            this.checkBoxSkill2.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxSkill3
-            // 
-            this.checkBoxSkill3.AutoSize = true;
-            this.checkBoxSkill3.Location = new System.Drawing.Point(345, 133);
-            this.checkBoxSkill3.Name = "checkBoxSkill3";
-            this.checkBoxSkill3.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSkill3.TabIndex = 20;
-            this.checkBoxSkill3.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxSkill4
-            // 
-            this.checkBoxSkill4.AutoSize = true;
-            this.checkBoxSkill4.Location = new System.Drawing.Point(345, 183);
-            this.checkBoxSkill4.Name = "checkBoxSkill4";
-            this.checkBoxSkill4.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSkill4.TabIndex = 21;
-            this.checkBoxSkill4.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxSkill5
-            // 
-            this.checkBoxSkill5.AutoSize = true;
-            this.checkBoxSkill5.Location = new System.Drawing.Point(345, 233);
-            this.checkBoxSkill5.Name = "checkBoxSkill5";
-            this.checkBoxSkill5.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSkill5.TabIndex = 22;
-            this.checkBoxSkill5.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxSkill6
-            // 
-            this.checkBoxSkill6.AutoSize = true;
-            this.checkBoxSkill6.Location = new System.Drawing.Point(345, 283);
-            this.checkBoxSkill6.Name = "checkBoxSkill6";
-            this.checkBoxSkill6.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSkill6.TabIndex = 23;
-            this.checkBoxSkill6.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 13);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "Skill";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(219, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 13);
-            this.label4.TabIndex = 25;
-            this.label4.Text = "Points";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(345, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 13);
-            this.label5.TabIndex = 26;
-            this.label5.Text = "Max?";
             // 
             // materialBindingSource
             // 

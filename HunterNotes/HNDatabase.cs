@@ -647,6 +647,26 @@ namespace HunterNotes
             return result;
         }
 
+        public static int GetSkillMaxPoints(string skillName)
+        {
+            string selectQuery;
+            SQLiteCommand selectCommand;
+            SQLiteDataReader selectResults;
+            int result = -1;
+
+            selectQuery = "SELECT maxPoints FROM Skills WHERE name=\"" + skillName + "\" LIMIT 1;";
+            selectCommand = new SQLiteCommand(selectQuery, HNDatabaseConn);
+            selectResults = selectCommand.ExecuteReader();
+
+            while (selectResults.Read())
+            {
+                result = (int)selectResults[0];
+                break;
+            }
+
+            return result;
+        }
+
         #endregion
 
         #region Decorations Methods

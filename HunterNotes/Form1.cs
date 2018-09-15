@@ -10,11 +10,16 @@ using System.Windows.Forms;
 using System.Data.SQLite;
 using System.Globalization;
 using System.IO;
+using System.Threading;
 
 namespace HunterNotes
 {
     public partial class Form1 : Form
     {
+        private List<ComboBox> solverSkillsComboBoxes = new List<ComboBox>();
+        private List<NumericUpDown> solverSkillsUpDowns = new List<NumericUpDown>();
+        private List<CheckBox> solverSkillsCheckBoxes = new List<CheckBox>();
+
         public Form1()
         {
             InitializeComponent();
@@ -45,33 +50,50 @@ namespace HunterNotes
             List<string> skillOptions = new List<string>();
 
             skillOptions.AddRange(HNDatabase.GetAllSkillsNames());
-            skillOptions.AddRange(HNDatabase.GetAllSetBonusesNames());
 
             skillOptionsAutoCompleteList.AddRange(skillOptions.ToArray());
 
             comboBoxSkill1.AutoCompleteSource = AutoCompleteSource.CustomSource;
             comboBoxSkill1.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
             comboBoxSkill1.Items.AddRange(skillOptions.ToArray());
+            solverSkillsComboBoxes.Insert(0, comboBoxSkill1);
+            solverSkillsUpDowns.Insert(0, numericUpDownSkill1);
+            solverSkillsCheckBoxes.Insert(0, checkBoxSkill1);
 
             comboBoxSkill2.AutoCompleteSource = AutoCompleteSource.CustomSource;
             comboBoxSkill2.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
             comboBoxSkill2.Items.AddRange(skillOptions.ToArray());
+            solverSkillsComboBoxes.Insert(1, comboBoxSkill2);
+            solverSkillsUpDowns.Insert(1, numericUpDownSkill2);
+            solverSkillsCheckBoxes.Insert(1, checkBoxSkill2);
 
             comboBoxSkill3.AutoCompleteSource = AutoCompleteSource.CustomSource;
             comboBoxSkill3.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
             comboBoxSkill3.Items.AddRange(skillOptions.ToArray());
+            solverSkillsComboBoxes.Insert(2, comboBoxSkill3);
+            solverSkillsUpDowns.Insert(2, numericUpDownSkill3);
+            solverSkillsCheckBoxes.Insert(2, checkBoxSkill3);
 
             comboBoxSkill4.AutoCompleteSource = AutoCompleteSource.CustomSource;
             comboBoxSkill4.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
             comboBoxSkill4.Items.AddRange(skillOptions.ToArray());
+            solverSkillsComboBoxes.Insert(3, comboBoxSkill4);
+            solverSkillsUpDowns.Insert(3, numericUpDownSkill4);
+            solverSkillsCheckBoxes.Insert(3, checkBoxSkill4);
 
             comboBoxSkill5.AutoCompleteSource = AutoCompleteSource.CustomSource;
             comboBoxSkill5.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
             comboBoxSkill5.Items.AddRange(skillOptions.ToArray());
+            solverSkillsComboBoxes.Insert(4, comboBoxSkill5);
+            solverSkillsUpDowns.Insert(4, numericUpDownSkill5);
+            solverSkillsCheckBoxes.Insert(4, checkBoxSkill5);
 
             comboBoxSkill6.AutoCompleteSource = AutoCompleteSource.CustomSource;
             comboBoxSkill6.AutoCompleteCustomSource = skillOptionsAutoCompleteList;
             comboBoxSkill6.Items.AddRange(skillOptions.ToArray());
+            solverSkillsComboBoxes.Insert(5, comboBoxSkill6);
+            solverSkillsUpDowns.Insert(5, numericUpDownSkill6);
+            solverSkillsCheckBoxes.Insert(5, checkBoxSkill6);
 
         }
 
@@ -332,6 +354,224 @@ namespace HunterNotes
             }
 
             File.WriteAllLines("MyDeco.txt", myDecoFile.ToArray());
+        }
+
+        #endregion
+
+        #region Solver Tab Handlers
+        private void handleSolverSkillUpdate(int skillNumber, string skillName)
+        {
+            Console.WriteLine("Skill " + skillNumber + ": " + skillName);
+
+            List<string> skillNames = HNDatabase.GetAllSkillsNames();
+            List<string> setBonusNames = HNDatabase.GetAllSetBonusesNames();
+
+            //Check that a valid Skill name was entered
+            if(skillNames.Contains(skillName))
+            {
+                // Update skill Maximum
+                int skillMax = HNDatabase.GetSkillMaxPoints(skillName);
+                solverSkillsUpDowns[skillNumber].Maximum = skillMax;
+
+                //Update Up/Down value as necessary
+                if (solverSkillsCheckBoxes[skillNumber].Checked)
+                {
+                    solverSkillsUpDowns[skillNumber].Value = skillMax;
+                }
+                else
+                {
+                    if (solverSkillsUpDowns[skillNumber].Value > skillMax)
+                        solverSkillsUpDowns[skillNumber].Value = skillMax;
+                }
+
+            }
+            else //Invalid Skill Entered - Reset combo box
+            {
+                solverSkillsComboBoxes[skillNumber].Text = "";
+                solverSkillsUpDowns[skillNumber].Maximum = 100;
+
+                if (solverSkillsCheckBoxes[skillNumber].Checked)
+                    solverSkillsUpDowns[skillNumber].Value = 0;
+            }
+
+        }
+
+        private void handleSolverCheckboxUpdate(int skillNumber, bool boxChecked)
+        {
+            if (boxChecked)
+            {
+                solverSkillsUpDowns[skillNumber].Enabled = false;
+            }
+            else
+            {
+                solverSkillsUpDowns[skillNumber].Enabled = true;
+            }
+
+            handleSolverSkillUpdate(skillNumber, solverSkillsComboBoxes[skillNumber].Text);
+
+        }
+
+        private void buttonSolve_Click(object sender, EventArgs e)
+        {
+            for(int i = 0; i < 6; i++)
+            {
+                solverSkillsComboBoxes[i].Enabled = false;
+                solverSkillsUpDowns[i].Enabled = false;
+                solverSkillsCheckBoxes[i].Enabled = false;
+            }
+
+            buttonSolve.Enabled = false;
+            buttonReset.Enabled = false;
+
+            textBoxSolverResults.Text = "Solving...";
+            textBoxSolverResults.Refresh();
+
+            Thread.Sleep(5000); //TODO - Place Holder! this will be where we call the solver
+
+            for (int i = 0; i < 6; i++)
+            {
+                solverSkillsComboBoxes[i].Enabled = true;
+                solverSkillsUpDowns[i].Enabled = true;
+                solverSkillsCheckBoxes[i].Enabled = true;
+            }
+
+            buttonSolve.Enabled = true;
+            buttonReset.Enabled = true;
+
+            textBoxSolverResults.Text = "Solved!";
+        }
+
+        private void buttonReset_Click(object sender, EventArgs e)
+        {
+            for(int i = 0; i < 6; i++)
+            {
+                solverSkillsComboBoxes[i].Text = "";
+                solverSkillsUpDowns[i].Value = 0;
+                solverSkillsUpDowns[i].Maximum = 100;
+                solverSkillsCheckBoxes[i].Checked = false;
+            }
+
+            textBoxSolverResults.Text = "";
+
+        }
+
+        //Skill 1 Handlers
+        private void comboBoxSkill1_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            handleSolverSkillUpdate(0, (string)comboBoxSkill1.SelectedItem);
+        }
+
+        private void comboBoxSkill1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                handleSolverSkillUpdate(0, comboBoxSkill1.Text);
+            }
+        }
+
+        private void comboBoxSkill1_Leave(object sender, EventArgs e)
+        {
+            handleSolverSkillUpdate(0, comboBoxSkill1.Text);
+        }
+
+        private void checkBoxSkill1_CheckedChanged(object sender, EventArgs e)
+        {
+            handleSolverCheckboxUpdate(0, checkBoxSkill1.Checked);
+        }
+
+        //Skill 2 Handlers
+        private void comboBoxSkill2_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            handleSolverSkillUpdate(1, (string)comboBoxSkill2.SelectedItem);
+        }
+
+        private void comboBoxSkill2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                handleSolverSkillUpdate(1, comboBoxSkill2.Text);
+            }
+        }
+
+        private void checkBoxSkill2_CheckedChanged(object sender, EventArgs e)
+        {
+            handleSolverCheckboxUpdate(1, checkBoxSkill2.Checked);
+        }
+
+        //Skill 3 Handlers
+        private void comboBoxSkill3_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            handleSolverSkillUpdate(2, (string)comboBoxSkill3.SelectedItem);
+        }
+
+        private void comboBoxSkill3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                handleSolverSkillUpdate(2, comboBoxSkill3.Text);
+            }
+        }
+
+        private void checkBoxSkill3_CheckedChanged(object sender, EventArgs e)
+        {
+            handleSolverCheckboxUpdate(2, checkBoxSkill3.Checked);
+        }
+
+        //Skill 4 Handlers
+        private void comboBoxSkill4_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            handleSolverSkillUpdate(3, (string)comboBoxSkill4.SelectedItem);
+        }
+
+        private void comboBoxSkill4_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                handleSolverSkillUpdate(3, comboBoxSkill4.Text);
+            }
+        }
+
+        private void checkBoxSkill4_CheckedChanged(object sender, EventArgs e)
+        {
+            handleSolverCheckboxUpdate(3, checkBoxSkill4.Checked);
+        }
+
+        //Skill 5 Handlers
+        private void comboBoxSkill5_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            handleSolverSkillUpdate(4, (string)comboBoxSkill5.SelectedItem);
+        }
+
+        private void comboBoxSkill5_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                handleSolverSkillUpdate(4, comboBoxSkill5.Text);
+            }
+        }
+
+        private void checkBoxSkill5_CheckedChanged(object sender, EventArgs e)
+        {
+            handleSolverCheckboxUpdate(4, checkBoxSkill5.Checked);
+        }
+
+        //Skill 6 Handlers
+        private void comboBoxSkill6_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            handleSolverSkillUpdate(5, (string)comboBoxSkill6.SelectedItem);
+        }
+
+        private void comboBoxSkill6_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                handleSolverSkillUpdate(5, comboBoxSkill6.Text);
+            }
+        }
+
+        private void checkBoxSkill6_CheckedChanged(object sender, EventArgs e)
+        {
+            handleSolverCheckboxUpdate(5, checkBoxSkill6.Checked);
         }
 
         #endregion
